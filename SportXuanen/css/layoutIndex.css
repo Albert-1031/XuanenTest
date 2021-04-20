@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    font-family: Microsoft JhengHei, Arial, serif;
+}
+a
+{
+	text-decoration: none;
+	outline: none;                                  /* for Firefox Google Chrome  */
+  	behavior:expression(this.onFocus=this.blur());  /* for IE */
+  	font-size:16px;
+	color:#333333;
+}
+a:link, a:visited, .StrHover
+{
+	color:gray;
+    cursor:pointer;
+}
+a:active, a:hover, .StrHover:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* 列表表格 */
+table.tablesorter {
+    border-collapse: collapse; /*邊框合併為單一邊框*/
+    background-color: #ecaeae;
+    font-family: Microsoft JhengHei, Arial, serif;
+    font-size: 16px;
+    line-height: 25px;
+    border: 1px solid #d65650;
+}
+
+.table_TTCss {
+    background-color: #d65650;
+    color: white;
+    border-bottom: 1px solid #d65650;
+}
+
+.table_TDCss {
+    background-color: #f3e7e9;
+    color: black;
+    border-bottom: 1px solid #ecaeae;
+}
+
+.table_TDCss2 {
+    background-color: #ffffff;
+    color: black;
+    border-bottom: 1px solid #ecaeae;
+}
+
+/* 編輯表格 */
+.TABLECSS_Content
+{
+
+    border:0;
+    border-spacing:1px; 
+    vertical-align:middle;
+    text-align:center;
+    padding:10px,0,0,10px
+}
+.TTCss 
+{
+    background-color:#d65050;
+    font-size:11pt;
+    text-align:center;
+    vertical-align:middle;
+    line-height:23pt;
+    color:white;
+}
+.TDCss
+{
+    background-color:#f3e7e9;
+    font-size:11pt;
+    text-align:left;
+    vertical-align:middle;
+    line-height:15pt;
+    color:black;
+}
+.TDCssP
+{
+    background-color:#f3e7e9;
+    font-size:11pt;
+    text-align: center;
+    line-height:15pt;
+    color:black;
+}
+.TTCssP
+{
+    background-color:#d65050;
+    font-size:11pt;
+    text-align:left;
+    vertical-align:middle;
+    line-height:23pt;
+    color:white;
+}
+
+/* 按鈕 */
+.form_submit {
+    cursor: hand;
+    font-size: 12pt;
+    background-color: #FFBBBB;
+    color: #990000;
+    border: 1px solid #990000;
+    padding: 3px;
+    height: 22px;
+}
+.form_reset  {
+    cursor: hand;
+    font-size: 12pt;
+    background-color: #BBE1BD;
+    color: #336633;
+    border: 1px solid #336633;
+    padding: 3px;
+    height: 22px;
+}
+
+/* 其他 */
+.KeySpec
+{
+    font-size:10pt;
+    color:#CCCCCC;
+}
+.ReqCss {
+    font-size: 10pt;
+    color: #F5C79A;
+}
+.KeyWord
+{
+    font-size:12pt;
+    padding:10px 0 10px 0;
+}
