@@ -30,9 +30,16 @@ img {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+
+    /*
+    border-bottom: 2px solid #ff0000;
+    border-left: 2px solid #ff0000;
+    border-right: 2px solid #ff0000;
+    overflow:hidden;
+    */
 }
 
-/*** header css code ***/
+/************************************************ header css code ***/
 .header {
     width: 100%;
     height: 80px;
@@ -76,7 +83,7 @@ img {
     position: absolute;
     z-index: 1;
     width: 300px;
-    height: 350px;
+    height: 260px;
     padding-top: 10px;
     top: 20px;
     left: -90px;
@@ -94,7 +101,7 @@ img {
     margin-top: -270px;
     margin-left: 45px;
 }
-/*** header css code -end ***/
+/****************************************** header css -end ***/
 
 #article {
     background-image: url(../images/bg/index_lyaout_V3_Final_Cut-24.png);
@@ -155,7 +162,122 @@ img {
     line-height: 40px;
 }
 
-/*qa css code*/
+/************************************   index人流 css   */
+.people_ot { /*中心人流*/
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    background-image: url(../images/_index/index_lyaout_V3_Final_Cut-27.png);
+    background-size: 220px 220px;
+    top: 50px;
+    font-weight: bold;
+    margin: auto 1%;
+}
+
+    .people_ot td {
+        vertical-align: middle;
+    }
+
+.people_ot_tr1, .people_ot_tr2 {
+    background-size: 200px 55px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.people_ot_tr1 {
+    background-image: url(../images/_index/index_lyaout_V3_Final_Cut-32.png);
+}
+
+.people_ot_tr2 {
+    background-image: url(../images/_index/index_lyaout_V3_Final_Cut-33.png);
+}
+
+    .people_ot_tr1 img, .people_ot_tr2 img {
+        width: 45px;
+    }
+
+.people_ot h4 {
+    font-size: 24px;
+    color: #663022;
+    text-shadow: 0 0 1px #663022, 0 0 1px #663022, 0 0 1px #663022;
+    letter-spacing: 17px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.people_ot p {
+    font-size: 18px;
+    color: #bc664b;
+}
+
+.people_ot_fo1 {
+    font-size: 30px;
+    color: #327c7f;
+}
+
+.people_ot_fo2 {
+    font-size: 20px;
+    color: #327c7f;
+    padding-right: 20px;
+}
+
+.site_people { /*各場人流*/
+    position: relative;
+    z-index: 1;
+    width: 800px;
+    height: 220px;
+    background-image: url(../images/_index/index_lyaout_V3_Final_Cut-36.png);
+    background-size: 800px 220px;
+    margin:5% auto;
+    top: 50px;
+}
+
+    .site_people h3 {
+        font-weight: bold;
+        font-size: 28px;
+        color: #fff;
+    }
+
+    .site_people h4 {
+        font-weight: bold;
+        font-size: 20px;
+        color: #305966;
+        padding-top: 7px;
+    }
+
+.site_people_tb {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 160px;
+    height: 160px;
+    background-image: url(../images/_index/index_lyaout_V3_Final_Cut-38.png);
+    background-size: 160px 160px;
+    top: -100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.site_people_fitness {
+    font-weight: bold;
+    color: #e5cb5e;
+}
+
+.site_people_swim {
+    font-weight: bold;
+    color: #3f6299;
+}
+
+.site_people_ice {
+    font-weight: bold;
+    color: #559970;
+}
+/*******************************index人流 css -end*/
+
+/*******************************qa css code*/
 #search {
     width: 320px;
 }
@@ -234,7 +356,7 @@ img {
     margin-left: 40%;
     resize: none;
 }
-/*qa css code -end*/
+/************************************qa css code -end*/
 /*
 @media screen and (max-height:768px) {
     .nav_menu {
@@ -250,15 +372,6 @@ img {
     section01 td {
         height: 280px;
     }
-}
-@media screen and (max-height:1200px) {
-    .nav_menu {
-        height: 4%;
-        margin-top: -7%;
-    }
+}*/
 
-    section01 td {
-        height: 280px;
-    }
-}
-*/
+

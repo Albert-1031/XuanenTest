@@ -49,8 +49,8 @@ End Code
         <img src="../images/_contact_us/contact_lyaout_Final_Cut-11.png" style="width:40%; margin-top:5%">
         <div style="width:45%; text-align:left; margin-top:5%; float:right">
             <img src="../images/_contact_us/contact_lyaout_Final_Cut-17.png" style="width:25%; margin-left:8%"><br>
-            <img src="../images/_contact_us/contact_lyaout_Final_Cut-12.png" style="width:28%; margin-top:3%; margin-left:10%">
-            <img src="../images/_contact_us/contact_lyaout_Final_Cut-14.png" style="width:20%; margin-bottom:2%; margin-left:15%">
+            <a href="https://www.facebook.com/xuanensports"><img src="../images/_contact_us/contact_lyaout_Final_Cut-12.png" style="width:28%; margin-top:3%; margin-left:10%"></a>
+            <a href="https://linecorp.com/zh-hant/"><img src="../images/_contact_us/contact_lyaout_Final_Cut-14.png" style="width:20%; margin-bottom:2%; margin-left:15%"></a>
             <img src="../images/_contact_us/contact_lyaout_Final_Cut-15.png" style="width:20%; margin-bottom:2%"><br>
             <img src="../images/_contact_us/contact_lyaout_Final_Cut-13.png" style="width:42%">
             <img src="../images/_contact_us/contact_lyaout_Final_Cut-16.png" style="width:33%; margin-left:15%">
