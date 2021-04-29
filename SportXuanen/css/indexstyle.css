@@ -1,0 +1,264 @@
+﻿body {
+    width: 100%;
+    min-width: 900px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h2 {
+    padding-bottom:1%;
+    font-weight: bold;
+    font-size:28px;
+    color: #305966;
+}
+p {
+    padding:1%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #598089;
+    line-height:30px;
+}
+img {
+    max-width: 100%;
+}
+
+
+#main {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*** header css code ***/
+.header {
+    width: 100%;
+    height: 80px;
+    background-image: url(../images/_index/index_lyaout_V2_Final_Cut-01.png);
+    background-size: 100% 80px;
+}
+
+.nav_menu {
+    width: 700px;
+    height: 22px;
+    float: right;
+}
+
+    .nav_menu li {
+        display: inline-block;
+        position: relative;
+        z-index: 3;
+        vertical-align: top;
+        top: 28px;
+        margin-left: 30px;
+    }
+
+    .nav_menu img {
+        height: 22px;
+    }
+
+    .nav_menu li:hover .nav_menu_btn2_off {
+        display: none;
+    }
+
+    .nav_menu li .nav_menu_btn2_on {
+        display: none;
+    }
+
+    .nav_menu li:hover .nav_menu_btn2_on {
+        display: block;
+    }
+
+.nav_menu_btn2_on2 {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    height: 350px;
+    padding-top: 10px;
+    top: 20px;
+    left: -90px;
+}
+
+.nav_menu li:hover .nav_menu_btn2_on2 {
+    display: block;
+}
+
+.nav_menu_btn2_btn {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    height: 40px;
+    margin-top: -270px;
+    margin-left: 45px;
+}
+/*** header css code -end ***/
+
+#article {
+    background-image: url(../images/bg/index_lyaout_V3_Final_Cut-24.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-y: 70%;
+}
+
+#article2 {
+    background-image: url(../images/bg/index_lyaout_V3_Final_Cut-25.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-y: 100%;
+}
+
+
+.section01, .section02 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:10%;
+}
+
+.section01 li {
+    background-image: url(../images/_product/12/product_4-05_w12Xh13.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    line-height:40px;
+}
+
+.section01 td {
+    vertical-align: top;
+}
+
+.section01_tr {
+    background-image: url(../images/bg/product_0-14_w1336Xh348.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position-y: 60%;
+}
+
+.section01_txt {
+    /*border: 1px solid #000;*/
+    width: 80%;
+    padding-bottom: 5%;
+    margin-left: 10%;
+}
+
+.section01_txt p {
+    background-image: url(../images/_product/12/product_4-05_w12Xh13.png);
+    background-repeat: no-repeat;
+    background-size: 8px auto;
+    background-position-y: 50%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 25px;
+    text-align: left;
+    line-height: 40px;
+}
+
+/*qa css code*/
+#search {
+    width: 320px;
+}
+
+#search_send {
+    float: right;
+    width: 120px;
+}
+
+.qa_dv a {
+    display: inline-block;
+}
+
+.qa1_btn, .qa2_btn, .qa3_btn {
+    width: 160px;
+    height: 50px;
+    margin-top: 30%;
+    background-image: url(../images/_qa/qanda_lyaout_Final_Cut-11.png);
+    background-size: 160px 50px;
+}
+
+.qa1_btn:hover {
+    background-image: url(../images/_qa/qanda_lyaout_Final_Cut-12.png);
+}
+
+.qa2_btn {
+    background-image: url(../images/_qa/qanda_lyaout_Final_Cut-13.png);
+}
+
+.qa2_btn:hover {
+    background-image: url(../images/_qa/qanda_lyaout_Final_Cut-14.png);
+}
+
+.qa3_btn {
+    background-image: url(../images/_qa/qanda_lyaout_Final_Cut-15.png);
+}
+
+.qa3_btn:hover {
+    background-image: url(../images/_qa/qanda_lyaout_Final_Cut-16.png);
+}
+
+.qa1_text {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    background-image: url(../images/_qa/qanda_lyaout_Final_Cut-17.png);
+    background-size: 500px 300px;
+    margin-top: 5%;
+}
+
+.qa1_text select {
+    width: 280px;
+    height: 30px;
+    border-style: none;
+    background-image: url(../images/_qa/qanda_lyaout_Final_Cut-18.png);
+    background-size: 280px 30px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    color: #598089;
+    margin-top: 10%;
+    margin-left: 25%;
+    padding-left: 15px;
+}
+
+.qa1_text textarea {
+    width: 230px;
+    height: 90px;
+    border-style: none;
+    background-color: transparent;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #598089;
+    margin-top: 13%;
+    margin-left: 40%;
+    resize: none;
+}
+/*qa css code -end*/
+/*
+@media screen and (max-height:768px) {
+    .nav_menu {
+        height:2%;
+        margin-top:-9%;
+    }
+}
+@media screen and (max-height:1024px) {
+    .nav_menu {
+        height: 3%;
+        margin-top: -7%;
+    }
+    section01 td {
+        height: 280px;
+    }
+}
+@media screen and (max-height:1200px) {
+    .nav_menu {
+        height: 4%;
+        margin-top: -7%;
+    }
+
+    section01 td {
+        height: 280px;
+    }
+}
+*/
