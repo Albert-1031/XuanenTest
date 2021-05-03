@@ -20,14 +20,15 @@ End Code
     .contact_fm input {
         font-size: 18px;
         background-color: transparent;
+        text-align:left;
+        width:190px;
     }
 
     .contact_fm select {
         font-weight: bold;
         font-size: 18px;
-        width: 110px;
+        width: 80px;
         color: #598089;
-        line-height: 45px;
         background-color: transparent;
     }
 
@@ -43,8 +44,7 @@ End Code
 <div id="article2">
     <div class="section01" style="margin-top:5%">
         <p>
-            若有任何疑問，您可以直接在此處留下問題，<br>
-            亦可於上班時間與我們聯絡！
+            若有任何疑問，您可以直接在此處留下問題，亦可於上班時間與我們聯絡！
         </p>
         <img src="../images/_contact_us/contact_lyaout_Final_Cut-11.png" style="width:40%; margin-top:5%">
         <div style="width:45%; text-align:left; margin-top:5%; float:right">
@@ -62,7 +62,7 @@ End Code
             <div style="width:50%; text-align:right; margin-left:-50px;">
                 您的姓名：<input type="text" name="UserName" required><br>
                 您的電話：<input type="text" name="UserPhone" required><br>
-                您的場館名稱：<input type="text" name="Place_txt" style="width:182px" required><br>
+                您的場館名稱：<input type="text" name="Place_txt" style="width:155px" required><br>
                 請問您場館的業態屬性：
                 <select required>
                     <option value="value">請選擇</option>

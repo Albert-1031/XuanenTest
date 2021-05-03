@@ -9,6 +9,11 @@ End Code
         background-image: url(../images/bg/about_lyaout_Final_Cut-11.png);
         background-position-y: 80%;
     }
+    .section01 {
+        position: relative;
+        z-index: 1;
+        
+    }
     .year_dv {
         position: absolute;
         z-index: 1;
@@ -17,9 +22,9 @@ End Code
         background-size: 17% auto;
         background-position-y: 0%;
         min-height: 100px;
-        text-align:left;
-        width:40%;
-        height:40%;
+        text-align: left;
+        width: 40%;
+        height: 40%;
     }
     .section02_img img{
         padding:2%;
@@ -40,27 +45,27 @@ End Code
         </p>
         <img src="../images/_about_us/51/about_lyaout_Final_Cut-12.png" style="width:20%; margin-top:5%;"><br>
         <img src="../images/_about_us/51/about_lyaout_Final_Cut-13.png" style="width:1.5%; margin-top:5%;"><br>
-        <div class="year_dv" style="margin-top: -68%; margin-left: 45%">
+        <div class="year_dv" style="margin-top: -78%; margin-left: 55%">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-15.png" style="width: 13%; margin-top: 7%; margin-left:2%">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-21.png" style="display:flex; width: 35%; margin-top: -6%; margin-left:20%">
         </div>
-        <div class="year_dv" style="margin-top: -58%; margin-left: -5%; background-position-x:100%; text-align:right">
+        <div class="year_dv" style="margin-top: -68%; margin-left: 5%; background-position-x:100%; text-align:right">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-16.png" style="width: 13%; margin-top: 7%; margin-right:2%">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-22.png" style="display:flex; width: 75%; margin-top: -10%; margin-left:5%">
         </div>
-        <div class="year_dv" style="margin-top: -46%; margin-left: 45%">
+        <div class="year_dv" style="margin-top: -56%; margin-left: 55%">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-17.png" style="width: 13%; margin-top: 7%; margin-left:2%">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-23.png" style="display:flex; width: 75%; margin-top: -6%; margin-left:20%">
         </div>
-        <div class="year_dv" style="margin-top: -33%; margin-left: -5%; background-position-x:100%; text-align:right">
+        <div class="year_dv" style="margin-top: -43%; margin-left: 5%; background-position-x:100%; text-align:right">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-18.png" style="width: 13%; margin-top: 7%; margin-right:2%">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-24.png" style="display:flex; width: 65%; margin-top: -9%; margin-left:15%">
         </div>
-        <div class="year_dv" style="margin-top: -23%; margin-left: 45%">
+        <div class="year_dv" style="margin-top: -33%; margin-left: 55%">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-19.png" style="width: 13%; margin-top: 7%; margin-left:2%">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-25.png" style="display:flex; width: 75%; margin-top: -6%; margin-left:20%">
         </div>
-        <div class="year_dv" style="margin-top: -5%; margin-left: -5%; background-position-x:100%; text-align:right">
+        <div class="year_dv" style="margin-top: -15%; margin-left: 5%; background-position-x:100%; text-align:right">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-20.png" style="width: 13%; margin-top: 7%; margin-right:2%">
             <img src="../images/_about_us/51/about_lyaout_Final_Cut-26.png" style="display:flex; width: 65%; margin-top: -9%; margin-left:15%">
         </div>
