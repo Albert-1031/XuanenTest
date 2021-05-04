@@ -6,13 +6,16 @@ End Code
 
 <style>
     #article {
-        background-image: url(../images/bg/about_lyaout_Final_Cut-11.png);
-        background-position-y: 80%;
+        background-image: url();
     }
     .section01 {
         position: relative;
         z-index: 1;
-        
+        width:100%;
+        background-image: url(../images/bg/about_lyaout_Final_Cut-11.png);
+        background-position-y: 200px;
+        background-size:100% 80%;
+        background-repeat:inherit;
     }
     .year_dv {
         position: absolute;
@@ -75,23 +78,25 @@ End Code
 
 <div class="section02" style="margin-top:5%">
     <img src="../images/_about_us/51/about_lyaout_Final_Cut-27.png" style="width:30%; margin-top:5%;"><br>
-    <div class="section02_img" style="margin-top:5%">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-28.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-29.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-30.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-31.png"><br>
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-32.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-33.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-34.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-35.png"><br>
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-36.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-37.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-38.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-39.png"><br>
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-40.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-41.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-42.png">
-        <img src="../images/_about_us/51/about_lyaout_Final_Cut-43.png">
+    <div class="section02_img , mobile_product51_img" style="margin-top:5%">
+        <img src="../images/_about_us/51/合作夥伴Logo-02.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-03.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-04.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-05.png"><br>
+        <img src="../images/_about_us/51/合作夥伴Logo-06.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-07.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-08.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-09.png"><br>
+        <img src="../images/_about_us/51/合作夥伴Logo-10.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-11.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-12.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-13.png"><br>
+        <img src="../images/_about_us/51/合作夥伴Logo-14.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-15.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-16.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-17.png"><br>
+        <img src="../images/_about_us/51/合作夥伴Logo-18.png">
+        <img src="../images/_about_us/51/合作夥伴Logo-19.png">
     </div>
 </div>
 

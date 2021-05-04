@@ -32,16 +32,16 @@ End Code
         <p style="font-weight: normal">開啟電腦網頁，開始結帳吧!完整功能及多元支付工具，一個頁面滿足所有客戶需求，專注提供客戶服務。</p>
         <img src="../images/_product/31/Service_lyaout_Final_Cut-13.png" style="width:90%; margin-top:10%;"><br>
 
-        <table class="section01_txt" style="margin-top:10%; margin-left:15%">
+        <table class="section01_txt , mobile_product31_ta" style="margin-top:10%; margin-left:15%">
             <tr>
                 <td>
-                    <p>結帳銷售</p>
+                    <p class="mobile_product31_td">結帳銷售</p>
                 </td>
                 <td>
-                    <p>課程報名<p>
+                    <p class="mobile_product31_td">課程報名<p>
                 </td>
                 <td>
-                    <p>場地預約/季租<p>
+                    <p class="mobile_product31_td_2">場地預約/季租<p>
                 </td>
             </tr>
             <tr>
@@ -73,8 +73,8 @@ End Code
     <div class="section02" style="margin-top:5%">
         <h2>靈活課務</h2>
         <p style="font-weight: normal">滿足需求的課務系統，搭配頂尖行銷方案，創造高收益與效益，靈活運用系統，客人源源不絕。</p>
-        <img src="../images/_product/31/Service_lyaout_Final_Cut-16.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
-        <div class="section01_txt" style="display: inline-block; width: 40%; text-align: left; margin-top: -38%; margin-left: 60%">
+        <img class="mobile_product31_img" src="../images/_product/31/Service_lyaout_Final_Cut-16.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
+        <div class="section01_txt , mobile_product31_txt" style="display: inline-block; width: 300px; text-align: left; margin-top: -38%; margin-left: 60%">
             <p>設定各式課程類別</p>
             <p>多管道課程報名統整</p>
             <p>插班、轉班、續報課程</p>

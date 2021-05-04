@@ -44,8 +44,7 @@ End Code
 <div id="article2">
     <div class="section01" style="margin-top:5%">
         <p>
-            若有任何疑問，您可以直接在此處留下問題，<br>
-            亦可於上班時間與我們聯絡！
+            若有任何疑問，您可以直接在此處留下問題，亦可於上班時間與我們聯絡！
         </p>
         <img src="../images/_contact_us/contact_lyaout_Final_Cut-11.png" style="width:40%; margin-top:5%">
         <div style="width:45%; text-align:left; margin-top:5%; float:right">
@@ -58,9 +57,9 @@ End Code
         </div>
     </div>
     <div class="section02" style="width:70%">
-        <img src="../images/_contact_us/contact_lyaout_Final_Cut-18.png" style="width:25%; margin-top:5%"><br>
+        <img src="../images/_contact_us/contact_lyaout_Final_Cut-18.png" style="width:200px; margin-top:5%"><br>
         <form class="contact_fm" action="/" method="post">
-            <div style="width:50%; text-align:right; margin-left:-50px;">
+            <div class="mobile_contactus61_in" style="width:300px; text-align:right; margin-left:auto; margin-right:55%">
                 您的姓名：<input type="text" name="UserName" required><br>
                 您的電話：<input type="text" name="UserPhone" required><br>
                 您的場館名稱：<input type="text" name="Place_txt" style="width:155px" required><br>
@@ -70,18 +69,21 @@ End Code
                 </select>
             </div>
 
-            <div style="margin-top:-180px; margin-left:350px;">
-                其他洽詢內容：<br>
-                <textarea name="contact_txt" rows="8" cols="35"></textarea>
+            <div class="mobile_contactus61_text">
+                <div style="margin-top:-180px; margin-left:350px; margin-right:auto">
+                    其他洽詢內容：<br>
+                    <textarea name="contact_txt" rows="8" cols="35"></textarea>
+                </div>
             </div>
-
-            <input type="submit" value=""
+            <input type="submit" 
+                   value=""
                    style="width:200px;
                     height:45px;
                     margin-top:20px;
                     border-style:none;
                     background-image: url(../images/_contact_us/contact_lyaout_Final_Cut-30.png);
-                    background-size:200px 45px;">
+                    background-size:200px 45px;
+            ">
         </form>
     </div>
 </div>

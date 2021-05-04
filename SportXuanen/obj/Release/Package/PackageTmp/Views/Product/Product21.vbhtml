@@ -23,7 +23,7 @@ End Code
         <h2>入場門票</h2>
         <p style="font-weight: normal">多元進場選擇，滿足市場9成以上場館進場模式，從運動小白到健身老手，全自動人流設備將幫助你省去大量的人工辨識，及人為造成遺漏的問題。</p>
         <img src="../images/_product/21/product_01-03.png" style="width:40%; margin-top:5%; margin-left:-40%"><br>
-        <div class="section01_txt" style="display:inline-block; width:40%; font-weight: bold; text-align:left; margin-top:-28%; margin-left:60%">
+        <div class="section01_txt , product21_txt">
             <p>儲值會員</p>
             <p>以分鐘計算</p>
             <p>以點數計算</p>
@@ -42,7 +42,7 @@ End Code
         <h2>會籍功能</h2>
         <p style="font-weight: normal">擔心收取年費造成會員擔憂嗎? 輕鬆綁定信用卡，時間到自動扣款，追蹤會員狀態，扣款失敗提醒，不用擔心找不到會員。業界最愛會籍功能用數據，有效管理場館及調整走向。</p>
         <img src="../images/_product/21/product_01-09.png" style="width:40%; margin-top:5%; margin-left:-40%"><br>
-        <div class="section01_txt" style="display: inline-block; width: 40%; text-align: left; margin-top: -20%; margin-left: 60%">
+        <div class="section01_txt , product21_txt">
             <p>儲值會員</p>
             <p>以分鐘計算</p>
             <p>以點數計算</p>

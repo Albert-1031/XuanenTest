@@ -10,18 +10,7 @@ End Code
         background-position-y: 20%;
     }
 
-    .section02_txt p {
-        background-image: url(../images/_product/12/product_4-05_w12Xh13_2.png);
-        background-repeat: no-repeat;
-        background-size: 8px auto;
-        background-position-x: 100%;
-        background-position-y: 50%;
-        padding-top: 0%;
-        padding-bottom: 0%;
-        padding-right: 8%;
-        text-align: right;
-        line-height: 40px;
-    }
+
 
 </style>
 
@@ -40,20 +29,20 @@ End Code
 <div id="article2">
     <div class="section02" style="margin-top:5%">
         <h2>健身信託商品</h2>
-        <img src="../images/_product/41/Escrow_layout_Final_Cut-18.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
-        <div class="section01_txt" style="display:inline-block; width:40%; text-align:left; margin-top:-38%; margin-right:5%; float:right">
+        <img class="mobile_product41_img" src="../images/_product/41/Escrow_layout_Final_Cut-18.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
+        <div class="section01_txt , mobile_product41_txt" style="display:inline-block; width:150px; text-align:left; margin-top:-38%; margin-right:5%; float:right">
             <p>教練課</p>
             <p>定期團體課</p>
             <p>課程點數</p>
             <p>單堂報名</p>
         </div>
-        <img src="../images/_product/41/Escrow_layout_Final_Cut-19.png" style="width:40%; margin-top:-8%; margin-left:35%"><br>
-        <div class="section02_txt" style="display: inline-block; width: 40%; text-align: left; margin-top: -15%; margin-left: 1%; float:left">
+        <img class="mobile_product41_img_2" src="../images/_product/41/Escrow_layout_Final_Cut-19.png" style="width:40%; margin-top:-8%; margin-left:35%"><br>
+        <div class="section02_txt , mobile_product41_txt_2" style="display: inline-block; width: 150px; text-align: left; margin-top: -15%; margin-left: 1%; float:left">
             <p>進場點數</p>
             <p>期限月票</p>
         </div>
-        <img src="../images/_product/41/Escrow_layout_Final_Cut-21.png" style="width:45%; margin-top:2%; margin-left:-45%"><br>
-        <div class="section01_txt" style="display: inline-block; width: 40%; text-align: left; margin-top: -15%; margin-right: 5%; float:right">
+        <img class="mobile_product41_img_3" src="../images/_product/41/Escrow_layout_Final_Cut-21.png" style="width:45%; margin-top:2%; margin-left:-45%"><br>
+        <div class="section01_txt , mobile_product41_txt_3" style="display: inline-block; width: 230px; text-align: left; margin-top: -15%; margin-right: 5%; float:right">
             <p>連續每月固定日期扣款</p>
         </div>
         <img src="../images/_product/41/Escrow_layout_Final_Cut-22.png" style="width:100%; margin-top:15%"><br>

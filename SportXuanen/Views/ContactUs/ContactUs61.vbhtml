@@ -50,16 +50,16 @@ End Code
         <div style="width:45%; text-align:left; margin-top:5%; float:right">
             <img src="../images/_contact_us/contact_lyaout_Final_Cut-17.png" style="width:25%; margin-left:8%"><br>
             <a href="https://www.facebook.com/xuanensports"><img src="../images/_contact_us/contact_lyaout_Final_Cut-12.png" style="width:28%; margin-top:3%; margin-left:10%"></a>
-            <a href="https://linecorp.com/zh-hant/"><img src="../images/_contact_us/contact_lyaout_Final_Cut-14.png" style="width:20%; margin-bottom:2%; margin-left:15%"></a>
+            <a href="https://line.me/ti/p/CC-hpxsVv8"><img src="../images/_contact_us/contact_lyaout_Final_Cut-14.png" style="width:20%; margin-bottom:2%; margin-left:15%"></a>
             <img src="../images/_contact_us/contact_lyaout_Final_Cut-15.png" style="width:20%; margin-bottom:2%"><br>
             <img src="../images/_contact_us/contact_lyaout_Final_Cut-13.png" style="width:42%">
             <img src="../images/_contact_us/contact_lyaout_Final_Cut-16.png" style="width:33%; margin-left:15%">
         </div>
     </div>
     <div class="section02" style="width:70%">
-        <img src="../images/_contact_us/contact_lyaout_Final_Cut-18.png" style="width:25%; margin-top:5%"><br>
+        <img src="../images/_contact_us/contact_lyaout_Final_Cut-18.png" style="width:200px; margin-top:5%"><br>
         <form class="contact_fm" action="/" method="post">
-            <div style="width:50%; text-align:right; margin-left:-50px;">
+            <div class="mobile_contactus61_in" style="width:300px; text-align:right; margin-left:auto; margin-right:55%">
                 您的姓名：<input type="text" name="UserName" required><br>
                 您的電話：<input type="text" name="UserPhone" required><br>
                 您的場館名稱：<input type="text" name="Place_txt" style="width:155px" required><br>
@@ -69,18 +69,21 @@ End Code
                 </select>
             </div>
 
-            <div style="margin-top:-180px; margin-left:350px;">
-                其他洽詢內容：<br>
-                <textarea name="contact_txt" rows="8" cols="35"></textarea>
+            <div class="mobile_contactus61_text">
+                <div style="margin-top:-180px; margin-left:350px; margin-right:auto">
+                    其他洽詢內容：<br>
+                    <textarea name="contact_txt" rows="8" cols="35"></textarea>
+                </div>
             </div>
-
-            <input type="submit" value=""
+            <input type="submit" 
+                   value=""
                    style="width:200px;
                     height:45px;
                     margin-top:20px;
                     border-style:none;
                     background-image: url(../images/_contact_us/contact_lyaout_Final_Cut-30.png);
-                    background-size:200px 45px;">
+                    background-size:200px 45px;
+            ">
         </form>
     </div>
 </div>

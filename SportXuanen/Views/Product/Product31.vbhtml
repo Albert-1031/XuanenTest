@@ -32,16 +32,16 @@ End Code
         <p style="font-weight: normal">開啟電腦網頁，開始結帳吧!完整功能及多元支付工具，一個頁面滿足所有客戶需求，專注提供客戶服務。</p>
         <img src="../images/_product/31/Service_lyaout_Final_Cut-13.png" style="width:90%; margin-top:10%;"><br>
 
-        <table class="section01_txt , mobile_product31_td" style="margin-top:10%; margin-left:15%">
+        <table class="section01_txt , mobile_product31_ta" style="margin-top:10%; margin-left:15%">
             <tr>
                 <td>
-                    <p>結帳銷售</p>
+                    <p class="mobile_product31_td">結帳銷售</p>
                 </td>
                 <td>
-                    <p>課程報名<p>
+                    <p class="mobile_product31_td">課程報名<p>
                 </td>
                 <td>
-                    <p>場地預約/季租<p>
+                    <p class="mobile_product31_td_2">場地預約/季租<p>
                 </td>
             </tr>
             <tr>

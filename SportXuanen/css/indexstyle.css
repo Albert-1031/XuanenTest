@@ -23,6 +23,11 @@ p {
     color: #598089;
     line-height:30px;
 }
+
+a {
+    text-decoration:none;
+}
+
 img {
     max-width: 100%;
 }
@@ -406,6 +411,12 @@ img {
         float: none;
     }
 
+    .people_ot {
+        transform: scale(0.4);
+        margin:-15% -15%;
+        width:auto;
+    }
+
     .mobile_index_txt {
         transform: scale(1.5);
     }
@@ -431,17 +442,19 @@ img {
         margin-top: -50%;
         margin-left: 40%;
     }
-    .mobile_product31_td {
-        position:relative;
-        z-index:1;
+    .mobile_product31_ta {
         transform: scale(0.8);
-        width:500px;
-        left:-40%;
+        position: relative;
+        z-index: auto;
+        left: -25%;
+    }
+    .mobile_product31_td {
+        width:100px;
+    }
+    .mobile_product31_td_2 {
+        width:150px;
     }
 
-    .mobile_product31_td td{
-        width:33%;
-    }
     .mobile_product31_txt {
         transform: scale(0.8);
         position:relative;
@@ -454,9 +467,48 @@ img {
         z-index:auto;
         top:50px;
     }
-    .mobile_product41_txt p{
+    .mobile_product41_txt p, .mobile_product41_txt_2 p, .mobile_product41_txt_3 p{
         line-height:24px;
     }
+    .mobile_product41_txt_2 {
+        position: relative;
+        z-index: 1;
+        top:10px;
+        left:-0%;
+    }
+    .mobile_product41_txt_3 {
+        position: relative;
+        z-index: 1;
+        top:50px;
+        left:15%;
+    }
+
+    .mobile_product41_img_2{
+        position:relative;
+        z-index:1;
+        top:40px;
+        left:3%;
+    }
+    .mobile_product41_img_3 {
+        position: relative;
+        z-index: 1;
+        top: 40px;
+        left: -5%;
+    }
+    .mobile_contactus61_in {
+        position: relative;
+        z-index: auto;
+        left:-20px;
+    }
+    .mobile_contactus61_text {
+        position: relative;
+        z-index: auto;
+        width:500px;
+        height:400px;
+        top:180px;
+        left:-340px;
+    }
+
 }
 
 @media only screen and (min-width:371px) and (max-width:375px) {
@@ -468,6 +520,14 @@ img {
     .site_people {
         margin-left: -85%;
         margin-top: -32%;
+    }
+
+    .mobile_product31_ta {
+        left:-35%;
+    }
+
+    .mobile_product41_img_3 {
+        left: -35%;
     }
 }
 
@@ -482,6 +542,22 @@ img {
         margin-left: -88%;
         margin-top: -35%;
     }
+
+    .mobile_product31_ta {
+        left: -35%;
+    }
+
+    .mobile_product41_img_3 {
+        left: -35%;
+    }
+    .mobile_product41_txt_3 {
+        left: 20%;
+    }
+
+    .mobile_product51_img {
+        width:300px;
+    }
+
 }
 
 @media only screen and (max-width:320px) {
@@ -491,11 +567,49 @@ img {
         margin-left: -62%;
     }
 
+    .people_ot {
+        margin: -15% -20%;
+    }
+
     .site_people {
         transform: scale(0.3);
         margin-left: -105%;
         margin-top: -45%;
     }
+
+    .mobile_product31_ta {
+        transform: scale(0.7);
+        left: -45%;
+    }
+    .mobile_product31_txt {
+        transform: scale(0.7);
+        top:-45px;
+        left:-35%;
+    }
+
+    .mobile_product41_img, .mobile_product41_txt, .mobile_product41_img_2, .mobile_product41_txt_2, .mobile_product41_img_3, .mobile_product41_txt_3 {
+        transform: scale(0.8);
+        top:0px;
+    }
+    .mobile_product41_img_2 {
+        top:15px;
+    }
+    .mobile_product41_txt_2 {
+        top:-20px;
+    }
+    .mobile_product41_img_3 {
+        left: -35%;
+    }
+
+    .mobile_product41_txt_3 {
+        left: 20%;
+    }
+
+    .mobile_product51_img {
+        width: 300px;
+        margin-left:-10%;
+    }
+
 }
 
     /*@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3) {
