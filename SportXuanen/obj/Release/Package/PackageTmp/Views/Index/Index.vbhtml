@@ -11,7 +11,7 @@ End Code
 <div id="article" style="background-image:url(../images/bg/product_02-05.png)">
     <!--運動中心即時人流-->
     <div class="section01" style="width:100%">
-        <img class="mobile_index_txt" src="../images/_index/index_lyaout_V3_Final_Cut-43.png" alt="運動中心人流顯示" style="width:33%; margin-top:10%"><br>
+        <img class="mobile_index_txt" src="../images/_index/index_lyaout_V3_Final_Cut-43.png" alt="運動中心人流顯示" style="width:30%; margin-top:10%"><br>
         <a href="#jump_taipei">
             <table class="people_ot">
                 <tr>
@@ -150,7 +150,7 @@ End Code
 
     <!--服務場館-->
     <div class="section01" style="margin-top:10%">
-        <img class="mobile_txt" src="../images/_index/index_lyaout_V2_Final_Cut-26.png" alt="專注於運動產業我們服務那些場館呢" style="width:75%; margin-top:10%"><br>
+        <img class="mobile_index_txt" src="../images/_index/index_lyaout_V2_Final_Cut-26.png" alt="專注於運動產業我們服務那些場館呢" style="width:75%; margin-top:10%"><br>
         <img src="../images/_index/index_lyaout_V2_Final_Cut-12.png" alt="大型動場館國民運動中心" style="width:45%; margin-top:7%; margin-left:5%; float:left">
         <img src="../images/_index/index_lyaout_V2_Final_Cut-13.png" alt="大型動場館國民運動中心" style="width:45%; margin-top:15%"><br>
         <img src="../images/_index/index_lyaout_V2_Final_Cut-14.png" alt="個人工作室俱樂部" style="width:45%; margin-top:10%; float:right">
@@ -162,7 +162,7 @@ End Code
 
 <div id="article" style="background-image:url(../images/bg/product_01-04.png); background-position-y:0%">
     <!--了解更多-->
-    <div class="section02, mobile_index_img" style="padding-bottom:15%">
+    <div class="section02 , mobile_index_img" style="padding-bottom:15%">
         <a href="../Product/Product11"><img src="../images/_index/index_lyaout_V2_Final_Cut-18.png" alt="了解更多" style="width:25%; margin-top:10%;"></a><br>
         <img src="../images/_index/index_lyaout_V2_Final_Cut-19.png" alt="立即與我們聯絡" style="width:20%; margin-top:5%">
         <img src="../images/_index/index_lyaout_V2_Final_Cut-21.png" alt="讓我們與您聯絡" style="width:20%; margin-left:20%"><br>
