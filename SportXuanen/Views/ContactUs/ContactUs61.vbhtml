@@ -27,13 +27,14 @@ End Code
     .contact_fm select {
         font-weight: bold;
         font-size: 18px;
-        width: 80px;
+        width: 82px;
         color: #598089;
         background-color: transparent;
     }
 
     .contact_fm textarea {
         background-color: transparent;
+        resize:none;
     }
 </style>
 
@@ -69,12 +70,11 @@ End Code
                 </select>
             </div>
 
-            <div class="mobile_contactus61_text">
-                <div style="margin-top:-180px; margin-left:350px; margin-right:auto">
-                    其他洽詢內容：<br>
-                    <textarea name="contact_txt" rows="8" cols="35"></textarea>
-                </div>
+            <div class="mobile_contactus61_text" style="margin-top:-180px; margin-left:350px; margin-right:auto; text-align:left">
+                其他洽詢內容：<br>
+                <textarea name="contact_txt" rows="8" cols="35"></textarea>
             </div>
+
             <input type="submit" 
                    value=""
                    style="width:200px;

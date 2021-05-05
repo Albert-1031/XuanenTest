@@ -413,8 +413,11 @@ img {
 
     .people_ot {
         transform: scale(0.4);
-        margin:-15% -15%;
-        width:auto;
+        margin-top: -25%;
+        margin-bottom: -20%;
+        margin-left: -15%;
+        margin-right: -15%;
+        width: auto;
     }
 
     .mobile_index_txt {
@@ -508,7 +511,9 @@ img {
         top:180px;
         left:-340px;
     }
-
+    .contact_fm font {
+        margin-left: -140px;
+    }
 }
 
 @media only screen and (min-width:371px) and (max-width:375px) {
@@ -568,7 +573,9 @@ img {
     }
 
     .people_ot {
-        margin: -15% -20%;
+        margin-top: -30%;
+        margin-left: -20%;
+        margin-right: -20%;
     }
 
     .site_people {
@@ -610,6 +617,18 @@ img {
         margin-left:-10%;
     }
 
+    .mobile_contactus61_in {
+        transform: scale(0.8);
+        left: -50px;
+    }
+
+    .mobile_contactus61_text {
+        transform: scale(0.8);
+        width: 500px;
+        height: 400px;
+        top: 130px;
+        left: -400px;
+    }
 }
 
     /*@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 3) {

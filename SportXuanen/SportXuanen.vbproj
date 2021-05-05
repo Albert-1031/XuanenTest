@@ -131,7 +131,6 @@
     <Content Include="css\layout.css" />
     <Content Include="css\layoutIndex.css" />
     <Content Include="css\reset.css" />
-    <Content Include="display\discode.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="images\01.png" />
@@ -492,7 +491,6 @@
     <Content Include="js\freecalendar\tcal.css" />
     <Content Include="js\freecalendar\tcal.js" />
     <Content Include="js\freecalendar\testjs.html" />
-    <Content Include="js\jquery-2.2.3.min.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -512,7 +510,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppCode\conn.vb" />
-    <Compile Include="AppCode\enumber.vb" />
     <Compile Include="AppCode\errreport.vb" />
     <Compile Include="AppCode\pagesystem.vb" />
     <Compile Include="AppCode\websystem.vb" />
@@ -558,13 +555,6 @@
     <Compile Include="Controllers\IndexController.vb" />
     <Compile Include="Controllers\ProductController.vb" />
     <Compile Include="Controllers\QAController.vb" />
-    <Compile Include="display\discode.aspx.designer.vb">
-      <DependentUpon>discode.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="display\discode.aspx.vb">
-      <DependentUpon>discode.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
