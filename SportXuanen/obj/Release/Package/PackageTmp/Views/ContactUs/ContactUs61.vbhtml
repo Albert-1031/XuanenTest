@@ -70,11 +70,7 @@ End Code
                 </select>
             </div>
 
-<<<<<<< HEAD
-            <div class="mobile_contactus61_text" style="margin-top:-180px; margin-left:55%; margin-right:auto; text-align:left">
-=======
-            <div class="mobile_contactus61_text" style="margin-top:-180px; margin-left:350px; margin-right:auto; text-align:left">
->>>>>>> 0a7412093f4a87062c80be291a61bf6ac049b226
+            <div class="mobile_contactus61_text" style="text-align: left; margin-top:-180px; margin-left: 55%; margin-right: auto">
                 其他洽詢內容：<br>
                 <textarea name="contact_txt" rows="8" cols="35"></textarea>
             </div>

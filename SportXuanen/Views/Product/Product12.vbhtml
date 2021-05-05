@@ -33,7 +33,7 @@ End Code
         <p style="font-weight: normal">專注於運動產業鏈，以Web-base 網路架構，整合物聯網的軟體及硬體服務。</p>
         <img src="../images/_product/12/product_4-04_w1415Xh840.png" style="width:100%; margin-top:10%;"><br>
         
-        <table class="mobile_product12_td" style="width:80%; text-align:left; line-height:250%; margin-top:10%; margin-bottom:5%; margin-left:20%;">
+        <table class="mobile_product12_td" style="width:80%; min-width:220px; text-align:left; line-height:250%; margin-top:10%; margin-bottom:5%; margin-left:15%;">
             <tr>
                 <td>
                     <p>閘門通關機</p>

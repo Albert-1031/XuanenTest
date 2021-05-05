@@ -19,8 +19,8 @@ End Code
     <div class="section01" style="margin-top:15%">
         <h2>團課</h2>
         <p style="font-weight: normal">無論線上或線下，一個會員都不讓你跑掉，從預約時間、滿班人數及黑名單紀錄，系統通通包辦。專業化課程管理，課程公告、介紹、報名應有盡有，搭配系統自動點名功能，節省人工點名作業的繁瑣，提高教學質量。</p>
-        <img src="../images/_product/23/product_3-03.png" style="width:40%; margin-top:5%; margin-left:-40%"><br>
-        <div class="section01_txt" style="display: inline-block; width: 40%; text-align: left; margin-top: -38%; margin-left: 60%">
+        <img class="mobile_product23_img" src="../images/_product/23/product_3-03.png" style="width:350px; margin-top:15%; margin-left:-45%"><br>
+        <div class="section01_txt , mobile_product23_txt" style="display: inline-block; width: 250px; text-align: left; margin-top: -32%; margin-left: 55%">
             <p>優惠推廣</p>
             <p>活動公告</p>
             <p>系統自動點名</p>

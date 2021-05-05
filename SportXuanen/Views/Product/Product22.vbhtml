@@ -26,8 +26,8 @@ End Code
             花很多時間計算教練鐘點?  掌握不到教練每天進度?學生時常詢問還剩多少課?  算不出到底還有多少課程還沒上完?
             教練及學員透過手機簡單方便安排課程時間，從大量資訊中精準萃取出有益的資料，分析整體銷售及上課數據，減少耗時的人力查詢及分析。
         </p>
-        <img src="../images/_product/22/product_02-03.png" style="width:40%; margin-top:5%; margin-left:-40%"><br>
-        <div class="section01_txt" style="display: inline-block; width: 40%; text-align: left; margin-top: -28%; margin-left: 60%">
+        <img class="mobile_product22_img" src="../images/_product/22/product_02-03.png" style="width:350px; margin-top:5%; margin-left:-40%"><br>
+        <div class="section01_txt , mobile_product22_txt" style="display: inline-block; width: 220px; text-align: left; margin-top: -20%; margin-left: 60%">
             <p>教練管理</p>
             <p>課程預約</p>
             <p>系統自動點名</p>
@@ -41,8 +41,8 @@ End Code
     <div class="section02" style="margin-top:5%">
         <h2>場租教練</h2>
         <p>透過線上場地租借功能，增加場地安排的靈活性，讓你的場館能夠100%充分利用，透過分析整體銷售及上課數據，減少耗時的人員核對錯誤機會。</p>
-        <img src="../images/_product/22/product_02-06.png" style="width:40%; margin-top:5%; margin-left:-40%"><br>
-        <div class="section01_txt" style="display: inline-block; width: 40%; text-align: left; margin-top: -28%; margin-left: 60%">
+        <img class="mobile_product22_img" src="../images/_product/22/product_02-06.png" style="width:350px; margin-top:5%; margin-left:-40%"><br>
+        <div class="section01_txt , mobile_product22_txt" style="display: inline-block; width: 220px; text-align: left; margin-top: -20%; margin-left: 60%">
             <p>上課場地預約</p>
             <p>上課分鐘管理</p>
             <p>教場教練點名</p>

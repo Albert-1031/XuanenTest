@@ -15,8 +15,10 @@
 <body>
     <div id="main">
         <div class="header">
-            <img class="nav_logo" src="../images/_index/index_lyaout_V2_Final_Cut-02.png" alt="璿恩資訊">
-
+            <a href="../Index/Index">
+                <img class="nav_logo" src="../images/_index/index_lyaout_V2_Final_Cut-02.png" alt="璿恩資訊">
+            </a>
+            
             <div class="nav_menu">
                 <ul>
                     <li>

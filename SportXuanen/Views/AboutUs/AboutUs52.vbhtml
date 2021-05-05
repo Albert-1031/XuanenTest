@@ -38,7 +38,7 @@ End Code
 <div id="article">
     <div class="section01" style="height:800px; margin-top:15%; margin-left:auto; margin-right:auto">
         <h2>大型運動場館市佔比例</h2>
-        <div style="width:500px; height:500px; margin-left:auto; margin-right:auto">
+        <div class="mobile_aboutus52_img" style="position: relative; z-index: 1; width:500px; height: 500px; margin-left: auto; margin-right: auto">
             <img src="../images/_about_us/52/leadership_lyaout_Final_Cut-26.png" style="position:absolute; z-index:1; width:500px; margin-top:170px; margin-left:-210px">
             <img src="../images/_about_us/52/leadership_lyaout_Final_Cut-18.png" style="position:absolute; z-index:1; width:100px; margin-top:360px; margin-left:15px">
             <img src="../images/_about_us/52/leadership_lyaout_Final_Cut-25.png" style="position:absolute; z-index:3; width:480px; margin-top:80px; margin-left:-340px">
@@ -47,7 +47,7 @@ End Code
             <img src="../images/_about_us/52/leadership_lyaout_Final_Cut-15.png" style="position:absolute; z-index:2; width:70px; margin-top:460px; margin-left:-110px">
         </div>
 
-        <div class="section02_txt" style="position:relative; z-index:9; width:200px; top:-60%; left:-40%; margin-left:auto; margin-right:auto">
+        <div class="section02_txt , mobile_aboutus52_txt1" style="position:relative; z-index:9; width:220px; top:-60%; left:-45%; margin-left: auto; margin-right: auto">
             <p>大安運動中心</p>
             <p>南港運動中心</p>
             <p>中山運動中心</p>
@@ -61,7 +61,7 @@ End Code
 
             <p style="margin-top:20%">宜蘭運動中心<p>
         </div>
-        <div class="section01_txt" style="position:relative; z-index:9; width:200px; top:-110%; left:40%; margin-left:auto; margin-right:auto">
+        <div class="section01_txt , mobile_aboutus52_txt2" style="position:relative; z-index:9; width:200px; top:-110%; left:40%; margin-left: auto; margin-right: auto">
             <p>板橋運動中心</p>
             <p>永和運動中心</p>
             <p>淡水運動中心</p>
@@ -80,8 +80,8 @@ End Code
 </div>
 
 <div id="article2">
-    <div class="section02" style="height:600px; margin-top:-15%; margin-left:auto; margin-right:auto">
-        <div style="width:500px; height:500px; margin-left:auto; margin-right:auto">
+    <div class="section02" style="height: 600px; margin-top: -15%; margin-left: auto; margin-right: auto">
+        <div class="mobile_aboutus52_img"  style="position: relative; z-index: 1; width: 500px; height: 500px; margin-left: auto; margin-right: auto">
             <img src="../images/_about_us/52/leadership_lyaout_Final_Cut-28.png" style="position:absolute; z-index:5; width:500px; margin-top:-150px; margin-left:-360px">
             <img src="../images/_about_us/52/leadership_lyaout_Final_Cut-16.png" style="position:absolute; z-index:5; width:100px; margin-top:40px; margin-left:-135px">
             <img src="../images/_about_us/52/leadership_lyaout_Final_Cut-30.png" style="position:absolute; z-index:4; width:450px; margin-top:-10px; margin-left:-185px">
@@ -93,7 +93,7 @@ End Code
             <img src="../images/_about_us/52/leadership_lyaout_Final_Cut-32.png" style="position:absolute; z-index:1; width:450px; margin-top: 270px; margin-left:-285px">
             <img src="../images/_about_us/52/leadership_lyaout_Final_Cut-20.png" style="position:absolute; z-index:1; width:80px; margin-top: 440px; margin-left:-75px">
         </div>
-        <div class="section02_txt" style="position:relative; z-index:9; width:220px; top:-80%; left:-40%; margin-left:auto; margin-right:auto">
+        <div class="section02_txt , mobile_aboutus52_txt1" style="position:relative; z-index:9; width:250px; top:-80%; left:-45%; margin-left:auto; margin-right:auto">
             <p>桃園運動中心</p>
             <p>中壢運動中心</p>
             <p>大溪國小運動中心</p>
@@ -106,7 +106,7 @@ End Code
 
             <p style="margin-top:40%">鳳山體育園區</p>
         </div>
-        <div class="section01_txt" style="position:relative; z-index:9; width:200px; top:-140%; left:40%; margin-left:auto; margin-right:auto">
+        <div class="section01_txt , mobile_aboutus52_txt2" style="position:relative; z-index:9; width:200px; top:-140%; left:40%; margin-left:auto; margin-right:auto">
             <p>竹光運動中心</p>
             <p>竹北運動中心</p>
 
