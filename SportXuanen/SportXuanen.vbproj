@@ -512,6 +512,7 @@
     <Compile Include="AppCode\conn.vb" />
     <Compile Include="AppCode\errreport.vb" />
     <Compile Include="AppCode\pagesystem.vb" />
+    <Compile Include="AppCode\systemconfig.vb" />
     <Compile Include="AppCode\websystem.vb" />
     <Compile Include="AppCode\資料庫連線_OLEDB.vb" />
     <Compile Include="App_Start\RouteConfig.vb" />
@@ -552,6 +553,7 @@
     </Compile>
     <Compile Include="Controllers\AboutUsController.vb" />
     <Compile Include="Controllers\ContactUsController.vb" />
+    <Compile Include="Controllers\ApiController.vb" />
     <Compile Include="Controllers\IndexController.vb" />
     <Compile Include="Controllers\ProductController.vb" />
     <Compile Include="Controllers\QAController.vb" />
@@ -621,6 +623,7 @@
     <Content Include="Views\ContactUs\ContactUs61.vbhtml" />
     <Content Include="Views\QA\QA71.vbhtml" />
     <Content Include="Views\Product\Product23.vbhtml" />
+    <Content Include="Views\Api\getdata.vbhtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
