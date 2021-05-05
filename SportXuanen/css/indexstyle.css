@@ -513,6 +513,13 @@ img {
     .mobile_contactus61_text textarea {
         margin-left:20px;
     }
+<<<<<<< HEAD
+=======
+    .contact_fm font {
+        margin-left: -140px;
+    }
+}
+>>>>>>> 0a7412093f4a87062c80be291a61bf6ac049b226
 
 @media only screen and (min-width:371px) and (max-width:375px) {
     .nav_menu {
@@ -621,6 +628,7 @@ img {
     }
 
     .mobile_contactus61_in {
+<<<<<<< HEAD
         transform: scale(0.9);
         left: -35px;
     }
@@ -628,6 +636,18 @@ img {
         transform: scale(0.9);
         top: 160px;
         left: -170px;
+=======
+        transform: scale(0.8);
+        left: -50px;
+    }
+
+    .mobile_contactus61_text {
+        transform: scale(0.8);
+        width: 500px;
+        height: 400px;
+        top: 130px;
+        left: -400px;
+>>>>>>> 0a7412093f4a87062c80be291a61bf6ac049b226
     }
 }
 
