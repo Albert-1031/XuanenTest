@@ -5,11 +5,23 @@ Namespace Controllers
         Inherits Controller
 
         ' GET: Product
+        Function Product01() As ActionResult
+            Return View()
+        End Function
+
+        Function Product02() As ActionResult
+            Return View()
+        End Function
+
         Function Product11() As ActionResult
             Return View()
         End Function
 
         Function Product12() As ActionResult
+            Return View()
+        End Function
+
+        Function Product13() As ActionResult
             Return View()
         End Function
 
@@ -26,18 +38,6 @@ Namespace Controllers
         End Function
 
         Function Product31() As ActionResult
-            Return View()
-        End Function
-
-        Function Product32() As ActionResult
-            Return View()
-        End Function
-
-        Function Product33() As ActionResult
-            Return View()
-        End Function
-
-        Function Product41() As ActionResult
             Return View()
         End Function
     End Class

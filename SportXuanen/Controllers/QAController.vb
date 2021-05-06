@@ -5,7 +5,7 @@ Namespace Controllers
         Inherits Controller
 
         ' GET: QA
-        Function QA71() As ActionResult
+        Function QA01() As ActionResult
             Return View()
         End Function
     End Class

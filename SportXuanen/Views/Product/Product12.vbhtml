@@ -5,68 +5,54 @@ End Code
 @RenderPage("../Shared/_Header.vbhtml")
 
 <style>
-    table p {
-        background-image: url(../images/_product/12/product_4-05_w12Xh13.png);
-        background-repeat: no-repeat;
-        background-size: 3% auto;
-        background-position-y: 50%;
-        padding-left: 10%;
-    }
-
-    table td {
-        width: 50%
-    }
-
     #article {
-        background-image: url(../images/bg/product_0-15_w1920Xh938.png);
-        background-position-y: 50%;
+        background-image: url(../images/bg/product_02-05.png);
+    }
+
+    #article2 {
+        background-image: url(../images/bg/product_02-07.png);
     }
 </style>
 
 <div id="banner">
-    <img src="../images/_product/12/product_4-01_w1920Xh600.png">
-    <img src="../images/_product/12/product_4-02_w860Xh310.png" style="display:flex; width:45%; margin-top:-25%; margin-left:38%">
+    <img src="../images/_product/12/product_02-01.png">
+    <img src="../images/_product/12/product_02-02.png" style="display:flex; width:45%; margin-top:-25%; margin-left:30%">
 </div>
 <div id="article">
     <div class="section01" style="margin-top:15%">
-        <h2>系統架構</h2>
-        <p style="font-weight: normal">專注於運動產業鏈，以Web-base 網路架構，整合物聯網的軟體及硬體服務。</p>
-        <img src="../images/_product/12/product_4-04_w1415Xh840.png" style="width:100%; margin-top:10%;"><br>
-        
-        <table class="mobile_product12_td" style="width:80%; min-width:220px; text-align:left; line-height:250%; margin-top:10%; margin-bottom:5%; margin-left:15%;">
-            <tr>
-                <td>
-                    <p>閘門通關機</p>
-                </td>
-                <td>
-                    <p>實體信用卡刷卡機</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>自動售機</p>
-                </td>
-                <td>
-                    <p>悠遊卡小額扣款</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>電子發票機</p>
-                </td>
-                <td>
-                    <p>印卡機</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>QR Code 掃描機</p>
-                </td>
-                <td>
-                    <p>Keyboard 讀卡機</p>
-                </td>
-            </tr>
-        </table>
+        <h2>教練課</h2>
+        <p style="font-weight: normal">
+            花很多時間計算教練鐘點?  掌握不到教練每天進度?學生時常詢問還剩多少課?  算不出到底還有多少課程還沒上完?
+            教練及學員透過手機簡單方便安排課程時間，從大量資訊中精準萃取出有益的資料，分析整體銷售及上課數據，減少耗時的人力查詢及分析。
+        </p>
+        <img class="mobile_product12_img" src="../images/_product/12/product_02-03.png" style="width:350px; margin-top:5%; margin-left:-40%"><br>
+        <div class="section01_txt , mobile_product12_txt" style="display: inline-block; width: 220px; text-align: left; margin-top: -20%; margin-left: 60%">
+            <p>教練管理</p>
+            <p>課程預約</p>
+            <p>系統自動點名</p>
+            <p>學員App查詢預約</p>
+            <p>上課堂數及金額報表</p>
+            <p>剩餘堂數及金額報表</p>
+        </div>
     </div>
 </div>
+<div id="article2">
+    <div class="section02" style="margin-top:5%">
+        <h2>場租教練</h2>
+        <p>透過線上場地租借功能，增加場地安排的靈活性，讓你的場館能夠100%充分利用，透過分析整體銷售及上課數據，減少耗時的人員核對錯誤機會。</p>
+        <img class="mobile_product12_img" src="../images/_product/12/product_02-06.png" style="width:350px; margin-top:5%; margin-left:-40%"><br>
+        <div class="section01_txt , mobile_product12_txt" style="display: inline-block; width: 220px; text-align: left; margin-top: -20%; margin-left: 60%">
+            <p>上課場地預約</p>
+            <p>上課分鐘管理</p>
+            <p>教場教練點名</p>
+            <p>團課教室行事曆</p>
+            <p>自由教練會員管理</p>
+            <p>每日上課堂數確認單</p>
+        </div>
+
+    </div>
+</div>
+
 @RenderPage("../Shared/_Footer.vbhtml")
+
+

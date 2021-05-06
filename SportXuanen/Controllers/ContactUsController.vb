@@ -5,7 +5,7 @@ Namespace Controllers
         Inherits Controller
 
         ' GET: ContactUs
-        Function ContactUs61() As ActionResult
+        Function ContactUs01() As ActionResult
             Return View()
         End Function
     End Class

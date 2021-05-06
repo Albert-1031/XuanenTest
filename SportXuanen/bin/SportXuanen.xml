@@ -442,5 +442,14 @@ Login_but 控制項。
 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
 </remarks>
 </member>
+<member name="M:SportXuanen.Controllers.ApiController.更新人數資料(System.String,SportXuanen.Controllers.class_人數@,System.Int32)">
+ <summary>
+ 更新人流
+ </summary>
+ <param name="centercode"></param>
+ <param name="sdata"></param>
+ <param name="action">update 資料 1/新增資料</param>
+ <returns></returns>
+</member>
 </members>
 </doc>
