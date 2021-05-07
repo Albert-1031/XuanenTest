@@ -386,6 +386,8 @@ img {
     }
 /************************************qa css code -end*/
 
+/************************************************************************/
+/************************************************************************/
 @media only screen and (max-width:420px) {
 
     body {
@@ -502,6 +504,63 @@ img {
         top: 50px;
     }
 
+    .mobile_product22_txt1 {
+        transform: scale(0.7);
+        position:relative;
+        z-index:auto;
+        top:-50px;
+        left:-350px;
+    }
+    .mobile_product22_txt2 {
+        transform: scale(0.7);
+        position:relative;
+        z-index:auto;
+        top:-40px;
+        left:-300px;
+    }
+    .mobile_product22_txt2 div{
+        margin:auto -20px;
+    }
+
+    .mobile_product22_img {
+        transform: scale(0.8);
+        position: relative;
+        z-index: auto;
+        left: -25px;
+    }
+
+    .mobile_product23_txt1, .mobile_product23_img1, .mobile_product23_txt2, .mobile_product23_img2, .mobile_product23_txt3, .mobile_product23_img3 {
+        position: relative;
+        z-index: auto;
+    }
+
+    .mobile_product23_img1 {
+        transform: scale(0.7);
+    }
+    .mobile_product23_txt1 {
+        transform: scale(0.8);
+        top:-50px;
+        left:-100px;
+    }
+    .mobile_product23_img2 {
+        transform: scale(0.7);
+        left: 20px;
+    }
+    .mobile_product23_txt2 {
+        transform: scale(0.8);
+        top:-50px;
+    }
+    .mobile_product23_img3 {
+        transform: scale(1.2);
+        top:20px;
+        left: -20px;
+    }
+    .mobile_product23_txt3 {
+        transform: scale(0.7);
+        top:-50px;
+        left:-90px;
+    }
+
     .mobile_product31_txt p, .mobile_product31_txt_2 p, .mobile_product31_txt_3 p {
         line-height: 24px;
     }
@@ -591,8 +650,28 @@ img {
         left: -35%;
     }
 
-    .mobile_product31_img_3 {
-        left: -35%;
+    .mobile_product22_txt1 {
+        left: -400px;
+    }
+
+    .mobile_product22_txt2 {
+        left: -320px;
+    }
+
+    .mobile_product23_img1 {
+        left:-20px;
+    }
+
+    .mobile_product23_txt1 {
+        left:-110px;
+    }
+
+    .mobile_product23_img2 {
+        left:30px;
+    }
+
+    .mobile_product23_txt2 {
+        left:20px;
     }
 
     .mobile_contactus01_in {
@@ -630,6 +709,30 @@ img {
 
     .mobile_product21_ta {
         left: -35%;
+    }
+
+    .mobile_product22_txt1 {
+        left: -380px;
+    }
+
+    .mobile_product22_txt2 {
+        left: -330px;
+    }
+
+    .mobile_product23_img1 {
+        left: -20px;
+    }
+
+    .mobile_product23_txt1 {
+        left: -110px;
+    }
+
+    .mobile_product23_img2 {
+        left: 30px;
+    }
+
+    .mobile_product23_txt2 {
+        left: 20px;
     }
 
     .mobile_product31_img_3 {
@@ -707,6 +810,46 @@ img {
         transform: scale(0.7);
         top: -45px;
         left: -35%;
+    }
+
+    .mobile_product22_txt1 {
+        top:-80px;
+        left: -420px;
+    }
+
+    .mobile_product22_txt2 {
+        left: -370px;
+    }
+    .mobile_product22_img {
+        left: -40px;
+    }
+
+    .mobile_product23_img1 {
+        left: -30px;
+    }
+
+    .mobile_product23_txt1 {
+        left: -120px;
+    }
+
+    .mobile_product23_img2 {
+        left: 40px;
+    }
+
+    .mobile_product23_txt2 {
+        left: 20px;
+    }
+
+    .mobile_product23_img3 {
+        transform: scale(2);
+        top: 20px;
+        left: 60px;
+    }
+
+    .mobile_product23_txt3 {
+        top:80px;
+        left: -170px;
+        margin-bottom:50px;
     }
 
     .mobile_product31_img, .mobile_product31_txt, .mobile_product31_img_2, .mobile_product31_txt_2, .mobile_product31_img_3, .mobile_product31_txt_3 {

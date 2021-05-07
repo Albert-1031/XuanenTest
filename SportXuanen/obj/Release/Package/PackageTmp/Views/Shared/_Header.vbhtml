@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/indexstyle.css">
+    <script src="@(Url.Content("~/js/jquery.min.js"))"></script>
     <title></title>
 
 </head>
@@ -18,7 +19,7 @@
             <a href="../Index/Index">
                 <img class="nav_logo" src="../images/_index/index_lyaout_V2_Final_Cut-02.png" alt="璿恩資訊">
             </a>
-            
+
             <div class="nav_menu">
                 <ul>
                     <li>
@@ -34,19 +35,19 @@
                         <img class="nav_menu_btn2_on" src="../images/_index/index_lyaout_V2_Final_Cut-06.png" alt="璿恩產品介紹">
                         <div class="nav_menu_btn2_on2">
                             <img style="width: 300px; height: 280px" src="../images/_index/index_lyaout_V2_Final_Cut-10.png" alt="璿恩產品介紹展開">
-                            <a href="../Product/Product11"><div class="nav_menu_btn2_btn" style="margin-top:-245px"></div></a>
-                            <a href="../Product/Product21"><div class="nav_menu_btn2_btn" style="margin-top:-190px"></div></a>
-                            <a href="../Product/Product31"><div class="nav_menu_btn2_btn" style="margin-top:-140px"></div></a>
-                            <a href="../Product/Product41"><div class="nav_menu_btn2_btn" style="margin-top:-85px"></div></a>
+                            <a href="../Product/Product01"><div class="nav_menu_btn2_btn" style="margin-top:-245px"></div></a>
+                            <a href="../Product/Product11"><div class="nav_menu_btn2_btn" style="margin-top:-190px"></div></a>
+                            <a href="../Product/Product21"><div class="nav_menu_btn2_btn" style="margin-top:-140px"></div></a>
+                            <a href="../Product/Product31"><div class="nav_menu_btn2_btn" style="margin-top:-85px"></div></a>
                         </div>
                     </li>
 
                     <li>
-                        <a href="../AboutUs/AboutUs51"><img src="../images/_index/index_lyaout_V2_Final_Cut-07.png" alt="璿恩關於我們"></a>
+                        <a href="../AboutUs/AboutUs01"><img src="../images/_index/index_lyaout_V2_Final_Cut-07.png" alt="璿恩關於我們"></a>
                     </li>
 
                     <li>
-                        <a href="../ContactUs/ContactUs61"><img src="../images/_index/index_lyaout_V2_Final_Cut-08.png" alt="璿恩聯絡我們"></a>
+                        <a href="../ContactUs/ContactUs01"><img src="../images/_index/index_lyaout_V2_Final_Cut-08.png" alt="璿恩聯絡我們"></a>
                     </li>
 
                     <li>

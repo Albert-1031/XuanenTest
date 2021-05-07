@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/indexstyle.css">
-    <title></title>
+    <script src="@(Url.Content("~/js/jquery.min.js"))"></script>
+    <title>璿恩資訊有限公司</title>
 
 </head>
 

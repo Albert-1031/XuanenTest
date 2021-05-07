@@ -6,8 +6,39 @@ End Code
 
 
 <div id="banner">
-    <a href="../Product/Product12"><img src="../images/_index/index_lyaout_V2_Final_Cut-11.png" alt="運動場館的最佳幫手"></a>
+    <a href="../Product/Product02"><img src="../images/_index/index_lyaout_V2_Final_Cut-11.png" alt="運動場館的最佳幫手"></a>
 </div>
+
+<!----------------------------------------------------
+123
+<form id="subform_MainBlock" action="@(Html.Raw(ViewBag.GoTo首頁))" style="width: 100%;height: 100%;">
+    <script type="text/javascript">
+    $(document).ready(function () {
+
+        var TargetUrl = '@Url.Content("~/Api/getdata?c=tp01")';
+            $.ajax({
+                type: 'get',
+                url: TargetUrl,
+                success: function (loaddata) {
+                    var splits = split();
+                    $('#fitness').html(splits.trim());
+                },
+            });
+    });
+
+    </script>
+
+    <div class="inner">健身房</div>
+    <div class="inner2">
+        <span id="fitness" />
+    </div>
+    <div class="innerinner2">/<span id="fitnessl" /></div>
+
+
+
+</form>
+
+<!----------------------------------------------------->
 <div id="article" style="background-image:url(../images/bg/product_02-05.png)">
     <!--運動中心即時人流-->
     <div class="section01" style="width:100%">
@@ -28,10 +59,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-30.png" alt="運動中心人流顯示_健身icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">18 /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.中山健身) /</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">75人</font>
+                                    <font class="people_ot_fo2">@(ViewBag.中山健身max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -45,10 +76,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-31.png" alt="運動中心人流顯示_游泳icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">18 /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.中山游泳) /</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">120人</font>
+                                    <font class="people_ot_fo2">@(ViewBag.中山游泳max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -73,10 +104,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-30.png" alt="運動中心人流顯示_健身icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">18 /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.蘆洲健身) /</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">75人</font>
+                                    <font class="people_ot_fo2">@(ViewBag.蘆洲健身max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -90,10 +121,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-31.png" alt="運動中心人流顯示_游泳icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">18 /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.蘆洲游泳) /</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">120人</font>
+                                    <font class="people_ot_fo2">@(ViewBag.蘆洲游泳max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -118,10 +149,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-30.png" alt="運動中心人流顯示_健身icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">18 /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.桃園健身) /</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">75人</font>
+                                    <font class="people_ot_fo2">@(ViewBag.桃園健身max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -135,10 +166,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-31.png" alt="運動中心人流顯示_游泳icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">18 /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.桃園游泳) /</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">120人</font>
+                                    <font class="people_ot_fo2">@(ViewBag.桃園游泳max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -163,12 +194,12 @@ End Code
 <div id="article" style="background-image:url(../images/bg/product_01-04.png); background-position-y:0%">
     <!--了解更多-->
     <div class="section02 , mobile_index_img" style="padding-bottom:15%">
-        <a href="../Product/Product11"><img src="../images/_index/index_lyaout_V2_Final_Cut-18.png" alt="了解更多" style="width:25%; margin-top:10%;"></a><br>
+        <a href="../Product/Product01"><img src="../images/_index/index_lyaout_V2_Final_Cut-18.png" alt="了解更多" style="width:25%; margin-top:10%;"></a><br>
         <img src="../images/_index/index_lyaout_V2_Final_Cut-19.png" alt="立即與我們聯絡" style="width:20%; margin-top:5%">
         <img src="../images/_index/index_lyaout_V2_Final_Cut-21.png" alt="讓我們與您聯絡" style="width:20%; margin-left:20%"><br>
         <img src="../images/_index/index_lyaout_V2_Final_Cut-20.png" alt="立即與我們聯絡" style="width:20%; margin-top:5%; margin-bottom:5%">
-        <a href="../ContactUs/ContactUs61"><img src="../images/_index/index_lyaout_V2_Final_Cut-22.png" alt="讓我們與您聯絡" style="width:20%; margin-bottom:7%; margin-left:20%"></a><br>
-</div>
+        <a href="../ContactUs/ContactUs01"><img src="../images/_index/index_lyaout_V2_Final_Cut-22.png" alt="讓我們與您聯絡" style="width:20%; margin-bottom:7%; margin-left:20%"></a><br>
+    </div>
 </div>
 
 <div id="article2">
@@ -187,21 +218,21 @@ End Code
                         </td>
                     </tr>
                     <tr>
-                        <td style="height:100px; vertical-align:middle"> 
+                        <td style="height:100px; vertical-align:middle">
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font>
+                            <font class="site_people_fitness">@(ViewBag.中山健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.中山游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.中山健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.中山游泳max)人</font>
                         </td>
                     </tr>
                 </table>
-                
+
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
@@ -209,24 +240,24 @@ End Code
                         </td>
                     </tr>
                     <tr>
-                        <td style="height:100px; vertical-align:middle"> 
+                        <td style="height:100px; vertical-align:middle">
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px"><br>
-                            <img src="../images/_index/index_lyaout_V3_Final_Cut-42.png" alt="各場館即時人流_溜冰icon" style="width:30px">
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-42.png" alt="各場館即時人流_冰宮icon" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font><br>
-                            <font class="site_people_ice">18</font>
+                            <font class="site_people_fitness">@(ViewBag.中正健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.中正游泳)</font><br>
+                            <font class="site_people_ice">@(ViewBag.中正冰宮)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font><br>
-                            <font class="site_people_ice">/ 90人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.中正健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.中正游泳max)人</font><br>
+                            <font class="site_people_ice">/ @(ViewBag.中正冰宮max)人</font>
                         </td>
                     </tr>
                 </table>
-                
+
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
@@ -234,21 +265,21 @@ End Code
                         </td>
                     </tr>
                     <tr>
-                        <td style="height:100px; vertical-align:middle"> 
+                        <td style="height:100px; vertical-align:middle">
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" style="width:30px"><br>
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font>
+                            <font class="site_people_fitness">@(ViewBag.信義健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.信義游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.信義健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.信義游泳max)人</font>
                         </td>
                     </tr>
                 </table>
-                
+
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
@@ -256,14 +287,14 @@ End Code
                         </td>
                     </tr>
                     <tr>
-                        <td style="height:100px; vertical-align:middle"> 
+                        <td style="height:100px; vertical-align:middle">
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font>
+                            <font class="site_people_fitness">@(ViewBag.文山健身)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.文山健身max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -287,12 +318,12 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font>
+                            <font class="site_people_fitness">@(ViewBag.蘆洲健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.蘆洲游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.蘆洲健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.蘆洲游泳max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -310,14 +341,14 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-42.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font><br>
-                            <font class="site_people_ice">18</font>
+                            <font class="site_people_fitness">@(ViewBag.板橋健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.板橋游泳)</font><br>
+                            <font class="site_people_ice">@(ViewBag.板橋冰宮)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font><br>
-                            <font class="site_people_ice">/ 90人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.板橋健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.板橋游泳max)人</font><br>
+                            <font class="site_people_ice">/ @(ViewBag.板橋冰宮max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -334,12 +365,12 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font>
+                            <font class="site_people_fitness">@(ViewBag.板樹健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.板樹游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.板樹健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.板樹游泳max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -355,10 +386,10 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font>
+                            <font class="site_people_fitness">@(ViewBag.鶯歌健身)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.鶯歌健身max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -382,12 +413,12 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font>
+                            <font class="site_people_fitness">@(ViewBag.宜蘭健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.宜蘭游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.宜蘭健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.宜蘭游泳max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -405,14 +436,14 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-42.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font><br>
-                            <font class="site_people_ice">18</font>
+                            <font class="site_people_fitness">@(ViewBag.桃園健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.桃園游泳)</font><br>
+                            <font class="site_people_ice">@(ViewBag.桃園冰宮)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font><br>
-                            <font class="site_people_ice">/ 90人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.桃園健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.桃園游泳max)人</font><br>
+                            <font class="site_people_ice">/ @(ViewBag.桃園冰宮max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -429,12 +460,12 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font>
+                            <font class="site_people_fitness">@(ViewBag.中壢健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.中壢游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.中壢健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.中壢游泳max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -450,10 +481,10 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font>
+                            <font class="site_people_fitness">@(ViewBag.南區健身)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.南區健身max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -477,12 +508,12 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font>
+                            <font class="site_people_fitness">@(ViewBag.港區健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.港區游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.港區健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.港區游泳max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -500,14 +531,14 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-42.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font><br>
-                            <font class="site_people_ice">18</font>
+                            <font class="site_people_fitness">@(ViewBag.南屯健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.南屯游泳)</font><br>
+                            <font class="site_people_ice">@(ViewBag.南屯冰宮)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font><br>
-                            <font class="site_people_ice">/ 90人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.南屯健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.南屯游泳max)人</font><br>
+                            <font class="site_people_ice">/ @(ViewBag.南屯冰宮max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -524,12 +555,12 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font>
+                            <font class="site_people_fitness">@(ViewBag.朝馬健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.朝馬游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.朝馬健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.朝馬游泳max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -545,10 +576,10 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font>
+                            <font class="site_people_fitness">@(ViewBag.長春健身)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.長春健身max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -571,12 +602,12 @@ End Code
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">18</font><br>
-                            <font class="site_people_swim">18</font>
+                            <font class="site_people_fitness">@(ViewBag.鳳山健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.鳳山游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ 75人</font><br>
-                            <font class="site_people_swim">/ 120人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.鳳山健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.鳳山游泳max)人</font>
                         </td>
                     </tr>
                 </table>

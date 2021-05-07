@@ -13,9 +13,15 @@ End Code
         background-image: url(../images/bg/24-7_layout_Final_Cut-17.png);
     }
 
-    td {
-        min-width: 180px;
+    .section02_dv {
+        display: inline-block;
+        width:170px;
+        text-align:left;
     }
+    .section02_dv p{
+        line-height:10px;
+    }
+
 </style>
 
 <div id="banner">
@@ -27,8 +33,8 @@ End Code
     <div class="section01" style="margin-top:15%">
         <h2>網路平台預約</h2>
         <p style="font-weight: normal">透過網路，24小時服務不中斷，提升與不同族群客戶互動性，全面資訊。</p>
-        <img src="../images/_product/22/24-7_layout_Final_Cut-14.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
-        <div class="section01_txt" style="display:inline-block; width:40%; text-align:left; margin-top:-40%; margin-left:60%">
+        <img class="mobile_product22_img" src="../images/_product/22/24-7_layout_Final_Cut-14.png" style="width:40%; max-width:300px; margin-top:5%; margin-left:-35%"><br>
+        <div class="section01_txt , mobile_product22_txt1" style="display:inline-block; width:230px; text-align:left; margin-top:-40%; margin-left:500px">
             <p>課程預約報名</p>
             <p>場地預約服務</p>
             <p>課程查詢</p>
@@ -43,46 +49,18 @@ End Code
     <div class="section02" style="margin-top:5%">
         <h2>專屬品牌App</h2>
         <p style="font-weight: normal">專屬數位體驗運動任你行App，全方位功能，囊括線上購票、課程報名、場地預約、互動遊戲及數位行銷，獲得更多客戶關注與增加黏著度。</p>
-        <img src="../images/_product/22/24-7_layout_Final_Cut-18.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
-        <table class="section01_txt" style="display:inline-block; width:50%; margin-top: -20%; margin-left: 50%">
-            <tr>
-                <td>
-                    <p>課程預約報名</p>
-                </td>
-                <td>
-                    <p>場地預約服務</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>會員權益查詢</p>
-                </td>
-                <td>
-                    <p>最新消息</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>身體測量</p>
-                </td>
-                <td>
-                    <p>運動軌跡</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>獎章收集</p>
-                </td>
-                <td>
-                    <p>問券調查</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>運動紀錄</p>
-                </td>
-            </tr>
-        </table>
+        <img class="mobile_product22_img" src="../images/_product/22/24-7_layout_Final_Cut-18.png" style="width:40%; max-width:300px; margin-top:5%; margin-left:-40%"><br>
+        <div class="mobile_product22_txt2" style="display: inline-block; width: 430px; text-align: left; margin-top: -20%; margin-left: 400px ">
+            <div class="section02_dv , section01_txt"><p>課程預約報名</p></div>
+            <div class="section02_dv , section01_txt"><p>場地預約服務</p></div><br>
+            <div class="section02_dv , section01_txt"><p>會員權益查詢</p></div>
+            <div class="section02_dv , section01_txt"><p>最新消息</p></div><br>
+            <div class="section02_dv , section01_txt"><p>身體測量</p></div>
+            <div class="section02_dv , section01_txt"><p>運動軌跡</p></div><br>
+            <div class="section02_dv , section01_txt"><p>獎章收集</p></div>
+            <div class="section02_dv , section01_txt"><p>問券調查</p></div><br>
+            <div class="section02_dv , section01_txt"><p>運動紀錄</p></div>
+        </div>
     </div>
 </div>
 
