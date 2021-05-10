@@ -21,7 +21,7 @@ End Code
 <div id="article">
     <div class="section01" style="margin-top:15%">
         <h2>教練課</h2>
-        <p style="font-weight: normal">
+        <p class="section_des">&ensp;&ensp;&ensp;&ensp;
             花很多時間計算教練鐘點?  掌握不到教練每天進度?學生時常詢問還剩多少課?  算不出到底還有多少課程還沒上完?
             教練及學員透過手機簡單方便安排課程時間，從大量資訊中精準萃取出有益的資料，分析整體銷售及上課數據，減少耗時的人力查詢及分析。
         </p>

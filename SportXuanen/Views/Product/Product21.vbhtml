@@ -29,7 +29,7 @@ End Code
 <div id="article">
     <div class="section01" style="margin-top:15%">
         <h2>完整POS</h2>
-        <p style="font-weight: normal">開啟電腦網頁，開始結帳吧!完整功能及多元支付工具，一個頁面滿足所有客戶需求，專注提供客戶服務。</p>
+        <p class="section_des">&ensp;&ensp;&ensp;&ensp;開啟電腦網頁，開始結帳吧!完整功能及多元支付工具，一個頁面滿足所有客戶需求，專注提供客戶服務。</p>
         <img src="../images/_product/21/Service_lyaout_Final_Cut-13.png" style="width:90%; margin-top:10%;"><br>
 
         <table class="section01_txt , mobile_product21_ta" style="margin-top:10%; margin-left:15%">
@@ -72,7 +72,7 @@ End Code
 <div id="article2">
     <div class="section02" style="margin-top:5%">
         <h2>靈活課務</h2>
-        <p style="font-weight: normal">滿足需求的課務系統，搭配頂尖行銷方案，創造高收益與效益，靈活運用系統，客人源源不絕。</p>
+        <p class="section_des">&ensp;&ensp;&ensp;&ensp;滿足需求的課務系統，搭配頂尖行銷方案，創造高收益與效益，靈活運用系統，客人源源不絕。</p>
         <img class="mobile_product21_img" src="../images/_product/21/Service_lyaout_Final_Cut-16.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
         <div class="section01_txt , mobile_product21_txt" style="display: inline-block; width: 300px; text-align: left; margin-top: -38%; margin-left: 60%">
             <p>設定各式課程類別</p>

@@ -47,14 +47,14 @@ End Code
         <p>
             若有任何疑問，您可以直接在此處留下問題，亦可於上班時間與我們聯絡！
         </p>
-        <img src="../images/_contact_us/contact_lyaout_Final_Cut-11.png" style="width:40%; margin-top:5%">
-        <div style="width:45%; text-align:left; margin-top:5%; float:right">
-            <img src="../images/_contact_us/contact_lyaout_Final_Cut-17.png" style="width:25%; margin-left:8%"><br>
-            <a href="https://www.facebook.com/xuanensports"><img src="../images/_contact_us/contact_lyaout_Final_Cut-12.png" style="width:28%; margin-top:3%; margin-left:10%"></a>
-            <a href="https://line.me/ti/p/CC-hpxsVv8"><img src="../images/_contact_us/contact_lyaout_Final_Cut-14.png" style="width:20%; margin-bottom:2%; margin-left:15%"></a>
+        <img src="../images/_contact_us/contact_lyaout_Final_Cut-11.png" style="width:36%; margin-top:5%">
+        <div style="width:46%; text-align:left; margin-top:5%; float:right">
+            <img src="../images/_contact_us/contact_lyaout_Final_Cut-17.png" style="width:25%"><br>
+            <a href="https://www.facebook.com/xuanensports"><img src="../images/_contact_us/contact_lyaout_Final_Cut-12.png" style="width:28%; margin-top:3%"></a>
+            <a href="https://line.me/ti/p/CC-hpxsVv8"><img src="../images/_contact_us/contact_lyaout_Final_Cut-14.png" style="width:20%; margin-bottom:2%; margin-left:20%"></a>
             <img src="../images/_contact_us/contact_lyaout_Final_Cut-15.png" style="width:20%; margin-bottom:2%"><br>
-            <img src="../images/_contact_us/contact_lyaout_Final_Cut-13.png" style="width:42%">
-            <img src="../images/_contact_us/contact_lyaout_Final_Cut-16.png" style="width:33%; margin-left:15%">
+            <img src="../images/_contact_us/contact_lyaout_Final_Cut-13.png" style="width:45%; margin-left:-10%">
+            <img src="../images/_contact_us/contact_lyaout_Final_Cut-16.png" style="width:55%; margin-left:5%" ">
         </div>
     </div>
     <div class="section02" style="width:70%">

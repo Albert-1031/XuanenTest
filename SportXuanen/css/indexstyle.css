@@ -42,6 +42,7 @@ img {
     margin-right: auto;
     text-align: center;
     overflow: hidden;
+    font-family: Arial;
 }
 
 /************************************************ header css code ***/
@@ -62,58 +63,82 @@ img {
 }
 
 .nav_menu {
-    width: 700px;
-    height: 22px;
+    width: 660px;
+    height: 25px;
+    position: relative;
+    z-index: 3;
+    top: 24px;
+    font-size: 20px;
+    color: #ffffff;
     float: right;
 }
+
+    .nav_menu a {
+        color: #ffffff;
+    }
 
     .nav_menu li {
         display: inline-block;
         position: relative;
-        z-index: 3;
+        z-index: auto;
         vertical-align: top;
-        top: 28px;
-        margin-left: 30px;
+        height: 65px;
+        margin: auto 24px;
     }
 
-    .nav_menu img {
-        height: 22px;
+        .nav_menu li:hover .nav_menu2 {
+            display: block;
+        }
+
+.nav_menu2 {
+    display: none;
+    border-radius: 10px;
+    background-color: #13333f;
+    position: absolute;
+    z-index: auto;
+    top: 60px;
+    width: 220px;
+    margin-left: -75%;
+    opacity: 0.9;
+}
+
+    .nav_menu2 li {
+        width: 220px;
+        height: 50px;
+        line-height: 50px;
+        margin: auto auto;
+        padding-right: 20px;
     }
 
-    .nav_menu li:hover .nav_menu_btn2_off {
-        display: none;
-    }
+        .nav_menu2 li:hover .nav_menu3 {
+            display: block;
+        }
 
-    .nav_menu li .nav_menu_btn2_on {
-        display: none;
-    }
-
-    .nav_menu li:hover .nav_menu_btn2_on {
-        display: block;
-    }
-
-.nav_menu_btn2_on2 {
+.nav_menu3 {
     display: none;
     position: absolute;
-    z-index: 1;
-    width: 300px;
-    height: 250px;
-    padding-top: 15px;
-    top: 20px;
-    left: -90px;
+    z-index: auto;
+    top: -15px;
+    left: 225px;
+    border-radius: 10px;
+    background-color: #13333f;
 }
 
-.nav_menu li:hover .nav_menu_btn2_on2 {
-    display: block;
+    .nav_menu3 li {
+        width: 280px;
+        height: 50px;
+        line-height: 50px;
+        padding-right: 0px;
+    }
+
+.nav_menu2 ul {
+    margin: 15px auto;
 }
 
-.nav_menu_btn2_btn {
-    position: absolute;
-    z-index: 1;
-    width: 200px;
-    height: 30px;
-    margin-left: 45px;
+.nav_menu img {
+    height: 26px;
 }
+
 /****************************************** header css -end ***/
 
 #article {
@@ -171,7 +196,12 @@ img {
     padding-right: 8%;
     text-align: right;
 }
-
+.section_des {
+    width:85%;
+    font-weight: normal;
+    text-align:left;
+    margin:auto;
+}
 /************************************   index人流 css   */
 .people_ot { /*中心人流*/
     position: relative;
@@ -414,11 +444,21 @@ img {
     .nav_menu {
         transform: scale(0.7);
         display: inline-block;
-        margin-top: 1%;
-        margin-left: -36%;
+        margin-top:-5px;
+        margin-left: -30%;
         float: none;
     }
-
+    .nav_menu li{
+        margin:auto 3%;
+        height: 45px;
+    }
+    .nav_menu2{
+        margin-top:-20px;
+        margin-left:-70px;
+    }
+    .nav_menu2 li{
+        margin-left:-2px;
+    }
     .people_ot {
         transform: scale(0.4);
         margin-top: -25%;
@@ -427,7 +467,9 @@ img {
         margin-right: -15%;
         width: auto;
     }
-
+    .section_des {
+        width:100%;
+    }
     .mobile_index_txt {
         transform: scale(1.5);
     }
@@ -634,7 +676,7 @@ img {
 @media only screen and (min-width:371px) and (max-width:375px) {
     .nav_menu {
         transform: scale(0.6);
-        margin-left: -45%;
+        margin-left: -38%;
     }
 
     .site_people {
@@ -695,7 +737,7 @@ img {
 @media only screen and (min-width:321px) and (max-width:370px) {
     .nav_menu {
         transform: scale(0.6);
-        margin-left: -48%;
+        margin-left: -42%;
     }
 
     .site_people {
@@ -771,8 +813,7 @@ img {
 @media only screen and (max-width:320px) {
     .nav_menu {
         transform: scale(0.5);
-        margin-top: 2%;
-        margin-left: -62%;
+        margin-left: -52%;
     }
 
     .people_ot {

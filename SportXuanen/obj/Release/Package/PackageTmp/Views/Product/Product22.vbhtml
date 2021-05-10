@@ -32,7 +32,7 @@ End Code
 <div id="article">
     <div class="section01" style="margin-top:15%">
         <h2>網路平台預約</h2>
-        <p style="font-weight: normal">透過網路，24小時服務不中斷，提升與不同族群客戶互動性，全面資訊。</p>
+        <p class="section_des">&ensp;&ensp;&ensp;&ensp;透過網路，24小時服務不中斷，提升與不同族群客戶互動性，全面資訊。</p>
         <img class="mobile_product22_img" src="../images/_product/22/24-7_layout_Final_Cut-14.png" style="width:40%; max-width:300px; margin-top:5%; margin-left:-35%"><br>
         <div class="section01_txt , mobile_product22_txt1" style="display:inline-block; width:230px; text-align:left; margin-top:-40%; margin-left:500px">
             <p>課程預約報名</p>
@@ -48,7 +48,7 @@ End Code
 <div id="article2">
     <div class="section02" style="margin-top:5%">
         <h2>專屬品牌App</h2>
-        <p style="font-weight: normal">專屬數位體驗運動任你行App，全方位功能，囊括線上購票、課程報名、場地預約、互動遊戲及數位行銷，獲得更多客戶關注與增加黏著度。</p>
+        <p class="section_des">&ensp;&ensp;&ensp;&ensp;專屬數位體驗運動任你行App，全方位功能，囊括線上購票、課程報名、場地預約、互動遊戲及數位行銷，獲得更多客戶關注與增加黏著度。</p>
         <img class="mobile_product22_img" src="../images/_product/22/24-7_layout_Final_Cut-18.png" style="width:40%; max-width:300px; margin-top:5%; margin-left:-40%"><br>
         <div class="mobile_product22_txt2" style="display: inline-block; width: 430px; text-align: left; margin-top: -20%; margin-left: 400px ">
             <div class="section02_dv , section01_txt"><p>課程預約報名</p></div>

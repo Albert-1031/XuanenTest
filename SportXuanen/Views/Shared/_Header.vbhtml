@@ -27,27 +27,51 @@
                     </li>
 
                     <li>
-                        <a href="../Index/Index"><img src="../images/_index/index_lyaout_V2_Final_Cut-04.png" alt="璿恩首頁"></a>
+                        <a href="../Index/Index">首頁</a>
                     </li>
 
                     <li>
-                        <img class="nav_menu_btn2_off" src="../images/_index/index_lyaout_V2_Final_Cut-05.png" alt="璿恩產品介紹">
-                        <img class="nav_menu_btn2_on" src="../images/_index/index_lyaout_V2_Final_Cut-06.png" alt="璿恩產品介紹">
-                        <div class="nav_menu_btn2_on2">
-                            <img style="width: 300px; height: 280px" src="../images/_index/index_lyaout_V2_Final_Cut-10.png" alt="璿恩產品介紹展開">
-                            <a href="../Product/Product01"><div class="nav_menu_btn2_btn" style="margin-top:-245px"></div></a>
-                            <a href="../Product/Product11"><div class="nav_menu_btn2_btn" style="margin-top:-190px"></div></a>
-                            <a href="../Product/Product21"><div class="nav_menu_btn2_btn" style="margin-top:-140px"></div></a>
-                            <a href="../Product/Product31"><div class="nav_menu_btn2_btn" style="margin-top:-85px"></div></a>
-                        </div>
+                        產品介紹
+                        <ul class="nav_menu2">
+                            <li>
+                                面面俱到管理工具
+                                <ul class="nav_menu3">
+                                    <li><a href="../Product/Product01">面面俱到管理工具</a></li>
+                                    <li><a href="../Product/Product02">嶄新的資訊技術</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                健身房/工作室/游泳池
+                                <ul class="nav_menu3">
+                                    <li><a href="../Product/Product11">來動創造活力 高階專屬服務</a></li>
+                                    <li><a href="../Product/Product12">挑戰自我訓練及共享教學機制</a></li>
+                                    <li><a href="../Product/Product13">新世代的課程管理</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                運動中心
+                                <ul class="nav_menu3">
+                                    <li><a href="../Product/Product21">科技創造力 創造無限可能</a></li>
+                                    <li><a href="../Product/Product22">24/7 連結客戶 提升黏著度</a></li>
+                                    <li><a href="../Product/Product23">互相串聯 Make it easy</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="../Product/Product31">信託履約</a>
+                            </li>
+                        </ul>
                     </li>
 
                     <li>
-                        <a href="../AboutUs/AboutUs01"><img src="../images/_index/index_lyaout_V2_Final_Cut-07.png" alt="璿恩關於我們"></a>
+                        <a>關於我們</a>
+                        <ul class="nav_menu2">
+                            <li><a href="../AboutUs/AboutUs01">關於我們</a></li> 
+                            <li><a href="../AboutUs/AboutUs02">全方位領頭羊</a></li> 
+                        </ul>
                     </li>
 
                     <li>
-                        <a href="../ContactUs/ContactUs01"><img src="../images/_index/index_lyaout_V2_Final_Cut-08.png" alt="璿恩聯絡我們"></a>
+                        <a href="../ContactUs/ContactUs01"">聯絡我們</a>
                     </li>
 
                     <li>

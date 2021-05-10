@@ -30,7 +30,7 @@ End Code
 <div id="article">
     <div class="section01" style="margin-top:15%">
         <h2>系統架構</h2>
-        <p style="font-weight: normal">專注於運動產業鏈，以Web-base 網路架構，整合物聯網的軟體及硬體服務。</p>
+        <p class="section_des">&ensp;&ensp;&ensp;&ensp;專注於運動產業鏈，以Web-base 網路架構，整合物聯網的軟體及硬體服務。</p>
         <img src="../images/_product/02/product_4_new-01.png" style="width:100%; margin-top:10%;"><br>
 
         <table class="mobile_product02_td" style="width:80%; min-width:220px; text-align:left; line-height:250%; margin-top:10%; margin-bottom:5%; margin-left:15%;">

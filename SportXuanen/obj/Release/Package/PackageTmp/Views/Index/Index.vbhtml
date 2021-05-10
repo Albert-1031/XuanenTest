@@ -9,36 +9,41 @@ End Code
     <a href="../Product/Product02"><img src="../images/_index/index_lyaout_V2_Final_Cut-11.png" alt="運動場館的最佳幫手"></a>
 </div>
 
-<!----------------------------------------------------
-123
 <form id="subform_MainBlock" action="@(Html.Raw(ViewBag.GoTo首頁))" style="width: 100%;height: 100%;">
     <script type="text/javascript">
-    $(document).ready(function () {
+        $(document).ready(function () {
+            //var center = ['tp01', 'tp04', 'tp06', 'tp07', 'tp11', 'tp13', 'tp14', 'tp15', 'jj01', 'cg01', 'sl01', 'ds01', 'ds02', 'kc01', 'nd01', 'wd04', 'wd08'];
+            var center = ['@Url.Content("~/Api/getdata?c=tp01")',
+                '@Url.Content("~/Api/getdata?c=jj01")',
+                '@Url.Content("~/Api/getdata?c=tp04")',
+                '@Url.Content("~/Api/getdata?c=tp06")',
+                '@Url.Content("~/Api/getdata?c=tp07")',
+                '@Url.Content("~/Api/getdata?c=cg01")',
+                '@Url.Content("~/Api/getdata?c=sl01")',
+                '@Url.Content("~/Api/getdata?c=ds01")',
+                '@Url.Content("~/Api/getdata?c=ds02")',
+                '@Url.Content("~/Api/getdata?c=tp13")',
+                '@Url.Content("~/Api/getdata?c=tp15")',
+                '@Url.Content("~/Api/getdata?c=tp14")',
+                '@Url.Content("~/Api/getdata?c=kc01")',
+                '@Url.Content("~/Api/getdata?c=nd01")',
+                '@Url.Content("~/Api/getdata?c=tp11")',
+                '@Url.Content("~/Api/getdata?c=wd08")',
+                '@Url.Content("~/Api/getdata?c=wd04")']
 
-        var TargetUrl = '@Url.Content("~/Api/getdata?c=tp01")';
-            $.ajax({
-                type: 'get',
-                url: TargetUrl,
-                success: function (loaddata) {
-                    var splits = split();
-                    $('#fitness').html(splits.trim());
-                },
-            });
-    });
-
+            for (var i = 0; i < center.length; i++) {
+                var TargetUrl = center[i];
+                $.ajax({
+                    type: 'get',
+                    url: TargetUrl,
+                    success: function (loaddata) {
+                    },
+                });
+            }
+        });
     </script>
-
-    <div class="inner">健身房</div>
-    <div class="inner2">
-        <span id="fitness" />
-    </div>
-    <div class="innerinner2">/<span id="fitnessl" /></div>
-
-
-
 </form>
 
-<!----------------------------------------------------->
 <div id="article" style="background-image:url(../images/bg/product_02-05.png)">
     <!--運動中心即時人流-->
     <div class="section01" style="width:100%">
@@ -197,8 +202,8 @@ End Code
         <a href="../Product/Product01"><img src="../images/_index/index_lyaout_V2_Final_Cut-18.png" alt="了解更多" style="width:25%; margin-top:10%;"></a><br>
         <img src="../images/_index/index_lyaout_V2_Final_Cut-19.png" alt="立即與我們聯絡" style="width:20%; margin-top:5%">
         <img src="../images/_index/index_lyaout_V2_Final_Cut-21.png" alt="讓我們與您聯絡" style="width:20%; margin-left:20%"><br>
-        <img src="../images/_index/index_lyaout_V2_Final_Cut-20.png" alt="立即與我們聯絡" style="width:20%; margin-top:5%; margin-bottom:5%">
-        <a href="../ContactUs/ContactUs01"><img src="../images/_index/index_lyaout_V2_Final_Cut-22.png" alt="讓我們與您聯絡" style="width:20%; margin-bottom:7%; margin-left:20%"></a><br>
+        <img src="../images/_index/index_lyaout_V2_Final_Cut-20.png" alt="立即與我們聯絡" style="width:24%; margin-top:5%; margin-bottom:5%; margin-left:-4%">
+        <a href="../ContactUs/ContactUs01"><img src="../images/_index/index_lyaout_V2_Final_Cut-22.png" alt="讓我們與您聯絡" style="width:18%; margin-bottom:5%; margin-left:19%"></a><br>
     </div>
 </div>
 
