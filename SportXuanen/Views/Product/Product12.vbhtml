@@ -26,7 +26,7 @@ End Code
             教練及學員透過手機簡單方便安排課程時間，從大量資訊中精準萃取出有益的資料，分析整體銷售及上課數據，減少耗時的人力查詢及分析。
         </p>
         <img class="mobile_product12_img" src="../images/_product/12/product_02-03.png" style="width:350px; margin-top:5%; margin-left:-40%"><br>
-        <div class="section01_txt , mobile_product12_txt" style="display: inline-block; width: 220px; text-align: left; margin-top: -20%; margin-left: 60%">
+        <div class="section01_txt" style="display: inline-block; width: 220px; text-align: left; margin-top: -50%; margin-left: 50%">
             <p>教練管理</p>
             <p>課程預約</p>
             <p>系統自動點名</p>
@@ -39,9 +39,11 @@ End Code
 <div id="article2">
     <div class="section02" style="margin-top:5%">
         <h2>場租教練</h2>
-        <p>透過線上場地租借功能，增加場地安排的靈活性，讓你的場館能夠100%充分利用，透過分析整體銷售及上課數據，減少耗時的人員核對錯誤機會。</p>
+        <p class="section_des">&ensp;&ensp;&ensp;&ensp;
+            透過線上場地租借功能，增加場地安排的靈活性，讓你的場館能夠100%充分利用，透過分析整體銷售及上課數據，減少耗時的人員核對錯誤機會。
+        </p>
         <img class="mobile_product12_img" src="../images/_product/12/product_02-06.png" style="width:350px; margin-top:5%; margin-left:-40%"><br>
-        <div class="section01_txt , mobile_product12_txt" style="display: inline-block; width: 220px; text-align: left; margin-top: -20%; margin-left: 60%">
+        <div class="section01_txt" style="display: inline-block; width: 220px; text-align: left; margin-top: -50%; margin-left: 50%">
             <p>上課場地預約</p>
             <p>上課分鐘管理</p>
             <p>教場教練點名</p>

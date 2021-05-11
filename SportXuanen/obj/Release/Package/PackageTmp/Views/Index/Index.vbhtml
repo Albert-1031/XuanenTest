@@ -64,10 +64,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-30.png" alt="運動中心人流顯示_健身icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">@(ViewBag.中山健身) /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.中山健身)</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">@(ViewBag.中山健身max)人</font>
+                                    <font class="people_ot_fo2">/ @(ViewBag.中山健身max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -81,10 +81,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-31.png" alt="運動中心人流顯示_游泳icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">@(ViewBag.中山游泳) /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.中山游泳)</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">@(ViewBag.中山游泳max)人</font>
+                                    <font class="people_ot_fo2">/ @(ViewBag.中山游泳max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -109,10 +109,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-30.png" alt="運動中心人流顯示_健身icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">@(ViewBag.蘆洲健身) /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.蘆洲健身)</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">@(ViewBag.蘆洲健身max)人</font>
+                                    <font class="people_ot_fo2">/ @(ViewBag.蘆洲健身max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -126,10 +126,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-31.png" alt="運動中心人流顯示_游泳icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">@(ViewBag.蘆洲游泳) /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.蘆洲游泳)</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">@(ViewBag.蘆洲游泳max)人</font>
+                                    <font class="people_ot_fo2">/ @(ViewBag.蘆洲游泳max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -154,10 +154,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-30.png" alt="運動中心人流顯示_健身icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">@(ViewBag.桃園健身) /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.桃園健身)</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">@(ViewBag.桃園健身max)人</font>
+                                    <font class="people_ot_fo2">/ @(ViewBag.桃園健身max)人</font>
                                 </td>
                             </tr>
                         </table>
@@ -171,10 +171,10 @@ End Code
                                     <img src="../images/_index/index_lyaout_V3_Final_Cut-31.png" alt="運動中心人流顯示_游泳icon">
                                 </td>
                                 <td style="padding-top:12px; width:60px; padding-top:10px">
-                                    <font class="people_ot_fo1">@(ViewBag.桃園游泳) /</font>
+                                    <font class="people_ot_fo1">@(ViewBag.桃園游泳)</font>
                                 </td>
                                 <td style="padding-top:15px">
-                                    <font class="people_ot_fo2">@(ViewBag.桃園游泳max)人</font>
+                                    <font class="people_ot_fo2">/ @(ViewBag.桃園游泳max)人</font>
                                 </td>
                             </tr>
                         </table>

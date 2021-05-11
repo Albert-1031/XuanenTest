@@ -75,7 +75,7 @@ End Code
         <h2>信託</h2>
         <p class="section_des">&ensp;&ensp;&ensp;&ensp;與信託銀行-新光銀行信託部配合，信託作業全自動系統化管理，系統整合中心POS，銷售自計算額度，客人使用當天即核銷，票券到期提回，由系統處理，不須人工整理票券，只需印報表核對。</p>
         <img class="mobile_product23_img3" src="../images/_product/23/System_lyaout_Final_Cut-20.png" style="width:40%; margin-left:-50%"><br>
-        <div class="section01_txt , mobile_product23_txt3" style="display: inline-block; width: 400px; text-align: left; margin-top: -18%; margin-left: 45%">
+        <div class="section01_txt , mobile_product23_txt3" style="display: inline-block; width: 400px; text-align: left; margin-top: -20%; margin-left: 45%">
             <p>即時額度統計表</p>
             <p>警示水位百分比，mail自動發送提醒</p>
             <p>每日提回額度，大幅降低履約保證金</p>

@@ -16,7 +16,7 @@
 <body>
     <div id="main">
         <div class="header">
-            <a href="../Index/Index">
+            <a href="../">
                 <img class="nav_logo" src="../images/_index/index_lyaout_V2_Final_Cut-02.png" alt="璿恩資訊">
             </a>
 
@@ -27,11 +27,11 @@
                     </li>
 
                     <li>
-                        <a href="../Index/Index">首頁</a>
+                        <a href="../">首頁</a>
                     </li>
 
                     <li>
-                        產品介紹
+                        <a>產品介紹</a>
                         <ul class="nav_menu2">
                             <li>
                                 面面俱到管理工具
@@ -71,7 +71,7 @@
                     </li>
 
                     <li>
-                        <a href="../ContactUs/ContactUs01"">聯絡我們</a>
+                        <a href="../ContactUs/ContactUs01">聯絡我們</a>
                     </li>
 
                     <li>

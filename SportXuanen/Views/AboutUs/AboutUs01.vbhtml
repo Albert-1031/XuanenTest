@@ -44,8 +44,8 @@ End Code
 <div id="article">
     <div class="section01" style="margin-top:5%">
         <div style="width:80%; margin:auto">
-            <p>
-                璿恩資訊於2000年2月開啟提供服務，整合 RFID 及 QR Code 辨識技術基礎，專注於軟體開發與整合，公司團隊是由極豐富產業經驗之高科技IT菁英所組成，不斷的以最新的技術，秉持公司核心價值整合 、創新、 服務、 速度服務客戶。
+            <p class="section_des">
+                &ensp;&ensp;&ensp;&ensp;璿恩資訊於2000年2月開啟提供服務，整合 RFID 及 QR Code 辨識技術基礎，專注於軟體開發與整合，公司團隊是由極豐富產業經驗之高科技IT菁英所組成，不斷的以最新的技術，秉持公司核心價值整合 、創新、 服務、 速度服務客戶。
                 系統以 WEB APP 開發(USE ASP, PHP, ASP .NET,JS,CSS)，整合加值運用、達到管理、管制之智慧型網路應用系統。
                 目前大型OT運動場館多數採用之系統，以豐富的健身業經驗，致力於發展多元健身產業管理系統，提供完整的一套式系統服務客戶。
             </p>
@@ -82,7 +82,7 @@ End Code
 
 <div class="section02" style="margin-top:5%">
     <img src="../images/_about_us/01/about_lyaout_Final_Cut-27.png" style="width:30%; margin-top:5%;"><br>
-    <div class="section02_img , mobile_product51_img" style="margin-top:5%">
+    <div class="section02_img , mobile_aboutus01_img" style="margin-top:5%">
         <img src="../images/_about_us/01/合作夥伴Logo-04.png">
         <img src="../images/_about_us/01/合作夥伴Logo-18.png">
         <img src="../images/_about_us/01/合作夥伴Logo-07.png">

@@ -15,16 +15,7 @@ End Code
         background-position-y: 100%;
     }
 
-    .section02_txt p {
-        background-image: url(../images/_product/02/product_4-05_w12Xh13_2.png);
-        background-repeat: no-repeat;
-        background-size: 8px auto;
-        background-position-x: 100%;
-        background-position-y: 50%;
-        padding-top: 0%;
-        padding-bottom: 0%;
-        padding-right: 8%;
-        text-align: right;
+    .section01_txt p, .section02_txt p {
         line-height: 40px;
     }
 </style>

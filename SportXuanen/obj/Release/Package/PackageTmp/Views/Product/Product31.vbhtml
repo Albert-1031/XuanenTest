@@ -20,29 +20,34 @@ End Code
     <div class="section01" style="margin-top:15%">
         <h2>三方稽核 &nbsp 互相牽制</h2>
         <p class="section_des">&ensp;&ensp;&ensp;&ensp;銀行不願信託嗎?信託金額太高嗎?我們與信託銀行-新光銀行信託部配合，額度式信託系統管理，系統整合中心POS，額度內銷售，客人上課堂數、使用次數當天即核銷，信託期滿系統自動提回，不用你計算只要印報表，簡單輕鬆專注經營。</p>
-        <img src="../images/_product/31/Escrow_layout_Final_Cut-15.png" style="width:100%; margin-top:5%;"><br>
+        <img src="../images/_product/31/Escrow_layout_Final_Cut-15.png" style="width:100%; max-width:1000px; margin-top:5%;"><br>
     </div>
 </div>
 <div id="article2">
     <div class="section02" style="margin-top:5%">
         <h2>健身信託商品</h2>
-        <img class="mobile_product31_img" src="../images/_product/31/Escrow_layout_Final_Cut-18.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
-        <div class="section01_txt , mobile_product31_txt" style="display:inline-block; width:150px; text-align:left; margin-top:-38%; margin-right:5%; float:right">
-            <p>教練課</p>
-            <p>定期團體課</p>
-            <p>課程點數</p>
+        <div class="section02_dv">
+            <img class="mobile_product31_img" src="../images/_product/31/Escrow_layout_Final_Cut-18.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
+            <div class="section01_txt , mobile_product31_txt" style="width:150px; text-align:left; margin-top:-38%; margin-right:25%; float:right">
+                <p>教練課</p>
+                <p>定期團體課</p>
+                <p>課程點數</p>
+            </div>
         </div>
-        <img class="mobile_product31_img_2" src="../images/_product/31/Escrow_layout_Final_Cut-19.png" style="width:40%; margin-top:-8%; margin-left:35%"><br>
-        <div class="section02_txt , mobile_product31_txt_2" style="display: inline-block; width: 150px; text-align: left; margin-top: -15%; margin-left: 1%; float:left">
-            <p>進場點數</p>
-            <p>期限月票</p>
+        <div class="section02_dv">
+            <img class="mobile_product31_img2" src="../images/_product/31/Escrow_layout_Final_Cut-19.png" style="width:40%; margin-top:-8%; margin-left:35%"><br>
+            <div class="section02_txt , mobile_product31_txt2" style="width: 150px; text-align: left; margin-top: -15%; margin-left: 20%; float:left">
+                <p>進場點數</p>
+                <p>期限月票</p>
+            </div>
         </div>
-        <img class="mobile_product31_img_3" src="../images/_product/31/Escrow_layout_Final_Cut-21.png" style="width:45%; margin-top:2%; margin-left:-45%"><br>
-        <div class="section01_txt , mobile_product31_txt_3" style="display: inline-block; width: 230px; text-align: left; margin-top: -15%; margin-right: 5%; float:right">
-            <p>連續每月固定日期扣款</p>
+        <div class="section02_dv">
+            <img class="mobile_product31_img3" src="../images/_product/31/Escrow_layout_Final_Cut-21.png" style="width:45%; margin-top:2%; margin-left:-45%"><br>
+            <div class="section01_txt , mobile_product31_txt3" style="width: 230px; text-align: left; margin-top: -15%; margin-right: 15%; float:right">
+                <p>連續每月固定日期扣款</p>
+            </div>
+            <img src="../images/_product/31/Escrow_layout_Final_Cut-22.png" style="width:100%; margin-top:15%"><br>
         </div>
-        <img src="../images/_product/31/Escrow_layout_Final_Cut-22.png" style="width:100%; margin-top:15%"><br>
-
     </div>
 </div>
 
