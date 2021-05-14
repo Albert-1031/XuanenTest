@@ -1,8 +1,8 @@
-﻿@Code
+﻿@*@Code
     Layout = Nothing
 End Code
 
-@RenderPage("../Shared/_Header.vbhtml")
+@RenderPage("../Shared/_Header.vbhtml")*@
 
 <style>
     #article {
@@ -74,7 +74,7 @@ End Code
         <h2>靈活課務</h2>
         <p class="section_des">&ensp;&ensp;&ensp;&ensp;滿足需求的課務系統，搭配頂尖行銷方案，創造高收益與效益，靈活運用系統，客人源源不絕。</p>
         <img class="mobile_product21_img" src="../images/_product/21/Service_lyaout_Final_Cut-16.png" style="width:40%; margin-top:5%; margin-left:-50%"><br>
-        <div class="section01_txt , mobile_product21_txt" style="display: inline-block; width: 300px; text-align: left; margin-top: -38%; margin-left: 60%">
+        <div class="section01_txt , mobile_product21_txt" style="float: right; width: 300px; text-align: left; margin-top: -30%">
             <p>設定各式課程類別</p>
             <p>多管道課程報名統整</p>
             <p>插班、轉班、續報課程</p>
@@ -86,5 +86,5 @@ End Code
     </div>
 </div>
 
-@RenderPage("../Shared/_Footer.vbhtml")
+@*@RenderPage("../Shared/_Footer.vbhtml")*@
 

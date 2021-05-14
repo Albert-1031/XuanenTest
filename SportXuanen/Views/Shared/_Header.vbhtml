@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/indexstyle.css">
-    <script src="@(Url.Content("~/js/jquery.min.js"))"></script>
+    <script src="../js/jquery.min.js"></script>
     <title>璿恩資訊有限公司</title>
 
 </head>
@@ -31,7 +31,9 @@
                     </li>
 
                     <li>
-                        <a>產品介紹</a>
+                        <div class="menu_up">
+                            <a>產品介紹</a>
+                        </div>
                         <ul class="nav_menu2">
                             <li>
                                 面面俱到管理工具
@@ -63,10 +65,12 @@
                     </li>
 
                     <li>
-                        <a>關於我們</a>
+                        <div class="menu_up">
+                            <a>關於我們</a>
+                        </div>
                         <ul class="nav_menu2">
-                            <li><a href="../AboutUs/AboutUs01">關於我們</a></li> 
-                            <li><a href="../AboutUs/AboutUs02">全方位領頭羊</a></li> 
+                            <li><a href="../AboutUs/AboutUs01">關於我們</a></li>
+                            <li><a href="../AboutUs/AboutUs02">全方位領頭羊</a></li>
                         </ul>
                     </li>
 
@@ -80,4 +84,13 @@
                 </ul>
             </div>
         </div>
+
+        @RenderBody()
+
+        <div id="footer">
+            <img src="~/images/_index/index_lyaout_V2_Final_Cut-23.png">
+        </div>
+            </div>
+        </body>
+</html>
 

@@ -1,8 +1,8 @@
 ﻿@Code
-    Layout = Nothing
+    Layout = "../Shared/_Header.vbhtml"
 End Code
 
-@RenderPage("../Shared/_Header.vbhtml")
+@*@RenderPage("../Shared/_Header.vbhtml")*@
 
 <style>
     table p {
@@ -27,7 +27,7 @@ End Code
     <img src="../images/_product/02/product_4-01_w1920Xh600.png">
     <img src="../images/_product/02/product_4-02_w860Xh310.png" style="display:flex; width:45%; margin-top:-25%; margin-left:38%">
 </div>
-<div id="article">
+<div id="article" style="height:500px">
     <div class="section01" style="margin-top:15%">
         <h2>系統架構</h2>
         <p class="section_des">&ensp;&ensp;&ensp;&ensp;專注於運動產業鏈，以Web-base 網路架構，整合物聯網的軟體及硬體服務。</p>
@@ -69,4 +69,4 @@ End Code
         </table>
     </div>
 </div>
-@RenderPage("../Shared/_Footer.vbhtml")
+@*@RenderPage("../Shared/_Footer.vbhtml")*@

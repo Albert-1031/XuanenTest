@@ -1,8 +1,8 @@
 ﻿@Code
-    Layout = Nothing
+    Layout = "../Shared/_Header.vbhtml"
 End Code
 
-@RenderPage("../Shared/_Header.vbhtml")
+@*@RenderPage("../Shared/_Header.vbhtml")*@
 
 <style>
     #article {
@@ -65,7 +65,7 @@ End Code
                 <p>林口運動中心</p>
                 <p>三重運動中心</p>
                 <p>泰山運動園區</p>
-                <p>樹林體育中心<p>
+                <p>樹林體育園區<p>
             </div>
         </div>
     </div>
@@ -102,10 +102,11 @@ End Code
             <div class="section01_txt , mobile_aboutus02_txt2" style="position:absolute; z-index:9; width:200px; margin-top:-350px; margin-left:80%">
                 <p>竹光運動中心</p>
                 <p>竹北運動中心</p>
+                <p>聯園活動中心</p>
 
-                <p style="margin-top:60%">彰北運動中心</p>
+                <p style="margin-top:40%">彰北運動中心</p>
             </div>
         </div>
     </div>
 </div>
-@RenderPage("../Shared/_Footer.vbhtml")
+@*@RenderPage("../Shared/_Footer.vbhtml")*@

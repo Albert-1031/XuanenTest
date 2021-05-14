@@ -17,6 +17,7 @@ Namespace Controllers
             Dim centercode As String = String.Empty
             Dim _jsondata As String = String.Empty
             Dim sdata As New class_人數
+            Dim dba As New 資料庫連線_OLEDB
             Try
                 centercode = Request("c")
             Catch ex1 As Exception
@@ -31,7 +32,7 @@ Namespace Controllers
                 centercode = centercode.ToLower
                 sql_command = "select top 1 * from wp01 where p01=?"
                 objParams = New OleDbParameter() {db.產生參數("p01", OleDbType.VarWChar, centercode)}
-                b = db.Select(sql_command, objParams, ds, ex)
+                b = dba.Select(sql_command, objParams, ds, ex)
                 objParams = Nothing
                 If b Then
                     If ds.Tables(0).Rows.Count > 0 Then
@@ -83,6 +84,7 @@ Namespace Controllers
             Dim ds As DataSet = Nothing
             Dim ds1 As Integer = 0
             Dim sql_command As String = ""
+            Dim dbb As New 資料庫連線_OLEDB
             '查詢人數
             Dim targeturl As String = 中心網址(centercode)
             If Not String.IsNullOrEmpty(targeturl) Then
@@ -113,7 +115,7 @@ Namespace Controllers
                         Case 1 'insert
                             sql_command = "insert into wp01 (p01,p02,p03,p04,p05) values ('" & centercode & "'," & sdata.游泳池 & "," & sdata.健身房 & "," & sdata.冰宮 & ",getdate());"
                     End Select
-                    b = db.Update(sql_command, objParams, ds1, ex)
+                    b = dbb.Update(sql_command, objParams, ds1, ex)
                     Return True
                 Catch ex1 As Exception
                 End Try
@@ -126,7 +128,7 @@ Namespace Controllers
             Dim allecurl As String = ".allec.com.tw"
             Dim xuanenurl As String = ".xuanen.com.tw"
             Select Case centercode.Substring(0, 2)
-                Case "tp", "wd", "jj", "ds", "ts", "cg", "nd", "fe", "kc", "sl", "jb"
+                Case "tp", "wd", "jj", "ds", "ts", "cg", "nd", "kc", "sl", "jb"
                     rsurl = centercode & allecurl
                 Case "wp"
                     rsurl = centercode & allecurl
@@ -134,6 +136,8 @@ Namespace Controllers
             Select Case centercode
                 Case "slsc68", "xwt88", "tsc01"
                     rsurl = centercode & allecurl
+                Case "fe01", "fe02"
+                    rsurl = centercode & allecurl & ":81"
             End Select
 
             Return rsurl

@@ -3,7 +3,7 @@ Imports System.Data.OleDb
 
 Public Class 資料庫連線_OLEDB
     Public ConnectionString As String = Web.Configuration.WebConfigurationManager.ConnectionStrings("db_connect_bodhi").ConnectionString
-    'Public Lock資料連線 As New Object
+    Public Lock資料連線 As New Object
     Event ThrowException(detail As String)
     Public 資料連線 As OleDbConnection
     Public Property 連線字串() As String
@@ -23,13 +23,13 @@ Public Class 資料庫連線_OLEDB
 
         ' 避免多緒使用資料庫
         Dim bResult As Boolean = False
-        'SyncLock Lock資料連線
-        If 資料連線 Is Nothing Then ' 如果尚未連線                
+        SyncLock Lock資料連線
+            If 資料連線 Is Nothing Then ' 如果尚未連線                
                 資料連線 = New OleDbConnection()
                 資料連線.ConnectionString = ConnectionString
                 Try
-                資料連線.Open()
-            Catch ex As Exception
+                    資料連線.Open()
+                Catch ex As Exception
                     RaiseEvent ThrowException(ex.Message)
                     'MsgBox("開啟資料庫失敗!!!in class", MsgBoxStyle.OkOnly Or MsgBoxStyle.Critical Or MsgBoxStyle.ApplicationModal, "警告視窗")
                     Return False
@@ -44,16 +44,16 @@ Public Class 資料庫連線_OLEDB
             sda.SelectCommand.CommandTimeout = timeout
             Dim ds As New DataSet()
             If m參數 IsNot Nothing Then sda.SelectCommand.Parameters.AddRange(m參數)
-        Try
-            sda.Fill(ds)
-            bResult = True
-            mDataset = ds
-            sda.SelectCommand.Parameters.Clear()
-            GoTo 釋放配接
-        Catch ex As Exception
-            _Report("OLEDB", s語法)
-            _Report("OLEDB", ex.Message.ToString)
-            RaiseEvent ThrowException(ex.Message)
+            Try
+                sda.Fill(ds)
+                bResult = True
+                mDataset = ds
+                sda.SelectCommand.Parameters.Clear()
+                GoTo 釋放配接
+            Catch ex As Exception
+                _Report("OLEDB", s語法)
+                _Report("OLEDB", ex.Message.ToString)
+                RaiseEvent ThrowException(ex.Message)
                 catchException = ex
                 GoTo 釋放資料
             End Try
@@ -63,7 +63,7 @@ Public Class 資料庫連線_OLEDB
 釋放配接:
             sda.Dispose()
             sda = Nothing
-        ' End SyncLock
+        End SyncLock
         Return bResult
     End Function
     Public Function Update(ByVal s語法 As String, ByVal m參數 As OleDbParameter(), ByRef firstColumn As Object, ByRef catchException As Exception) As Boolean

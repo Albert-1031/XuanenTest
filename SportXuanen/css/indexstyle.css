@@ -36,6 +36,7 @@ img {
 
 
 #main {
+    position:relative;
     width: 100%;
     height: 100%;
     margin-left: auto;
@@ -44,6 +45,8 @@ img {
     overflow: hidden;
     font-family: Arial;
 }
+
+
 
 /************************************************ header css code ***/
 .header {
@@ -55,8 +58,9 @@ img {
 
 .nav_logo {
     position: relative;
-    z-index: 1;
+    z-index: 0;
     width: 120px;
+    height: auto;
     top: 20px;
     left: 10%;
     float: left;
@@ -66,12 +70,25 @@ img {
     width: 670px;
     height: 25px;
     position: relative;
-    z-index: 3;
+    z-index: 2;
     top: 24px;
     font-size: 20px;
     color: #ffffff;
     float: right;
 }
+    .nav_menu .menu_up {
+        background-image:url(../Images/_index/menu_up.png);
+        background-repeat:no-repeat;
+        background-size:20px auto;
+        background-position-x:100%;
+        background-position-y:50%;
+        text-align:left;
+        width:105px;
+        height:auto;
+    }
+    .nav_menu .menu_up:hover {
+        background-image:url(../Images/_index/menu_down.png);
+    }
 
     .nav_menu a {
         color: #ffffff;
@@ -80,10 +97,10 @@ img {
     .nav_menu li {
         display: inline-block;
         position: relative;
-        z-index: auto;
+        z-index: 9;
         vertical-align: top;
         height: 65px;
-        margin: auto 25px;
+        margin: auto 20px;
     }
 
         .nav_menu li:hover .nav_menu2 {
@@ -98,7 +115,7 @@ img {
     z-index: auto;
     top: 60px;
     width: 220px;
-    margin-left: -75%;
+    margin-left: -65%;
     opacity: 0.9;
 }
 
@@ -159,15 +176,12 @@ img {
 
 .section01, .section02 {
     width: 80%;
+    max-width:1000px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10%;
 }
-.section02_dv{
-    width:100%;
-    max-width:1000px;
-    margin:auto auto;
-}
+
 .section01 li {
     background-image: url(../images/_product/02/product_4-05_w12Xh13.png);
     background-repeat: no-repeat;
@@ -203,7 +217,6 @@ img {
 }
 .section_des {
     width:85%;
-    max-width:1000px;
     font-weight: normal;
     text-align:left;
     margin:auto;
@@ -277,6 +290,22 @@ img {
     margin: 5% auto;
     top: 50px;
 }
+    .site_people .left_arr {
+        position: absolute;
+        z-index: -1;
+        width: 15px;
+        top: 45%;
+        left: 10px;
+        right: auto;
+    }
+    .site_people .right_arr {
+        position: absolute;
+        z-index: -1;
+        width: 15px;
+        top: 45%;
+        left: auto;
+        right: 10px;
+    }
 
     .site_people h3 {
         font-weight: bold;
@@ -424,7 +453,7 @@ img {
 
 /************************************************************************/
 /************************************************************************/
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:430px) {
 
     body {
         min-width: 100%;
@@ -450,21 +479,26 @@ img {
     .nav_menu {
         transform: scale(0.7);
         display: inline-block;
-        margin-top:-5px;
+        top:-15px;
         margin-left: -30%;
         float: none;
     }
+
     .nav_menu li{
-        margin:auto 3%;
-        height: 45px;
+        margin:auto 15px;
+        height: 70px;
+        padding-top:50px;
     }
     .nav_menu2{
-        margin-top:-10px;
+        margin-top:40px;
         margin-left:-70px;
     }
-    .nav_menu2 li{
-        margin-left:-2px;
-    }
+        .nav_menu2 li {
+            margin: auto;
+            height:50px;
+            padding-top: 0px;
+        }
+
     .people_ot {
         transform: scale(0.4);
         margin-top: -25%;
@@ -474,7 +508,7 @@ img {
         width: auto;
     }
     .section_des {
-        width:100%;
+        width:320px;
     }
 
     .section01_txt, .section02_txt {
@@ -556,8 +590,8 @@ img {
         transform: scale(0.8);
         position: relative;
         z-index: auto;
-        top:-120px;
-        left: -25%;
+        top:-150px;
+        left:100px;
     }
 
     .mobile_product21_img {
@@ -569,17 +603,17 @@ img {
 
     .mobile_product22_txt1 {
         transform: scale(0.7);
-        position:relative;
+        position:absolute;
         z-index:auto;
-        top:-50px;
-        left:-350px;
+        top:580px;
+        left:170px;
     }
     .mobile_product22_txt2 {
         transform: scale(0.7);
-        position:relative;
+        position:absolute;
         z-index:auto;
-        top:-40px;
-        left:-300px;
+        top:920px;
+        left:120px;
     }
     .mobile_product22_txt2 div{
         margin:auto -20px;
@@ -592,41 +626,42 @@ img {
         left: -25px;
     }
 
-    .mobile_product23_txt1, .mobile_product23_img1, .mobile_product23_txt2, .mobile_product23_img2, .mobile_product23_txt3, .mobile_product23_img3 {
+    .mobile_product23_txt1, .mobile_product23_img1, .mobile_product23_txt2, .mobile_product23_img2, .mobile_product23_img3 {
         position: relative;
+        z-index: auto;
+    }
+    .mobile_product23_txt3 {
+        position: absolute;
         z-index: auto;
     }
 
     .mobile_product23_img1 {
         transform: scale(0.7);
+        left:-30px;
     }
     .mobile_product23_txt1 {
-        transform: scale(0.8);
-        top:-50px;
-        left:-100px;
+        transform: scale(0.7);
+        top:-30px;
+        left:60px;
     }
     .mobile_product23_img2 {
         transform: scale(0.7);
-        left: 20px;
+        left: 30px;
     }
     .mobile_product23_txt2 {
-        transform: scale(0.8);
+        transform: scale(0.7);
         top:-50px;
+        left:-70px;
     }
     .mobile_product23_img3 {
         transform: scale(1.2);
-        top:20px;
+        top: 20px;
         left: -20px;
     }
     .mobile_product23_txt3 {
         transform: scale(0.7);
-        top:-140px;
-        left:-90px;
-    }
-
-    .section02_dv {
-        position: relative;
-        z-index: auto;
+        top:2150px;
+        left:110px;
     }
 
     .mobile_product31_img, .mobile_product31_img2, .mobile_product31_img3 {
@@ -638,16 +673,16 @@ img {
         z-index: auto;
     }
     .mobile_product31_txt{
-        top:0px;
-        right:-60px;
+        top:870px;
+        right:-30px;
     }
     .mobile_product31_txt2{
-        top:-50px;
-        left:-60px;
+        top:940px;
+        left:-30px;
     }
     .mobile_product31_txt3{
-        top:-50px;
-        right:-100px;
+        top:1070px;
+        right:-60px;
     }
 
     .mobile_aboutus02_txt1 {
@@ -691,6 +726,7 @@ img {
 @media only screen and (min-width:371px) and (max-width:375px) {
     .nav_menu {
         transform: scale(0.6);
+        margin-top:5px;
         margin-left: -38%;
     }
 
@@ -711,27 +747,36 @@ img {
     }
 
     .mobile_product22_txt1 {
-        left: -400px;
+        top:550px;
     }
 
     .mobile_product22_txt2 {
-        left: -320px;
-    }
-
-    .mobile_product23_img1 {
-        left:-20px;
+        top:880px;
     }
 
     .mobile_product23_txt1 {
-        left:-110px;
-    }
-
-    .mobile_product23_img2 {
-        left:30px;
+        left: 70px;
     }
 
     .mobile_product23_txt2 {
-        left:20px;
+        left: -80px;
+    }
+
+    .mobile_product23_txt3 {
+        top: 2100px;
+        left: 80px;
+    }
+
+    .mobile_product31_txt {
+        top: 840px;
+    }
+
+    .mobile_product31_txt2 {
+        top: 910px;
+    }
+
+    .mobile_product31_txt3 {
+        top: 1030px;
     }
     .mobile_aboutus01_img {
         width: 350px;
@@ -758,9 +803,13 @@ img {
 @media only screen and (min-width:321px) and (max-width:370px) {
     .nav_menu {
         transform: scale(0.6);
+        margin-top: 5px;
         margin-left: -42%;
     }
-
+    .section_des {
+        width: 320px;
+        margin:auto -25px;
+    }
     .site_people {
         margin-left: -88%;
         margin-top: -35%;
@@ -775,29 +824,40 @@ img {
     }
 
     .mobile_product22_txt1 {
-        left: -380px;
+        top:540px;
+        left:150px;
     }
 
     .mobile_product22_txt2 {
-        left: -330px;
-    }
-
-    .mobile_product23_img1 {
-        left: -20px;
+        top:860px;
+        left:100px;
     }
 
     .mobile_product23_txt1 {
-        left: -110px;
-    }
-
-    .mobile_product23_img2 {
-        left: 30px;
+        left: 70px;
     }
 
     .mobile_product23_txt2 {
-        left: 20px;
+        left: -80px;
     }
 
+    .mobile_product23_txt3 {
+        top: 2090px;
+        left: 70px;
+    }
+
+    .mobile_product31_txt {
+        top: 820px;
+    }
+
+    .mobile_product31_txt2 {
+        top: 890px;
+    }
+
+    .mobile_product31_txt3 {
+        top: 1000px;
+        right:-70px;
+    }
     .mobile_aboutus01_img {
         width: 350px;
         margin: auto -8%;
@@ -827,8 +887,10 @@ img {
 @media only screen and (max-width:320px) {
     .nav_menu {
         transform: scale(0.5);
-        margin-left: -52%;
+        margin-top: 10px;
+        margin-left: -54%;
     }
+
     .people_ot {
         margin-top: -30%;
         margin-left: -20%;
@@ -864,56 +926,49 @@ img {
 
     .mobile_product21_txt {
         transform: scale(0.7);
-        top: -90px;
-        left: -35%;
+        top: -110px;
+        left: 110px;
     }
 
     .mobile_product22_txt1 {
-        top:-80px;
-        left: -420px;
+        top: 550px;
+        left: 100px;
     }
 
     .mobile_product22_txt2 {
-        left: -370px;
+        top: 850px;
+        left: 70px;
     }
+
     .mobile_product22_img {
         left: -40px;
     }
 
-    .mobile_product23_img1 {
-        left: -40px;
-    }
-
     .mobile_product23_txt1 {
-        left: -110px;
-    }
-
-    .mobile_product23_img2 {
-        left: 40px;
+        left: 90px;
     }
 
     .mobile_product23_txt2 {
-        left: 40px;
-    }
-
-    .mobile_product23_img3 {
-        transform: scale(2);
-        top: 20px;
-        left: 60px;
+        left: -70px;
     }
 
     .mobile_product23_txt3 {
-        top:20px;
-        left: -170px;
-        margin-bottom:50px;
+        top: 2000px;
+        left: 30px;
     }
+    .mobile_product31_txt {
+        top: 800px;
+        right:-40px;
+    }
+
     .mobile_product31_txt2 {
-        top: -70px;
+        top: 820px;
+        left:-40px;
     }
 
     .mobile_product31_txt3 {
-        top: -40px;
-        right: -100px;
+        top: 950px;
+        right:-80px;
     }
     .mobile_aboutus01_img {
         transform: scale(0.9);

@@ -1,8 +1,8 @@
 ﻿@Code
-    Layout = Nothing
+    Layout = "../Shared/_Header.vbhtml"
 End Code
 
-@RenderPage("../Shared/_Header.vbhtml")
+@*@RenderPage("../Shared/_Header.vbhtml")*@
 
 <style>
     font {
@@ -131,7 +131,7 @@ End Code
     </div>
 </div>
 
-@RenderPage("../Shared/_Footer.vbhtml")
+@*@RenderPage("../Shared/_Footer.vbhtml")*@
 
 
 

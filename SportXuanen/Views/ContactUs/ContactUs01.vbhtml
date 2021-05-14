@@ -1,8 +1,8 @@
 ﻿@Code
-    Layout = Nothing
+    Layout = "../Shared/_Header.vbhtml"
 End Code
 
-@RenderPage("../Shared/_Header.vbhtml")
+@*@RenderPage("../Shared/_Header.vbhtml")*@
 
 <style>
     #article2 {
@@ -62,10 +62,10 @@ End Code
         <form class="contact_fm" id="subform_MainBlock" action="@(Html.Raw(ViewBag.聯絡我們))" method="post">
             <script type="text/javascript">
                 function DoSubmit() {
-                var CheckFlag = true;
-                var formObj = $('#subform_MainBlock');
-                var formURL = formObj.attr("action");
-                var formData = new FormData();
+                    var CheckFlag = true;
+                    var formObj = $('#subform_MainBlock');
+                    var formURL = formObj.attr("action");
+                    var formData = new FormData();
 
                     formData.append("UserName", $('#UserName').val());
                     formData.append("UserPhone", $('#UserPhone').val());
@@ -73,26 +73,26 @@ End Code
                     formData.append("contact_txt", $('#contact_txt').val());
                     formData.append("Venue_Att", $('#Venue_Att').val());
 
-                $.ajax({
-                    url: formURL,
-                    type: 'POST',
-                    data: formData,
-                    async: false,
-                    cache: false,
-                    contentType: false,
-                    processData: false,
-                    success: function (data) {
-                        var m1 = data.split(",");
-                        if (m1[0] == 1) {
-                            
-                        }
-                        if (m1[0] == 0) {
+                    $.ajax({
+                        url: formURL,
+                        type: 'POST',
+                        data: formData,
+                        async: false,
+                        cache: false,
+                        contentType: false,
+                        processData: false,
+                        success: function (data) {
+                            var m1 = data.split(",");
+                            if (m1[0] == 1) {
 
+                            }
+                            if (m1[0] == 0) {
+
+                            }
                         }
-                    }
-                });
-                return false;
-            }
+                    });
+                    return false;
+                }
             </script>
 
             <div class="mobile_contactus01_in" style="width:300px; text-align:left; margin-left:auto; margin-right:55%">
@@ -119,9 +119,9 @@ End Code
                 <textarea name="contact_txt" id="contact_txt" rows="8" cols="35"></textarea>
             </div>
 
-            <input type="submit" value="" style="width:200px;height:45px;margin-top:20px;border-style:none;background-image: url(../images/_contact_us/contact_lyaout_Final_Cut-30.png);background-size:200px 45px;" onclick="DoSubmit();" >
+            <input type="submit" value="" style="width:200px;height:45px;margin-top:20px;border-style:none;background-image: url(../images/_contact_us/contact_lyaout_Final_Cut-30.png);background-size:200px 45px;" onclick="DoSubmit();">
         </form>
     </div>
 </div>
 
-@RenderPage("../Shared/_Footer.vbhtml")
+@*@RenderPage("../Shared/_Footer.vbhtml")*@

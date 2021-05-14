@@ -1,8 +1,8 @@
 ﻿@Code
-    Layout = Nothing
+    Layout = "../Shared/_Header.vbhtml"
 End Code
 
-@RenderPage("../Shared/_Header.vbhtml")
+@*@RenderPage("../Shared/_Header.vbhtml")*@
 
 <style>
     #article {
@@ -42,7 +42,7 @@ End Code
     <img src="../images/_about_us/01/about_lyaout_Final_Cut-02.png">
 </div>
 <div id="article">
-    <div class="section01" style="margin-top:5%">
+    <div class="section01" style="max-width:100%; margin-top:5%">
         <div style="width:80%; margin:auto">
             <p class="section_des">
                 &ensp;&ensp;&ensp;&ensp;璿恩資訊於2000年2月開啟提供服務，整合 RFID 及 QR Code 辨識技術基礎，專注於軟體開發與整合，公司團隊是由極豐富產業經驗之高科技IT菁英所組成，不斷的以最新的技術，秉持公司核心價值整合 、創新、 服務、 速度服務客戶。
@@ -52,27 +52,27 @@ End Code
         </div>
         <img src="../images/_about_us/01/about_lyaout_Final_Cut-12.png" style="width:20%; margin-top:5%;"><br>
         <img src="../images/_about_us/01/about_lyaout_Final_Cut-13.png" style="width:1.5%; margin-top:5%;"><br>
-        <div class="year_dv" style="margin-top: -78%; margin-left: 55%">
+        <div class="year_dv" style="margin-top: -84%; margin-left: 55%">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-15.png" style="width: 13%; margin-top: 7%; margin-left:2%">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-21.png" style="display:flex; width: 35%; margin-top: -6%; margin-left:20%">
         </div>
-        <div class="year_dv" style="margin-top: -68%; margin-left: 5%; background-position-x:100%; text-align:right">
+        <div class="year_dv" style="margin-top: -72%; margin-left: 5%; background-position-x:100%; text-align:right">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-16.png" style="width: 13%; margin-top: 7%; margin-right:2%">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-22.png" style="display:flex; width: 75%; margin-top: -10%; margin-left:5%">
         </div>
-        <div class="year_dv" style="margin-top: -56%; margin-left: 55%">
+        <div class="year_dv" style="margin-top: -57%; margin-left: 55%">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-17.png" style="width: 13%; margin-top: 7%; margin-left:2%">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-23.png" style="display:flex; width: 75%; margin-top: -6%; margin-left:20%">
         </div>
-        <div class="year_dv" style="margin-top: -43%; margin-left: 5%; background-position-x:100%; text-align:right">
+        <div class="year_dv" style="margin-top: -40%; margin-left: 5%; background-position-x:100%; text-align:right">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-18.png" style="width: 13%; margin-top: 7%; margin-right:2%">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-24.png" style="display:flex; width: 65%; margin-top: -9%; margin-left:15%">
         </div>
-        <div class="year_dv" style="margin-top: -33%; margin-left: 55%">
+        <div class="year_dv" style="margin-top: -28%; margin-left: 55%">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-19.png" style="width: 13%; margin-top: 7%; margin-left:2%">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-25.png" style="display:flex; width: 75%; margin-top: -6%; margin-left:20%">
         </div>
-        <div class="year_dv" style="margin-top: -15%; margin-left: 5%; background-position-x:100%; text-align:right">
+        <div class="year_dv" style="margin-top: -5%; margin-left: 5%; background-position-x:100%; text-align:right">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-20.png" style="width: 13%; margin-top: 7%; margin-right:2%">
             <img src="../images/_about_us/01/about_lyaout_Final_Cut-26.png" style="display:flex; width: 65%; margin-top: -9%; margin-left:15%">
         </div>
@@ -103,4 +103,4 @@ End Code
 </div>
 
 
-@RenderPage("../Shared/_Footer.vbhtml")
+@*@RenderPage("../Shared/_Footer.vbhtml")*@
