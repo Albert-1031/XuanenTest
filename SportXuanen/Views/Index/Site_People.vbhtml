@@ -684,10 +684,10 @@
 </div>
 <div class="site_people">
     <h3 id="jump_xinbei">中部地區</h3>
-
+    <!--
         <img src="../images/_index/index_lyaout_V3_Final_Cut-37.png" alt="各場館即時人流箭頭" class="left_arr">
         <img src="../images/_index/index_lyaout_V3_Final_Cut-37_2.png" alt="各場館即時人流箭頭" class="right_arr">
-
+    -->
     <div id="myCarousel4" class="carousel slide">
         <!--輪播內容-->
         <div class="carousel-inner">
@@ -782,20 +782,20 @@
 
         </div>
         <!--輪播控制-->
-        <a class="carousel-control left" href="#myCarousel4" data-slide="prev">
+        <!--<a class="carousel-control left" href="#myCarousel4" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
         <a class="carousel-control right" href="#myCarousel4" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        </a>-->
     </div>
 </div>
 <div class="site_people">
     <h3 id="jump_xinbei">南部地區</h3>
-
+    <!--
         <img src="../images/_index/index_lyaout_V3_Final_Cut-37.png" alt="各場館即時人流箭頭" class="left_arr">
         <img src="../images/_index/index_lyaout_V3_Final_Cut-37_2.png" alt="各場館即時人流箭頭" class="right_arr">
-
+    -->
     <div id="myCarousel5" class="carousel slide">
         <!--輪播內容-->
         <div class="carousel-inner">
@@ -827,12 +827,12 @@
 
         </div>
         <!--輪播控制-->
-        <a class="carousel-control left" href="#myCarousel5" data-slide="prev">
+        <!--<a class="carousel-control left" href="#myCarousel5" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
         <a class="carousel-control right" href="#myCarousel5" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        </a>-->
     </div>
 </div>
 

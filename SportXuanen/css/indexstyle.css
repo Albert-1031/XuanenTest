@@ -86,9 +86,9 @@ img {
         width:105px;
         height:auto;
     }
-    .nav_menu .menu_up:hover {
+    /*.nav_menu .menu_up:hover {
         background-image:url(../Images/_index/menu_down.png);
-    }
+    }*/
 
     .nav_menu a {
         color: #ffffff;
@@ -103,9 +103,9 @@ img {
         margin: auto 20px;
     }
 
-        .nav_menu li:hover .nav_menu2 {
+        /*.nav_menu li:hover .nav_menu2 {
             display: block;
-        }
+        }*/
 
 .nav_menu2 {
     display: none;
@@ -127,9 +127,9 @@ img {
         padding-right: 20px;
     }
 
-        .nav_menu2 li:hover .nav_menu3 {
+        /*.nav_menu2 li:hover .nav_menu3 {
             display: block;
-        }
+        }*/
 
 .nav_menu3 {
     display: none;
