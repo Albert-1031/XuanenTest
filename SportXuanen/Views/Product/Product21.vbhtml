@@ -1,8 +1,8 @@
-﻿@*@Code
-    Layout = Nothing
+﻿@Code
+    Layout = "../Shared/_Header.vbhtml"
 End Code
 
-@RenderPage("../Shared/_Header.vbhtml")*@
+@*@RenderPage("../Shared/_Header.vbhtml")*@
 
 <style>
     #article {
