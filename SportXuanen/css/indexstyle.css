@@ -77,7 +77,7 @@ img {
     float: right;
 }
     .nav_menu .menu_up {
-        background-image:url(../Images/_index/menu_up.png);
+        background-image:url(../Images/_index/menu_down.png);
         background-repeat:no-repeat;
         background-size:20px auto;
         background-position-x:100%;
@@ -368,8 +368,59 @@ img {
     }
 
 /*******************************prduct01 css -end*/
+/*******************************聯絡我們 css code*/
+.contact_fm {
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #598089;
+    line-height: 45px;
+}
 
+    .contact_fm input {
+        font-size: 18px;
+        background-color: transparent;
+        text-align: left;
+        width: 190px;
+    }
 
+    .contact_fm select {
+        font-weight: bold;
+        font-size: 18px;
+        width: 82px;
+        color: #598089;
+        background-color: transparent;
+    }
+
+    .contact_fm textarea {
+        background-color: transparent;
+        resize: none;
+    }
+
+#submit_LM {
+    -webkit-appearance: none; /* Safari 和 Chrome，常用於iOS下移除內建樣式 */
+    -moz-appearance: none; /* FireFox */
+    /*appearance: none;*/
+    width: 200px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border-style: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: aliceblue;
+    background-color: rgb(98,144,158);
+    letter-spacing: 10px;
+}
+
+#submit_thx {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: -10px;
+}
+/*******************************聯絡我們 css -end*/
 /*******************************qa css code*/
 #search {
     width: 320px;
@@ -712,14 +763,19 @@ img {
     .mobile_contactus01_text {
         position: relative;
         z-index: auto;
-        width: 500px;
-        height: 400px;
-        top: 190px;
-        left: -160px;
+        margin-bottom:200px;
+        width: 200px;
+        height: auto;
+        top: 180px;
+        left: -155px;
     }
 
     .mobile_contactus01_text textarea {
-        margin-left: 20px;
+        margin-left: 25px;
+    }
+
+    #submit_thx {
+        width: 100%;
     }
 }
 
@@ -794,6 +850,7 @@ img {
     .mobile_aboutus02_img {
         transform: scale(0.5);
         margin:-25% auto;
+        left:-30%;
     }
     .mobile_contactus01_in {
         left: -15px;

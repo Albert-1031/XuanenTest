@@ -8,6 +8,7 @@ End Code
     #article {
         background-image: url(../images/bg/product_01-04.png);
         background-position-y: 50%;
+        background-size:100%;
     }
 
     #article2 {
@@ -30,12 +31,12 @@ End Code
         <h2 class="mobile_aboutus02_h2">大型運動場館市佔比例</h2>
         <div style="position: relative; z-index: 1; max-width:800px; margin:auto">
             <div class="mobile_aboutus02_img" style="position: relative; z-index: 1; width:500px; height: 500px; margin-left: auto; margin-right: auto">
-                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-26.png" style="position:absolute; z-index:1; width:500px; margin-top:170px; margin-left:-210px">
-                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-18.png" style="position:absolute; z-index:1; width:100px; margin-top:360px; margin-left:15px">
-                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-25.png" style="position:absolute; z-index:3; width:480px; margin-top:80px; margin-left:-340px">
-                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-14.png" style="position:absolute; z-index:3; width:85px; margin-top:265px; margin-left:-115px">
-                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-27.png" style="position:absolute; z-index:2; width:400px; margin-top:310px; margin-left:-300px">
-                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-15.png" style="position:absolute; z-index:2; width:70px; margin-top:460px; margin-left:-110px">
+                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-26.png" style="position:absolute; z-index:1; width:500px; margin-top:170px; margin-left:-220px">
+                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-18.png" style="position:absolute; z-index:1; width:100px; margin-top:360px; margin-left:5px">
+                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-25.png" style="position:absolute; z-index:3; width:480px; margin-top:80px; margin-left:-350px">
+                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-14.png" style="position:absolute; z-index:3; width:85px; margin-top:265px; margin-left:-125px">
+                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-27.png" style="position:absolute; z-index:2; width:400px; margin-top:310px; margin-left:-310px">
+                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-15.png" style="position:absolute; z-index:2; width:70px; margin-top:460px; margin-left:-120px">
             </div>
 
             <div class="section02_txt , mobile_aboutus02_txt1" style="position:absolute; z-index:9; width:220px; margin-top:-480px; margin-left:-10%">

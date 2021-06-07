@@ -41,22 +41,22 @@
                             function menu_pro() {
                                 var menu_pro = document.getElementById('menu_pro');
                                 var menu_pro_open = document.getElementById('menu_pro_open');
+                                var menu_ab = document.getElementById('menu_ab');
                                 if (menu_pro_open.style.display === 'none') {
                                     menu_pro_open.style.display = 'block';
-                                    menu_pro.style.background = 'url(../Images/_index/menu_down.png) no-repeat right/20px';
+                                    menu_pro.style.background = 'url(../Images/_index/menu_up.png) no-repeat right/20px';
+                                    menu_ab.style.background = 'url(../Images/_index/menu_down.png) no-repeat right/20px';
                                     menu_ab_open.style.display = 'none';
-                                    menu_ab.style.background = 'url(../Images/_index/menu_up.png) no-repeat right/20px';
+                                    
                                 } else {
                                     menu_pro_open.style.display = 'none';
-                                    menu_pro.style.background = 'url(../Images/_index/menu_up.png) no-repeat right/20px';
+                                    menu_pro.style.background = 'url(../Images/_index/menu_down.png) no-repeat right/20px';
                                     menu_pro_open1_open.style.display = 'none';
                                     menu_pro_open2_open.style.display = 'none';
                                     menu_pro_open3_open.style.display = 'none';
-                                    
                                 }
                             }
                             function menu_pro_open1() {
-                                var menu_pro_open1 = document.getElementById('menu_pro_open1');
                                 var menu_pro_open1_open = document.getElementById('menu_pro_open1_open');
                                 if (menu_pro_open1_open.style.display === 'none') {
                                     menu_pro_open1_open.style.display = 'block';
@@ -67,7 +67,6 @@
                                 }
                             }
                             function menu_pro_open2() {
-                                var menu_pro_open2 = document.getElementById('menu_pro_open2');
                                 var menu_pro_open2_open = document.getElementById('menu_pro_open2_open');
                                 if (menu_pro_open2_open.style.display === 'none') {
                                     menu_pro_open1_open.style.display = 'none';
@@ -78,7 +77,6 @@
                                 }
                             }
                             function menu_pro_open3() {
-                                var menu_pro_open3 = document.getElementById('menu_pro_open3');
                                 var menu_pro_open3_open = document.getElementById('menu_pro_open3_open');
                                 if (menu_pro_open3_open.style.display === 'none') {
                                     menu_pro_open1_open.style.display = 'none';
@@ -92,17 +90,18 @@
                             function menu_ab() {
                                 var menu_ab = document.getElementById('menu_ab');
                                 var menu_ab_open = document.getElementById('menu_ab_open');
+                                var menu_pro = document.getElementById('menu_pro');
                                 if (menu_ab_open.style.display === 'none') {
                                     menu_ab_open.style.display = 'block';
-                                    menu_ab.style.background = 'url(../Images/_index/menu_down.png) no-repeat right/20px';
-                                    menu_pro_open.style.display = 'none';
-                                    menu_pro.style.background = 'url(../Images/_index/menu_up.png) no-repeat right/20px';
+                                    menu_ab.style.background = 'url(../Images/_index/menu_up.png) no-repeat right/20px';
                                     menu_pro_open1_open.style.display = 'none';
                                     menu_pro_open2_open.style.display = 'none';
                                     menu_pro_open3_open.style.display = 'none';
+                                    menu_pro_open.style.display = 'none';
+                                    menu_pro.style.background = 'url(../Images/_index/menu_down.png) no-repeat right/20px';
                                 } else {
                                     menu_ab_open.style.display = 'none';
-                                    menu_ab.style.background = 'url(../Images/_index/menu_up.png) no-repeat right/20px';
+                                    menu_ab.style.background = 'url(../Images/_index/menu_down.png) no-repeat right/20px';
                                 }
                             }
 

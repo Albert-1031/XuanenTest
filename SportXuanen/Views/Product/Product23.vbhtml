@@ -47,7 +47,7 @@ End Code
         </div>
     </div>
     <div class="section01">
-        <h2>智慧場管資訊看板</h2>
+        <h2>智慧場館資訊看板</h2>
         <p class="section_des">&ensp;&ensp;&ensp;&ensp;球場現場管理利器，透過資訊看版清楚顯示預約訊息，減少爭議事件，並且達到教室無紙化管理，上課資訊、點名、教室公告、宣導、政令一切包辦。</p>
         <img class="mobile_product23_img1" src="../images/_product/23/System_lyaout_Final_Cut-17.png" style="width:40%; margin-top:5%; margin-left:-45%"><br>
         <div class="mobile_product23_txt1" style="float: right; width: 300px; text-align: left; margin-top: -35%">
@@ -66,7 +66,7 @@ End Code
             <p class="section_des">
                 從購票到出場全自動化，整合悠遊卡
                 小額扣款、現金收費與信用卡交易，
-                同時列印墊子發票或載具，接著透過
+                同時列印電子發票或載具，接著透過
                 QR Code、悠遊卡感應輕鬆進出場。
             </p>
         </div>

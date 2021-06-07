@@ -5,9 +5,18 @@ End Code
 @*@RenderPage("../Shared/_Header.vbhtml")*@
 
 <style>
+    #article {
+        background-image: url();
+    }
     #article2 {
         background-image: url(../images/bg/Escrow_layout_Final_Cut-17.png);
         background-position-y: 20%;
+        background-size:100%;
+    }
+    .section01_1 {
+        background-image: url(../images/bg/product_01-04.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
 </style>
 
@@ -17,10 +26,12 @@ End Code
     <img src="../images/_product/31/Escrow_layout_Final_Cut-04.png" style="display:flex; width:45%; margin-top:2%; margin-left:28%">
 </div>
 <div id="article">
-    <div class="section01" style="margin-top:15%">
+    <div class="section01" style="margin-top:15%; padding:0">
         <h2>三方稽核 &nbsp 互相牽制</h2>
         <p class="section_des">&ensp;&ensp;&ensp;&ensp;銀行不願信託嗎?信託金額太高嗎?我們與信託銀行-新光銀行信託部配合，額度式信託系統管理，系統整合中心POS，額度內銷售，客人上課堂數、使用次數當天即核銷，信託期滿系統自動提回，不用你計算只要印報表，簡單輕鬆專注經營。</p>
-        <img src="../images/_product/31/Escrow_layout_Final_Cut-15.png" style="width:100%; max-width:1000px; margin-top:5%;"><br>
+    </div>
+    <div class="section01_1">
+        <img src="../images/_product/31/Escrow_layout_Final_Cut-15.png" style="width:80%; max-width:1000px; margin-top:5%;"><br>
     </div>
 </div>
 <div id="article2">

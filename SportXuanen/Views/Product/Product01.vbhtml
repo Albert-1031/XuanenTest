@@ -39,8 +39,9 @@ End Code
     <img src="../images/_product/01/product_0-01_w795Xh310.png" style="display:flex; width:45%; margin-top:-25%; margin-left:32%">
 </div>
 <div id="article">
-    <img src="../images/bg/product_0-14_w1336Xh348.png" alt="Alternate Text" style="position:absolute; z-index:-1; width:60%; top:5%; left:20%">
-    <img src="../images/bg/product_0-14_w1336Xh348.png" alt="Alternate Text" style="position:absolute; z-index:-1; width:60%; bottom:10%; left:20%">
+    <div style="position:absolute; z-index:-1; display:block; width:100%">
+        <img src="../images/bg/product_0-14_w1336Xh348.png" style="position:center; width:60%; max-width:800px; margin-top:5%; left:20%"><br>
+    </div>
     <div class="section01">
         <div class="product01_dv , .mobile_product01_dv">
             <img src="../images/_product/01/product_0-02_w322Xh322.png"><br>
@@ -87,7 +88,7 @@ End Code
         <div class="product01_dv , .mobile_product01_dv">
             <img src="../images/_product/01/product_0-08_w322Xh322.png"><br>
             <font>
-                智慧場管<br>
+                智慧場館<br>
                 <span>三叉機進出場，現場教室資訊、課程資訊、上課學員名單展示</span>
             </font>
         </div>
@@ -126,8 +127,9 @@ End Code
                 <span>提供免費現場教學及線上客服，保證教到會</span>
             </font>
         </div>
-
-
+    </div>
+    <div style="position:absolute; z-index:-1; display:block; width:100%; bottom:10%">
+        <img src="../images/bg/product_0-14_w1336Xh348.png" style="position:center; width:60%; max-width:800px; margin-top:5%">
     </div>
 </div>
 
