@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/indexstyle.css">
     <script src="../js/jquery.min.js"></script>
     <title>璿恩資訊有限公司</title>
-
+    
 </head>
 
 <body>
@@ -20,12 +20,6 @@
                 <img class="nav_logo" src="../images/_index/index_lyaout_V2_Final_Cut-02.png" alt="璿恩資訊">
             </a>
 
-
-            
-            @*<div id="listBtn" onclick="listBtn()">秀出來</div>*@
-            <div id="textlistn" style="display:none;">
-                Hello IT邦
-            </div>
             <div class="nav_menu">
                 <ul>
                     <li>
@@ -37,7 +31,12 @@
                     </li>
 
                     <li>
-                        <script>
+                        <script language="javascript">
+                            var NowURL = location.href;  //如http強制跳轉到https首頁 測試時需註解掉
+                            if (NowURL.indexOf("http://") != -1) {
+                                location.href = "https://www.xuanen.com.tw/";
+                            }
+
                             function menu_pro() {
                                 var menu_pro = document.getElementById('menu_pro');
                                 var menu_pro_open = document.getElementById('menu_pro_open');

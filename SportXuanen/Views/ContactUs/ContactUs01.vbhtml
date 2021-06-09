@@ -63,9 +63,9 @@ End Code
                 <textarea name="contact_txt" id="txtContact" rows="8" cols="35"></textarea>
             </div>
 
-            <input id="submit_LM" type="button" value="送出" onclick="DoSubmit();">
+            <input id="submit_LM" type="button" value="送出" onclick="DoSubmit();"><br>
 
-            <hr id="submit_thxhr" style="width:200vw; margin-left:-50%; margin-right:auto; display:none; border-top:2px solid rgb(151,242,244)">
+            <!--<hr id="submit_thxhr" style="width:200vw; margin-left:-50%; margin-right:auto; display:none; border-top:2px solid rgb(151,242,244)">-->
             <img id="submit_thx" src="../images/_contact_us/contact_lyaout_Final_Cut-29.png" alt="璿恩感謝你的來信" style="display:none">
         </form>
         <script type="text/javascript">
@@ -74,7 +74,7 @@ End Code
 
                 var submit = document.getElementById('submit_LM');
                 var submit_thx = document.getElementById('submit_thx');
-                var submit_thxhr = document.getElementById('submit_thxhr');
+                /*var submit_thxhr = document.getElementById('submit_thxhr');*/
 
 
                 /*var CheckFlag = true;*/
@@ -104,7 +104,7 @@ End Code
                         if (m1[0] == 0) {
                             if (submit_thx.style.display === 'none') {
                                 submit_thx.style.display = 'block';
-                                submit_thxhr.style.display = 'block';
+                                /*submit_thxhr.style.display = 'block';*/
                                 submit.style.display = 'none';
                                 setTimeout("late_go()", 5000);
                             } else {

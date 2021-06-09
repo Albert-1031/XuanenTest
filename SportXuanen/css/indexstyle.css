@@ -350,6 +350,18 @@ img {
 /*******************************index人流 css -end*/
 
 /*******************************prduct01 css*/
+.product01_sbg1, .product01_sbg2 {
+    background-image: url(../images/bg/product_0-14_w1336Xh348.png);
+    background-size: 75% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product01_sbg1 {
+    background-position-y: 5%;
+}
+.product01_sbg2 {
+    background-position-y: 94%;
+}
 
 .product01_dv {
     display: inline-block;
@@ -589,7 +601,13 @@ img {
         margin-left: -70%;
         margin-top: -30%;
     }
-
+    .product01_sbg1 , .product01_sbg2 {
+        background-image: url(../images/bg/product_0-14_w1336Xh348_phone.png);
+        background-size:90% auto;
+    }
+    .product01_sbg2{
+        background-position-y:96%;
+    }
     .product01_dv {
         display: inline-block;
         width: 40%;
@@ -597,9 +615,9 @@ img {
         margin: 5% 4%;
     }
 
-        .product01_dv font {
-            font-size: 14px;
-        }
+    .product01_dv font {
+        font-size: 14px;
+    }
 
     .mobile_product02_td p {
         margin-left: -20%;
@@ -724,15 +742,15 @@ img {
         z-index: auto;
     }
     .mobile_product31_txt{
-        top:870px;
+        top:850px;
         right:-30px;
     }
     .mobile_product31_txt2{
-        top:940px;
+        top:910px;
         left:-30px;
     }
     .mobile_product31_txt3{
-        top:1070px;
+        top:1040px;
         right:-60px;
     }
 
@@ -824,15 +842,15 @@ img {
     }
 
     .mobile_product31_txt {
-        top: 840px;
+        top: 810px;
     }
 
     .mobile_product31_txt2 {
-        top: 910px;
+        top: 880px;
     }
 
     .mobile_product31_txt3 {
-        top: 1030px;
+        top: 1000px;
     }
     .mobile_aboutus01_img {
         width: 350px;
@@ -904,15 +922,15 @@ img {
     }
 
     .mobile_product31_txt {
-        top: 820px;
+        top: 750px;
     }
 
     .mobile_product31_txt2 {
-        top: 890px;
+        top: 830px;
     }
 
     .mobile_product31_txt3 {
-        top: 1000px;
+        top: 940px;
         right:-70px;
     }
     .mobile_aboutus01_img {
@@ -1014,17 +1032,17 @@ img {
         left: 30px;
     }
     .mobile_product31_txt {
-        top: 800px;
+        top: 770px;
         right:-40px;
     }
 
     .mobile_product31_txt2 {
-        top: 820px;
+        top: 790px;
         left:-40px;
     }
 
     .mobile_product31_txt3 {
-        top: 950px;
+        top: 930px;
         right:-80px;
     }
     .mobile_aboutus01_img {

@@ -28,6 +28,16 @@ Namespace Controllers
                         E = "1"
                         MsgStr = "您尚未輸入[您的電話]"
                         GoTo DoEnd
+                    ElseIf 電話.Length <> 10 Then
+                        E = "1"
+                        MsgStr = "您輸入的電話格式不正確"
+                        GoTo DoEnd
+                    End If
+
+                    If 電話.Length <> 10 Then
+                        E = "1"
+                        MsgStr = "您尚未輸入[您的電話]"
+                        GoTo DoEnd
                     End If
 
                     If 場館名稱.Length = 0 Then
@@ -58,11 +68,11 @@ Namespace Controllers
                     內容 = "<html><body>" &
                         "<p><font color=red>【此郵件為系統自動發送，請勿回信!!】</font></p><br/>" &
                         "－－－－－在官網填寫的資料如下－－－－－<br>" &
-                        "姓名：" & 姓名 & "<br>" &
-                        "電話：<br>" & 電話 & "<br>" &
-                        "場館名稱：<br>" & 場館名稱 & "<br>" &
-                        "場館的業務屬性：<br>" & 場館業務屬性 & "<br>" &
-                        "其他洽詢內容：<br>" & 其他洽詢內容 & "<br>" &
+                        "姓名：" & 姓名 & "<br><br>" &
+                        "電話：" & 電話 & "<br><br>" &
+                        "場館名稱：" & 場館名稱 & "<br><br>" &
+                        "場館的業務屬性：" & 場館業務屬性 & "<br><br>" &
+                        "其他洽詢內容：" & 其他洽詢內容 & "<br><br>" &
                         "－－－－－－－－－－－－－－－－－－<br><br>" &
                         "</body></html>"
 

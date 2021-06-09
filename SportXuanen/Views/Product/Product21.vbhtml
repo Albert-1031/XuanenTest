@@ -6,12 +6,12 @@ End Code
 
 <style>
     #article {
-        background-image: url(../images/bg/Service_lyaout_Final_Cut-15.png);
+        background-image: url(../images/bg/index_lyaout_V3_Final_Cut-24.png);
         background-position-y: 30%;
     }
 
     #article2 {
-        background-image: url(../images/bg/Service_lyaout_Final_Cut-17.png);
+        background-image: url(../images/bg/System_lyaout_Final_Cut-18.png);
         background-position-y: 70%;
     }
 
