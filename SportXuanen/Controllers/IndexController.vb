@@ -47,11 +47,10 @@ Namespace Controllers
 
             Dim sl01健身人數 As Integer = 0
             Dim sl01游泳人數 As Integer = 0
-            Dim sl01冰宮人數 As Integer = 0
 
             Dim ds01健身人數 As Integer = 0
             Dim ds01游泳人數 As Integer = 0
-            Dim ds01冰宮人數 As Integer = 0
+            Dim ds01健身_2人數 As Integer = 0
 
             Dim tp08健身人數 As Integer = 0
             Dim tp08游泳人數 As Integer = 0
@@ -74,6 +73,9 @@ Namespace Controllers
 
             Dim xwt88健身人數 As Integer = 0
             Dim xwt88游泳人數 As Integer = 0
+
+            Dim nt01健身人數 As Integer = 0
+            Dim nt01游泳人數 As Integer = 0
 #End Region
 #Region "北部"
             Dim ds02健身人數 As Integer = 0
@@ -109,6 +111,9 @@ Namespace Controllers
 
             Dim wd08健身人數 As Integer = 0
             Dim wd08游泳人數 As Integer = 0
+
+            Dim nd01健身人數 As Integer = 0
+            Dim nd01游泳人數 As Integer = 0
 #End Region
 #Region "南部"
             Dim wd04健身人數 As Integer = 0
@@ -160,11 +165,10 @@ Namespace Controllers
                         Case "sl01"
                             sl01游泳人數 = dvT.Item(i).Item("p02")
                             sl01健身人數 = dvT.Item(i).Item("p03")
-                            sl01冰宮人數 = dvT.Item(i).Item("p04")
                         Case "ds01"
                             ds01游泳人數 = dvT.Item(i).Item("p02")
                             ds01健身人數 = dvT.Item(i).Item("p03")
-                            ds01冰宮人數 = dvT.Item(i).Item("p04")
+                            ds01健身_2人數 = dvT.Item(i).Item("p04")
                         Case "tp08"
                             tp08游泳人數 = dvT.Item(i).Item("p02")
                             tp08健身人數 = dvT.Item(i).Item("p03")
@@ -187,6 +191,10 @@ Namespace Controllers
                         Case "xwt88"
                             xwt88游泳人數 = dvT.Item(i).Item("p02")
                             xwt88健身人數 = dvT.Item(i).Item("p03")
+                        Case "nt01"
+                            nt01游泳人數 = dvT.Item(i).Item("p02")
+                            nt01健身人數 = dvT.Item(i).Item("p03")
+
 
 #End Region
 #Region "北部Case"
@@ -225,6 +233,9 @@ Namespace Controllers
                         Case "wd08"
                             wd08游泳人數 = dvT.Item(i).Item("p02")
                             wd08健身人數 = dvT.Item(i).Item("p03")
+                        Case "nd01"
+                            nd01游泳人數 = dvT.Item(i).Item("p02")
+                            nd01健身人數 = dvT.Item(i).Item("p03")
 
 #End Region
 #Region "南部Case"
@@ -308,18 +319,12 @@ Namespace Controllers
             ViewBag.新北店家2 = "樹林體育園區"
             ViewBag.新北店家2_健身 = sl01健身人數
             ViewBag.新北店家2_游泳 = sl01游泳人數
-            ViewBag.新北店家2_冰宮 = sl01冰宮人數
             ViewBag.新北店家2_健身max = "45"
             ViewBag.新北店家2_游泳max = "30"
-            ViewBag.新北店家2_冰宮max = "8"
 
             ViewBag.新北店家3 = "鶯歌運動中心"
-            ViewBag.新北店家3_健身 = ds01健身人數
-            ViewBag.新北店家3_游泳 = ds01游泳人數
-            ViewBag.新北店家3_冰宮 = ds01冰宮人數
+            ViewBag.新北店家3_健身 = ds01健身_2人數
             ViewBag.新北店家3_健身max = "50"
-            ViewBag.新北店家3_游泳max = "200"
-            ViewBag.新北店家3_冰宮max = "50"
 
             ViewBag.新北店家4 = "土城運動中心"
             ViewBag.新北店家4_健身 = tp08健身人數
@@ -365,6 +370,18 @@ Namespace Controllers
             ViewBag.新北店家10_健身max = "45"
             ViewBag.新北店家10_游泳max = "120"
 
+            ViewBag.新北店家11 = "三鶯運動中心"
+            ViewBag.新北店家11_健身 = ds01健身人數
+            ViewBag.新北店家11_游泳 = ds01游泳人數
+            ViewBag.新北店家11_健身max = "50"
+            ViewBag.新北店家11_游泳max = "200"
+
+            ViewBag.新北店家12 = "樹林運動中心"
+            ViewBag.新北店家12_健身 = nt01健身人數
+            ViewBag.新北店家12_游泳 = nt01游泳人數
+            ViewBag.新北店家12_健身max = "50"
+            ViewBag.新北店家12_游泳max = "175"
+
 #End Region
 #Region "北部人數"
             ViewBag.北部店家0 = "宜蘭運動中心"
@@ -385,7 +402,7 @@ Namespace Controllers
             ViewBag.北部店家2_健身max = "90"
             ViewBag.北部店家2_游泳max = "99"
 
-            ViewBag.北部店家4 = "南部青少年活動中心"
+            ViewBag.北部店家4 = "南區青少年活動中心"
             ViewBag.北部店家4_健身 = tp14健身人數
             ViewBag.北部店家4_游泳 = tp14游泳人數
             ViewBag.北部店家4_健身max = "90"
@@ -433,13 +450,26 @@ Namespace Controllers
             ViewBag.中部店家3_健身max = "100"
             ViewBag.中部店家3_游泳max = "200"
 
+            ViewBag.中部店家4 = "南屯運動中心"
+            ViewBag.中部店家4_健身 = nd01健身人數
+            ViewBag.中部店家4_游泳 = nd01游泳人數
+            ViewBag.中部店家4_健身max = "120"
+            ViewBag.中部店家4_游泳max = "200"
+
 #End Region
 #Region "南部人數"
-            ViewBag.南部店家0 = "鳳山運動中心"
+            ViewBag.南部店家0 = "鳳山運動園區"
             ViewBag.南部店家0_健身 = wd04健身人數
             ViewBag.南部店家0_游泳 = wd04游泳人數
             ViewBag.南部店家0_健身max = "100"
             ViewBag.南部店家0_游泳max = "230"
+
+            ViewBag.南部店家1 = "屏東運動中心"
+            ViewBag.南部店家1_健身 = "暫無"
+            ViewBag.南部店家1_游泳 = "暫無"
+            ViewBag.南部店家1_健身max = "暫無"
+            ViewBag.南部店家1_游泳max = "暫無"
+
 #End Region
 
             Return View()

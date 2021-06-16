@@ -82,7 +82,7 @@ Namespace Controllers
                     Dim cred As New System.Net.NetworkCredential(寄件者EMail, 寄件者PW)
 
                     '收件者
-                    mail.To.Add(New Net.Mail.MailAddress("sales@xuanen.com.tw", "璿恩客服", enc))
+                    mail.To.Add(New Net.Mail.MailAddress("tsan1016@hotmail.com.tw", "璿恩客服", enc))
 
                     '主旨
                     mail.Subject = 主旨

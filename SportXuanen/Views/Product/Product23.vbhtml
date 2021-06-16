@@ -38,13 +38,8 @@ End Code
 <div id="article1">
     <div class="section01">
         <h2>更聰明購票方式</h2>
-        <p class="section_des">&ensp;&ensp;&ensp;&ensp;採用悠遊卡小額款，免排隊免輸入，一卡、一進，購票、發票載具嗶一下就完成。</p>
-        <img class="mobile_product23_img1" src="../images/_product/23/System_lyaout_Final_Cut-16.png" style="width: 60%; margin-top: 5%; margin-left: -50%"><br>
-        <div class="mobile_product23_txt1" style="float:right; width: 300px; text-align: left; margin-top: -20%">
-            <p class="section_des">
-                透過雲端連結，連結智慧看板，場地預約及使用狀況，顯示上課教室，學員也能自動點名。
-            </p>
-        </div>
+        <p class="section_des">&ensp;&ensp;&ensp;&ensp;採用悠遊卡小額扣款，免排隊免輸入，一卡、一進，購票、發票載具嗶一下就完成。</p>
+        <img class="mobile_product23_img1" src="../images/_product/23/System_lyaout_Final_Cut-16.png" style="width: 60%; margin-top: 5%"><br>
     </div>
     <div class="section01">
         <h2>智慧場館資訊看板</h2>
@@ -64,10 +59,7 @@ End Code
         <img class="mobile_product23_img2" src="../images/_product/23/System_lyaout_Final_Cut-19.png" style="width:40%; margin-top:5%; margin-left:50%"><br>
         <div class="mobile_product23_txt2" style="float: left; width: 350px; text-align: left; margin-top: -40%; margin-right: 10%">
             <p class="section_des">
-                從購票到出場全自動化，整合悠遊卡
-                小額扣款、現金收費與信用卡交易，
-                同時列印電子發票或載具，接著透過
-                QR Code、悠遊卡感應輕鬆進出場。
+                從購票到出場全自動化，整合悠遊卡小額扣款、現金收費與信用卡交易，同時列印電子發票或載具，接著透過QR Code、悠遊卡感應輕鬆進出場。
             </p>
         </div>
     </div>

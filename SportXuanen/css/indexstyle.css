@@ -755,19 +755,19 @@ img {
     }
 
     .mobile_aboutus02_txt1 {
-        transform: scale(0.6);
-        top:65%;
+        transform: scale(0.5);
+        top:67%;
         left: -20%;
     }
 
     .mobile_aboutus02_txt2 {
-        transform: scale(0.6);
-        top: 65%;
+        transform: scale(0.5);
+        top: 64%;
         left: -15%;
     }
 
     .mobile_aboutus02_img {
-        transform: scale(0.6);
+        transform: scale(0.5);
         top: -50px;
         left: -80px;
         margin: -10% auto;
@@ -858,15 +858,15 @@ img {
     }
 
     .mobile_aboutus02_txt1 {
-        transform: scale(0.5);
+        transform: scale(0.4);
     }
 
     .mobile_aboutus02_txt2 {
-        transform: scale(0.5);
+        transform: scale(0.4);
     }
 
     .mobile_aboutus02_img {
-        transform: scale(0.5);
+        transform: scale(0.4);
         margin:-25% auto;
         left:-30%;
     }
@@ -939,17 +939,17 @@ img {
     }
 
     .mobile_aboutus02_txt1 {
-        transform: scale(0.5);
+        transform: scale(0.4);
         left: -20%;
     }
 
     .mobile_aboutus02_txt2 {
-        transform: scale(0.5);
+        transform: scale(0.4);
         left: -20%;
     }
 
     .mobile_aboutus02_img {
-        transform: scale(0.5);
+        transform: scale(0.4);
         left:-35%;
         margin: -25% auto;
     }
@@ -1058,18 +1058,18 @@ img {
     }
 
     .mobile_aboutus02_txt1 {
-        transform: scale(0.5);
+        transform: scale(0.4);
         left: -30%;
     }
 
     .mobile_aboutus02_txt2 {
-        transform: scale(0.5);
+        transform: scale(0.4);
         top:70%;
         left: -20%;
     }
 
     .mobile_aboutus02_img {
-        transform: scale(0.5);
+        transform: scale(0.4);
         left: -45%;
         margin: -30% auto;
     }

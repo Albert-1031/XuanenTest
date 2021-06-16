@@ -55,6 +55,7 @@ End Code
                 '@Url.Content("~/Api/getdata?c=tp09")',
                 '@Url.Content("~/Api/getdata?c=ts01")',
                 '@Url.Content("~/Api/getdata?c=xwt88")',
+                '@Url.Content("~/Api/getdata?c=nt01")',
                 '@Url.Content("~/Api/getdata?c=ds02")',
                 '@Url.Content("~/Api/getdata?c=tp13")',
                 '@Url.Content("~/Api/getdata?c=tp15")',
@@ -66,6 +67,7 @@ End Code
                 '@Url.Content("~/Api/getdata?c=jb01")',
                 '@Url.Content("~/Api/getdata?c=tp11")',
                 '@Url.Content("~/Api/getdata?c=wd08")',
+                '@Url.Content("~/Api/getdata?c=nd01")',
                 '@Url.Content("~/Api/getdata?c=wd04")']
 
 

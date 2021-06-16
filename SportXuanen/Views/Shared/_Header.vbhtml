@@ -10,10 +10,44 @@
     <link rel="stylesheet" href="../css/indexstyle.css">
     <script src="../js/jquery.min.js"></script>
     <title>璿恩資訊有限公司</title>
-    
+    @*<script language="javascript">
+        var NowURL = location.href;  //如http強制跳轉到https首頁 測試時需註解掉
+        if (NowURL.indexOf("http://") != -1) {
+            location.href = "https://www.xuanen.com.tw/";
+        }
+    </script>*@
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RCG90FXLX4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-RCG90FXLX4');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N8NCMQM');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8NCMQM"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div id="main">
         <div class="header">
             <a href="../">
@@ -32,11 +66,6 @@
 
                     <li>
                         <script language="javascript">
-                            var NowURL = location.href;  //如http強制跳轉到https首頁 測試時需註解掉
-                            if (NowURL.indexOf("http://") != -1) {
-                                location.href = "https://www.xuanen.com.tw/";
-                            }
-
                             function menu_pro() {
                                 var menu_pro = document.getElementById('menu_pro');
                                 var menu_pro_open = document.getElementById('menu_pro_open');
@@ -46,7 +75,7 @@
                                     menu_pro.style.background = 'url(../Images/_index/menu_up.png) no-repeat right/20px';
                                     menu_ab.style.background = 'url(../Images/_index/menu_down.png) no-repeat right/20px';
                                     menu_ab_open.style.display = 'none';
-                                    
+
                                 } else {
                                     menu_pro_open.style.display = 'none';
                                     menu_pro.style.background = 'url(../Images/_index/menu_down.png) no-repeat right/20px';
@@ -165,7 +194,7 @@
         <div id="footer">
             <img src="~/images/_index/index_lyaout_V2_Final_Cut-23.png">
         </div>
-            </div>
-        </body>
+    </div>
+</body>
 </html>
 

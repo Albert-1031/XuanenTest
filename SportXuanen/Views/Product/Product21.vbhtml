@@ -29,7 +29,7 @@ End Code
 <div id="article">
     <div class="section01" style="margin-top:15%">
         <h2>完整POS櫃台作業功能</h2>
-        <p class="section_des">&ensp;&ensp;&ensp;&ensp;開啟電腦網頁，開始結帳吧!完整功能及多元支付工具，一個頁面滿足所有客戶需求，專注提供客戶服務。</p>
+        <p class="section_des">&ensp;&ensp;&ensp;&ensp;開啟電腦網頁，開始結帳吧！完整功能及多元支付工具，一個頁面滿足所有客戶需求，專注提供客戶服務。</p>
         <img src="../images/_product/21/Service_lyaout_Final_Cut-13.png" style="width:90%; margin-top:10%;"><br>
 
         <table class="section01_txt , mobile_product21_ta" style="margin-top:10%; margin-left:15%">

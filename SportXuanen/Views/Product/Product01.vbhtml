@@ -61,7 +61,7 @@ End Code
                     <img src="../images/_product/01/product_0-04_w322Xh322.png"><br>
                     <font>
                         財務報表<br>
-                        <span>多種報表分析，充分剖析場館營運狀態，手機也可以隨時掌握即時業績</span>
+                        <span>多種報表分析，充分剖析場館營運狀況，手機也可以隨時掌握即時業績</span>
                     </font>
                 </div>
                 <div class="product01_dv">
@@ -117,7 +117,7 @@ End Code
                     <img src="../images/_product/01/product_0-12_w322Xh322.png" "><br>
                     <font>
                         客製化服務<br>
-                        <span>因應不同場館需求，與璿恩共開創多元功能</span>
+                        <span>因應不同場館需求，與璿恩共同開創多元功能</span>
                     </font>
                 </div>
                 <div class="product01_dv">

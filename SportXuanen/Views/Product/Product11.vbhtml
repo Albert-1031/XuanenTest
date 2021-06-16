@@ -20,7 +20,7 @@ End Code
 </div>
 <div id="article">
     <div class="section01" style="margin-top:15%">
-        <h2>入場門票收入功能介紹</h2>
+        <h2>入場門票收費功能介紹</h2>
         <p class="section_des">&ensp;&ensp;&ensp;&ensp;多元進場選擇，滿足市場9成以上場館進場模式，從運動小白到健身老手，全自動人流設備將幫助你省去大量的人工辨識，及人為造成遺漏的問題。</p>
         <img class="mobile_product11_img" src="../images/_product/11/product_01-03.png" style="width:350px; margin-top:5%; margin-left:-40%"><br>
         <div class="section01_txt" style="display: inline-block; width: 200px; text-align: left; margin-top: -50%; margin-left: 50%">
@@ -48,7 +48,7 @@ End Code
             <p>期數靈活設定</p>
             <p>自動扣款日期</p>
             <p>當月有效會員數</p>
-            <p>當預收收入金額</p>
+            <p>當期預收款金額</p>
             <p>顯示使用狀態資訊</p>
             <p>會籍請假、停扣、終止</p>
             <p>自動續約</p>

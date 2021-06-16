@@ -48,7 +48,7 @@ End Code
         <div class="section01_txt" style="display: inline-block; width: 220px; text-align: left; margin-top: -50%; margin-left: 50%">
             <p>上課場地預約</p>
             <p>上課分鐘管理</p>
-            <p>教場教練點名</p>
+            <p>場租教練點名</p>
             <p>團課教室行事曆</p>
             <p>自由教練會員管理</p>
             <p>每日上課堂數確認單</p>
