@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="../css/indexstyle.css">
     <script src="../js/jquery.min.js"></script>
     <title>璿恩資訊有限公司</title>
-    @*<script language="javascript">
+    <script language="javascript">
         var NowURL = location.href;  //如http強制跳轉到https首頁 測試時需註解掉
         if (NowURL.indexOf("http://") != -1) {
             location.href = "https://www.xuanen.com.tw/";
         }
-    </script>*@
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RCG90FXLX4"></script>
