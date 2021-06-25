@@ -4,7 +4,7 @@
 <head>
     <meta meta http-equiv=content-type content=text/html charset=utf-8 />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="會籍, 健身, 游泳池, 運動, 信託, 健身開店, 電子發票, 票券, 健身館, 訂閱制, 運動中心, 會員管理, pos系統, 收單, 教練課, 自由教練, 瑜珈">
+    <meta name="description" content="場租, 健身, 健身開店, 健身館, 健身房, 運動中心, 會員管理, 健身pos系統, 課程預約, 線上金流, 線上課程, 場館門禁系統, 健身房會員管理系統, 信託, 健身房信託, 收單, 教練課, 自由教練, 場地租借國民運中心, 運動課程, 營隊">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/indexstyle.css">
