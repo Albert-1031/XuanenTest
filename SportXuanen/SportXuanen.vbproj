@@ -500,6 +500,9 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="images\_index\Menu底色色碼20210427.docx" />
+    <Content Include="weberrpage\err.htm" />
+    <Content Include="weberrpage\img\err_img1.png" />
+    <Content Include="weberrpage\img\err_img2.png" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
