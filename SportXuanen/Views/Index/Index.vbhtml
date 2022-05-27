@@ -77,6 +77,9 @@ End Code
                 '@Url.Content("~/Api/getdata?c=tz01")',
                 '@Url.Content("~/Api/getdata?c=zy01")',
                 '@Url.Content("~/Api/getdata?c=wd16")',
+                '@Url.Content("~/Api/getdata?c=um01")',
+                '@Url.Content("~/Api/getdata?c=wd14")',
+                '@Url.Content("~/Api/getdata?c=wd05")',
                 '@Url.Content("~/Api/getdata?c=wd15")']
 
 

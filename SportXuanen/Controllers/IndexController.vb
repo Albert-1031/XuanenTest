@@ -77,6 +77,11 @@ Namespace Controllers
             Dim sl01健身留容人數 As Integer = 0
             Dim sl01游泳留容人數 As Integer = 0
 
+            Dim wd05健身人數 As Integer = 0
+            Dim wd05游泳人數 As Integer = 0
+            Dim wd05健身留容人數 As Integer = 0
+            Dim wd05游泳留容人數 As Integer = 0
+
             Dim ds01健身人數 As Integer = 0
             Dim ds01游泳人數 As Integer = 0
             Dim ds01健身_2人數 As Integer = 0
@@ -172,6 +177,11 @@ Namespace Controllers
             Dim tp18健身留容人數 As Integer = 0
             Dim tp18游泳留容人數 As Integer = 0
 
+            Dim um01健身人數 As Integer = 0
+            Dim um01游泳人數 As Integer = 0
+            Dim um01健身留容人數 As Integer = 0
+            Dim um01游泳留容人數 As Integer = 0
+
 #End Region
 #Region "中部"
             Dim kc01健身人數 As Integer = 0
@@ -213,6 +223,11 @@ Namespace Controllers
             Dim wd15游泳人數 As Integer = 0
             Dim wd15健身留容人數 As Integer = 0
             Dim wd15游泳留容人數 As Integer = 0
+
+            Dim wd14健身人數 As Integer = 0
+            Dim wd14游泳人數 As Integer = 0
+            Dim wd14健身留容人數 As Integer = 0
+            Dim wd14游泳留容人數 As Integer = 0
 
 #End Region
 #Region "南部"
@@ -326,6 +341,12 @@ Namespace Controllers
                             sl01游泳留容人數 = dvT.Item(i).Item("p06")
                             sl01健身留容人數 = dvT.Item(i).Item("p07")
 
+                        Case "wd05"
+                            wd05游泳人數 = dvT.Item(i).Item("p02")
+                            wd05健身人數 = dvT.Item(i).Item("p03")
+                            wd05游泳留容人數 = dvT.Item(i).Item("p06")
+                            wd05健身留容人數 = dvT.Item(i).Item("p07")
+
                         Case "ds01"
                             ds01游泳人數 = dvT.Item(i).Item("p02")
                             ds01健身人數 = dvT.Item(i).Item("p03")
@@ -436,6 +457,12 @@ Namespace Controllers
                             tp18游泳留容人數 = dvT.Item(i).Item("p06")
                             tp18健身留容人數 = dvT.Item(i).Item("p07")
 
+                        Case "um01"
+                            um01游泳人數 = dvT.Item(i).Item("p02")
+                            um01健身人數 = dvT.Item(i).Item("p03")
+                            um01游泳留容人數 = dvT.Item(i).Item("p06")
+                            um01健身留容人數 = dvT.Item(i).Item("p07")
+
 
 #End Region
 #Region "中部Case"
@@ -478,6 +505,12 @@ Namespace Controllers
                             wd15健身人數 = dvT.Item(i).Item("p03")
                             wd15游泳留容人數 = dvT.Item(i).Item("p06")
                             wd15健身留容人數 = dvT.Item(i).Item("p07")
+
+                        Case "wd14"
+                            wd14游泳人數 = dvT.Item(i).Item("p02")
+                            wd14健身人數 = dvT.Item(i).Item("p03")
+                            wd14游泳留容人數 = dvT.Item(i).Item("p06")
+                            wd14健身留容人數 = dvT.Item(i).Item("p07")
 
 
 #End Region
@@ -652,6 +685,12 @@ Namespace Controllers
             ViewBag.新北店家12_健身max = nt01健身留容人數
             ViewBag.新北店家12_游泳max = nt01游泳留容人數
 
+            ViewBag.新北店家13 = "泰山體育園區"
+            ViewBag.新北店家13_健身 = wd05健身人數
+            ViewBag.新北店家13_游泳 = wd05游泳人數
+            ViewBag.新北店家13_健身max = wd05健身留容人數
+            ViewBag.新北店家13_游泳max = wd05游泳留容人數
+
 #End Region
 #Region "北部人數"
             ViewBag.北部店家0 = "宜蘭運動中心"
@@ -702,6 +741,12 @@ Namespace Controllers
             ViewBag.北部店家7_健身max = tp18健身留容人數
             ViewBag.北部店家7_游泳max = tp18游泳留容人數
 
+            ViewBag.北部店家8 = "聯園活動中心"
+            ViewBag.北部店家8_健身 = um01健身人數
+            ViewBag.北部店家8_游泳 = um01游泳人數
+            ViewBag.北部店家8_健身max = um01健身留容人數
+            ViewBag.北部店家8_游泳max = um01游泳留容人數
+
 #End Region
 #Region "中部人數"
             ViewBag.中部店家0 = "港區運動公園"
@@ -743,6 +788,12 @@ Namespace Controllers
             ViewBag.中部店家6_游泳 = wd15游泳人數
             ViewBag.中部店家6_健身max = wd15健身留容人數
             ViewBag.中部店家6_游泳max = wd15游泳留容人數
+
+            ViewBag.中部店家7 = "大里國民暨兒童運動中心"
+            ViewBag.中部店家7_健身 = wd14健身人數
+            ViewBag.中部店家7_游泳 = wd14游泳人數
+            ViewBag.中部店家7_健身max = wd14健身留容人數
+            ViewBag.中部店家7_游泳max = wd14游泳留容人數
 
 #End Region
 #Region "南部人數"

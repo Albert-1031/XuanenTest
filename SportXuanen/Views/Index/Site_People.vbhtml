@@ -531,6 +531,27 @@
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
+                            <h4>@(ViewBag.新北店家13)</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:100px; vertical-align:middle">
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
+                            <font class="site_people_fitness">@(ViewBag.新北店家13_健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.新北店家13_游泳)</font>
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
+                            <font class="site_people_fitness">/ @(ViewBag.新北店家13_健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.新北店家13_游泳max)人</font>
+                        </td>
+                    </tr>
+                </table>
+                <table class="site_people_tb" border="0" style="margin-top:110px">
+                    <tr>
+                        <td colspan="3" style="width:160px; height:45px">
                             <h4>@(ViewBag.新北店家12)</h4>
                         </td>
                     </tr>
@@ -640,7 +661,7 @@
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
-                            <h4 class="long_sn">@(ViewBag.北部店家3)</h4>
+                            <h4 >@(ViewBag.北部店家3)</h4>
                         </td>
                     </tr>
                     <tr>
@@ -665,6 +686,28 @@
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
+                            <h4>@(ViewBag.北部店家7)</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:100px; vertical-align:middle">
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
+                            <font class="site_people_fitness">@(ViewBag.北部店家7_健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.北部店家7_游泳)</font>
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
+                            <font class="site_people_fitness">/ @(ViewBag.北部店家7_健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.北部店家7_游泳max)人</font>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="site_people_tb" border="0" style="margin-top:110px">
+                    <tr>
+                        <td colspan="3" style="width:160px; height:45px">
                             <h4 class="long_sn">@(ViewBag.北部店家4)</h4>
                         </td>
                     </tr>
@@ -680,28 +723,6 @@
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
                             <font class="site_people_fitness">/ @(ViewBag.北部店家4_健身max)人</font><br>
                             <font class="site_people_swim">/ @(ViewBag.北部店家4_游泳max)人</font>
-                        </td>
-                    </tr>
-                </table>
-
-                <table class="site_people_tb" border="0" style="margin-top:110px">
-                    <tr>
-                        <td colspan="3" style="width:160px; height:45px">
-                            <h4>@(ViewBag.北部店家5)</h4>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="height:100px; vertical-align:middle">
-                            <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
-                            <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
-                        </td>
-                        <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">@(ViewBag.北部店家5_健身)</font><br>
-                            <font class="site_people_swim">@(ViewBag.北部店家5_游泳)</font>
-                        </td>
-                        <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ @(ViewBag.北部店家5_健身max)人</font><br>
-                            <font class="site_people_swim">/ @(ViewBag.北部店家5_游泳max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -731,7 +752,7 @@
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
-                            <h4>@(ViewBag.北部店家7)</h4>
+                            <h4>@(ViewBag.北部店家5)</h4>
                         </td>
                     </tr>
                     <tr>
@@ -740,19 +761,44 @@
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">@(ViewBag.北部店家7_健身)</font><br>
-                            <font class="site_people_swim">@(ViewBag.北部店家7_游泳)</font>
+                            <font class="site_people_fitness">@(ViewBag.北部店家5_健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.北部店家5_游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ @(ViewBag.北部店家6_健身max)人</font><br>
-                            <font class="site_people_swim">/ @(ViewBag.北部店家6_游泳max)人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.北部店家5_健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.北部店家5_游泳max)人</font>
                         </td>
                     </tr>
                 </table>
+            </div>
+                <!--輪播項目3-->
+                <div class="item ">
+                    <table class="site_people_tb" border="0" style="margin-top:110px">
+                        <tr>
+                            <td colspan="3" style="width:160px; height:45px">
+                                <h4>@(ViewBag.台北店家8)</h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="height:100px; vertical-align:middle">
+                                <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
+                                <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
+                            </td>
+                            <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
+                                <font class="site_people_fitness">@(ViewBag.台北店家8_健身)</font><br>
+                                <font class="site_people_swim">@(ViewBag.台北店家8_游泳)</font>
+                            </td>
+                            <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
+                                <font class="site_people_fitness">/ @(ViewBag.台北店家8_健身max)人</font><br>
+                                <font class="site_people_swim">/ @(ViewBag.台北店家8_游泳max)人</font>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                </div>
 
             </div>
-
-        </div>
         <!--輪播控制-->
         <a class="carousel-control left" href="#myCarousel3" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
@@ -775,47 +821,6 @@
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
-                            <h4>@(ViewBag.中部店家0)</h4>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="height:100px; vertical-align:middle">
-                            <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
-                        </td>
-                        <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">@(ViewBag.中部店家0_健身)</font><br>
-                        </td>
-                        <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ @(ViewBag.中部店家0_健身max)人</font><br>
-                        </td>
-                    </tr>
-                </table>
-
-                <table class="site_people_tb" border="0" style="margin-top:110px">
-                    <tr>
-                        <td colspan="3" style="width:160px; height:45px">
-                            <h4>@(ViewBag.中部店家1)</h4>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="height:100px; vertical-align:middle">
-                            <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
-                            <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
-                        </td>
-                        <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">@(ViewBag.中部店家1_健身)</font><br>
-                            <font class="site_people_swim">@(ViewBag.中部店家1_游泳)</font>
-                        </td>
-                        <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ @(ViewBag.中部店家1_健身max)人</font><br>
-                            <font class="site_people_swim">/ @(ViewBag.中部店家1_游泳max)人</font>
-                        </td>
-                    </tr>
-                </table>
-
-                <table class="site_people_tb" border="0" style="margin-top:110px">
-                    <tr>
-                        <td colspan="3" style="width:160px; height:45px">
                             <h4>@(ViewBag.中部店家2)</h4>
                         </td>
                     </tr>
@@ -831,6 +836,50 @@
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
                             <font class="site_people_fitness">/ @(ViewBag.中部店家2_健身max)人</font><br>
                             <font class="site_people_swim">/ @(ViewBag.中部店家2_游泳max)人</font>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="site_people_tb" border="0" style="margin-top:110px">
+                    <tr>
+                        <td colspan="3" style="width:160px; height:45px">
+                            <h4>@(ViewBag.中部店家4)</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:100px; vertical-align:middle">
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
+                            <font class="site_people_fitness">@(ViewBag.中部店家4_健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.中部店家4_游泳)</font>
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
+                            <font class="site_people_fitness">/ @(ViewBag.中部店家4_健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.中部店家4_游泳max)人</font>
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="site_people_tb" border="0" style="margin-top:110px">
+                    <tr>
+                        <td colspan="3" style="width:160px; height:45px">
+                            <h4>@(ViewBag.中部店家6)</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:100px; vertical-align:middle">
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
+                            <font class="site_people_fitness">@(ViewBag.中部店家6_健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.中部店家6_游泳)</font>
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
+                            <font class="site_people_fitness">/ @(ViewBag.中部店家6_健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.中部店家6_游泳max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -863,7 +912,7 @@
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
-                            <h4>@(ViewBag.中部店家4)</h4>
+                            <h4 class="long_sn">@(ViewBag.中部店家7)</h4>
                         </td>
                     </tr>
                     <tr>
@@ -872,12 +921,12 @@
                             <img src="../images/_index/index_lyaout_V3_Final_Cut-41.png" alt="各場館即時人流_游泳icon" style="width:30px">
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
-                            <font class="site_people_fitness">@(ViewBag.中部店家4_健身)</font><br>
-                            <font class="site_people_swim">@(ViewBag.中部店家4_游泳)</font>
+                            <font class="site_people_fitness">@(ViewBag.中部店家7_健身)</font><br>
+                            <font class="site_people_swim">@(ViewBag.中部店家7_游泳)</font>
                         </td>
                         <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
-                            <font class="site_people_fitness">/ @(ViewBag.中部店家4_健身max)人</font><br>
-                            <font class="site_people_swim">/ @(ViewBag.中部店家4_游泳max)人</font>
+                            <font class="site_people_fitness">/ @(ViewBag.中部店家7_健身max)人</font><br>
+                            <font class="site_people_swim">/ @(ViewBag.中部店家7_游泳max)人</font>
                         </td>
                     </tr>
                 </table>
@@ -903,11 +952,29 @@
                         </td>
                     </tr>
                 </table>
+                <table class="site_people_tb" border="0" style="margin-top:110px">
+                    <tr>
+                        <td colspan="3" style="width:160px; height:45px">
+                            <h4>@(ViewBag.中部店家0)</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="height:100px; vertical-align:middle">
+                            <img src="../images/_index/index_lyaout_V3_Final_Cut-40.png" alt="各場館即時人流_健身icon" style="width:30px"><br>
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; font-size:28px">
+                            <font class="site_people_fitness">@(ViewBag.中部店家0_健身)</font><br>
+                        </td>
+                        <td style="height:100px; vertical-align:middle; line-height:36px; padding-top:10px">
+                            <font class="site_people_fitness">/ @(ViewBag.中部店家0_健身max)人</font><br>
+                        </td>
+                    </tr>
+                </table>
 
                 <table class="site_people_tb" border="0" style="margin-top:110px">
                     <tr>
                         <td colspan="3" style="width:160px; height:45px">
-                            <h4>@(ViewBag.中部店家6)</h4>
+                            <h4>@(ViewBag.中部店家1)</h4>
                         </td>
                     </tr>
                     <tr>

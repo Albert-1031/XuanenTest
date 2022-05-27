@@ -88,11 +88,12 @@ End Code
                 <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-32.png" style="position:absolute; z-index:1; width:450px; margin-top: 270px; margin-left:-285px">
                 <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-21.png" style="position:absolute; z-index:1; width:60px; margin-top: 435px; margin-left:-65px">
             </div>
-            <div class="section02_txt , mobile_aboutus02_txt1" style="position:absolute; z-index:9; width:280px; margin-top:-520px; margin-left:-18%">
+            <div class="section02_txt , mobile_aboutus02_txt1" style="position:absolute; z-index:9; width:280px; margin-top:-580px; margin-left:-18%">
                 <p>桃園運動中心</p>
                 <p>中壢運動中心</p>
                 <p>大溪國小運動中心</p>
                 <p>八德運動中心</p>
+                <p>南區青少年活動中心</p>
 
                 <p style="margin-top:10%">朝馬運動中心</p>
                 <p>南屯運動中心</p>
@@ -100,6 +101,7 @@ End Code
                 <p>長春國民暨兒童運動中心</p>
                 <p>大里國民暨兒童運動中心</p>
                 <p>潭子國民暨兒童運動中心</p>
+                <p>港區運動中心</p>
 
                 <p style="margin-top:10%">鳳山體育園區</p>
                 <p>屏東運動中心</p>

@@ -40,7 +40,7 @@
     <!-- End Google Tag Manager -->
 </head>
 
-<body>
+<body style="user-select: none;">
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8NCMQM"
