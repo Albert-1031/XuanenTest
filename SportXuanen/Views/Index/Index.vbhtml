@@ -36,6 +36,7 @@ End Code
                 interval: false
             })
 
+            //把c傳到getdata()
             var center = ['@Url.Content("~/Api/getdata?c=tp01")',
                 '@Url.Content("~/Api/getdata?c=jj01")',
                 '@Url.Content("~/Api/getdata?c=tp04")',
@@ -57,6 +58,7 @@ End Code
                 '@Url.Content("~/Api/getdata?c=xwt88")',
                 '@Url.Content("~/Api/getdata?c=nt01")',
                 '@Url.Content("~/Api/getdata?c=ds02")',
+                '@Url.Content("~/Api/getdata?c=tp17")',
                 '@Url.Content("~/Api/getdata?c=tp13")',
                 '@Url.Content("~/Api/getdata?c=tp15")',
                 '@Url.Content("~/Api/getdata?c=tp14")',
@@ -68,7 +70,14 @@ End Code
                 '@Url.Content("~/Api/getdata?c=tp11")',
                 '@Url.Content("~/Api/getdata?c=wd08")',
                 '@Url.Content("~/Api/getdata?c=nd01")',
-                '@Url.Content("~/Api/getdata?c=wd04")']
+                '@Url.Content("~/Api/getdata?c=wd04")',
+                '@Url.Content("~/Api/getdata?c=wp05")',
+                '@Url.Content("~/Api/getdata?c=pt01")',
+                '@Url.Content("~/Api/getdata?c=tp18")',
+                '@Url.Content("~/Api/getdata?c=tz01")',
+                '@Url.Content("~/Api/getdata?c=zy01")',
+                '@Url.Content("~/Api/getdata?c=wd16")',
+                '@Url.Content("~/Api/getdata?c=wd15")']
 
 
             for (var i = 0; i < center.length; i++) {

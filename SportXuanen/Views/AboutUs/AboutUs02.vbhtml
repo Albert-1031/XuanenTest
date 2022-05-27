@@ -57,7 +57,7 @@ End Code
                 <p>板橋運動中心</p>
                 <p>永和運動中心</p>
                 <p>淡水運動中心</p>
-                <p>新五泰運動中心</p>
+                <p>泰山運動中心</p>
                 <p>鶯歌運動中心</p>
                 <p>蘆洲運動中心</p>
                 <p>汐止運動中心</p>
@@ -82,25 +82,29 @@ End Code
                 <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-30.png" style="position:absolute; z-index:4; width:450px; margin-top:-10px; margin-left:-185px">
                 <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-17.png" style="position:absolute; z-index:4; width:80px; margin-top: 164px; margin-left:25px">
                 <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-29.png" style="position:absolute; z-index:3; width:500px; margin-top: 50px; margin-left:-350px">
-                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-21.png" style="position:absolute; z-index:3; width:100px; margin-top: 240px; margin-left:-125px">
+                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-20.png" style="position:absolute; z-index:3; width:100px; margin-top: 240px; margin-left:-125px">
                 <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-31.png" style="position:absolute; z-index:2; width:480px; margin-top: 145px; margin-left:-175px">
                 <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-19.png" style="position:absolute; z-index:2; width:70px; margin-top: 325px; margin-left:55px">
                 <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-32.png" style="position:absolute; z-index:1; width:450px; margin-top: 270px; margin-left:-285px">
-                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-20.png" style="position:absolute; z-index:1; width:80px; margin-top: 435px; margin-left:-75px">
+                <img src="../images/_about_us/02/leadership_lyaout_Final_Cut-21.png" style="position:absolute; z-index:1; width:60px; margin-top: 435px; margin-left:-65px">
             </div>
-            <div class="section02_txt , mobile_aboutus02_txt1" style="position:absolute; z-index:9; width:280px; margin-top:-500px; margin-left:-18%">
+            <div class="section02_txt , mobile_aboutus02_txt1" style="position:absolute; z-index:9; width:280px; margin-top:-520px; margin-left:-18%">
                 <p>桃園運動中心</p>
                 <p>中壢運動中心</p>
                 <p>大溪國小運動中心</p>
+                <p>八德運動中心</p>
 
-                <p style="margin-top:18%">朝馬運動中心</p>
+                <p style="margin-top:10%">朝馬運動中心</p>
                 <p>南屯運動中心</p>
+                <p>沙鹿兒童運動中心</p>
                 <p>長春國民暨兒童運動中心</p>
                 <p>大里國民暨兒童運動中心</p>
                 <p>潭子國民暨兒童運動中心</p>
 
-                <p style="margin-top:30%">鳳山體育園區</p>
+                <p style="margin-top:10%">鳳山體育園區</p>
                 <p>屏東運動中心</p>
+                <p>苓雅運動中心</p>
+                <p>左營運動中心</p>
             </div>
             <div class="section01_txt , mobile_aboutus02_txt2" style="position:absolute; z-index:9; width:200px; margin-top:-350px; margin-left:80%">
                 <p>竹光運動中心</p>
