@@ -717,7 +717,7 @@ Namespace Controllers
             ViewBag.北部店家4_健身max = tp14健身留容人數
             ViewBag.北部店家4_游泳max = tp14游泳留容人數
 
-            ViewBag.北部店家3 = "大溪國小運動中心"
+            ViewBag.北部店家3 = "大溪運動中心"
             ViewBag.北部店家3_健身 = ws01健身人數
             ViewBag.北部店家3_游泳 = ws01游泳人數
             ViewBag.北部店家3_健身max = ws01健身留容人數
@@ -789,7 +789,7 @@ Namespace Controllers
             ViewBag.中部店家6_健身max = wd15健身留容人數
             ViewBag.中部店家6_游泳max = wd15游泳留容人數
 
-            ViewBag.中部店家7 = "大里國民暨兒童運動中心"
+            ViewBag.中部店家7 = "大里運動中心"
             ViewBag.中部店家7_健身 = wd14健身人數
             ViewBag.中部店家7_游泳 = wd14游泳人數
             ViewBag.中部店家7_健身max = wd14健身留容人數
