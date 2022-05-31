@@ -468,7 +468,9 @@ Namespace Controllers
 #Region "中部Case"
                         Case "kc01"
                             kc01游泳人數 = dvT.Item(i).Item("p02")
+                            kc01健身人數 = dvT.Item(i).Item("p03")
                             kc01游泳留容人數 = dvT.Item(i).Item("p06")
+                            kc01健身留容人數 = dvT.Item(i).Item("p07")
 
                         Case "jb01"
                             jb01游泳人數 = dvT.Item(i).Item("p02")
@@ -621,9 +623,9 @@ Namespace Controllers
 
             ViewBag.新北店家2 = "樹林體育園區"
             ViewBag.新北店家2_健身 = sl01健身人數
-            ViewBag.新北店家2_游泳 = sl01游泳人數
+            'ViewBag.新北店家2_游泳 = sl01游泳人數
             ViewBag.新北店家2_健身max = sl01健身留容人數
-            ViewBag.新北店家2_游泳max = sl01游泳留容人數
+            'ViewBag.新北店家2_游泳max = sl01游泳留容人數
 
             ViewBag.新北店家3 = "鶯歌運動中心"
             ViewBag.新北店家3_健身 = ds01健身_2人數
@@ -684,7 +686,7 @@ Namespace Controllers
             ViewBag.新北店家12_游泳 = nt01游泳人數
             ViewBag.新北店家12_健身max = nt01健身留容人數
             ViewBag.新北店家12_游泳max = nt01游泳留容人數
-
+            '
             ViewBag.新北店家13 = "泰山體育園區"
             ViewBag.新北店家13_健身 = wd05健身人數
             ViewBag.新北店家13_游泳 = wd05游泳人數
