@@ -1,0 +1,455 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SportXuanen
+</name>
+</assembly>
+<members>
+<member name="T:SportXuanen.My.MyWebExtension">
+ <summary>
+ 用來定義可用於 Web 專案 My 命名空間中之屬性的模組。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SportXuanen.My.MyWebExtension.Computer">
+ <summary>
+ 傳回主機電腦的資訊。
+ </summary>
+</member>
+<member name="P:SportXuanen.My.MyWebExtension.User">
+ <summary>
+ 傳回目前 Web 使用者的資訊。
+ </summary>
+</member>
+<member name="P:SportXuanen.My.MyWebExtension.Request">
+ <summary>
+ 傳回要求物件。
+ </summary>
+</member>
+<member name="P:SportXuanen.My.MyWebExtension.Response">
+ <summary>
+ 傳回回應物件。
+ </summary>
+</member>
+<member name="P:SportXuanen.My.MyWebExtension.Log">
+ <summary>
+ 傳回 Asp 記錄物件。
+ </summary>
+</member>
+<member name="F:SportXuanen.Managefiles._AccessJS">
+<summary>
+AccessJS 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._PageTitle">
+<summary>
+PageTitle 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._PanelList">
+<summary>
+PanelList 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._subform_List">
+<summary>
+subform_List 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._OpenStr_drop">
+<summary>
+OpenStr_drop 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._KeyWord_text">
+<summary>
+KeyWord_text 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._Search_But">
+<summary>
+Search_But 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._CPage1">
+<summary>
+CPage1 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._LabelDelAll">
+<summary>
+LabelDelAll 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._Repeater1">
+<summary>
+Repeater1 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._LabelNoData">
+<summary>
+LabelNoData 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._CPage2">
+<summary>
+CPage2 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._PanelEdit">
+<summary>
+PanelEdit 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._subform_Action">
+<summary>
+subform_Action 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._txt_Name">
+<summary>
+txt_Name 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._txt_Acc">
+<summary>
+txt_Acc 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._txt_Code">
+<summary>
+txt_Code 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._hidden_Code">
+<summary>
+hidden_Code 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._Notic_Lab">
+<summary>
+Notic_Lab 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._rbn_state1">
+<summary>
+rbn_state1 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._rbn_state2">
+<summary>
+rbn_state2 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._Add_But">
+<summary>
+Add_But 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._Edit_But">
+<summary>
+Edit_But 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._lab_Button">
+<summary>
+lab_Button 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._PanelPower">
+<summary>
+PanelPower 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._powerform_Action">
+<summary>
+powerform_Action 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._LabelFunList">
+<summary>
+LabelFunList 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._Edit_But2">
+<summary>
+Edit_But2 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.AccMt._lab_Button2">
+<summary>
+lab_Button2 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._LabelLogo">
+<summary>
+LabelLogo 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._LabelFunTitle">
+<summary>
+LabelFunTitle 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._LabelFunTitle2">
+<summary>
+LabelFunTitle2 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._LabelLoginName">
+<summary>
+LabelLoginName 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._Logout_but">
+<summary>
+Logout_but 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._menu_lab">
+<summary>
+menu_lab 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._Message_Lab">
+<summary>
+Message_Lab 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._Panel_login">
+<summary>
+Panel_login 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._txt_id">
+<summary>
+txt_id 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._RequiredFieldValidator1">
+<summary>
+RequiredFieldValidator1 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._txt_password">
+<summary>
+txt_password 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._RequiredFieldValidator2">
+<summary>
+RequiredFieldValidator2 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._Captcha_text">
+<summary>
+Captcha_text 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._RequiredFieldValidator3">
+<summary>
+RequiredFieldValidator3 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._CaptchaImage">
+<summary>
+CaptchaImage 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="F:SportXuanen.ManageIndex._Login_but">
+<summary>
+Login_but 控制項。
+</summary>
+<remarks>
+自動產生的欄位。
+若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+</remarks>
+</member>
+<member name="M:SportXuanen.Controllers.ApiController.更新人數資料(System.String,SportXuanen.Controllers.class_人數@,System.Int32)">
+ <summary>
+ 更新人流
+ </summary>
+ <param name="centercode"></param>
+ <param name="sdata"></param>
+ <param name="action">update 資料 1/新增資料</param>
+ <returns></returns>
+</member>
+</members>
+</doc>
